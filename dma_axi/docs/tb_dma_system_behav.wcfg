@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_dma_system_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_dma_system" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="590.501 ns"></ZoomEndTime>
+      <Cursor1Time time="535.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="227"></NameColumnWidth>
+      <ValueColumnWidth column_width="128"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="35" />
+   <wave_markers>
+      <marker time="50000" label="" />
+      <marker time="205000" label="" />
+      <marker time="535000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/tb_dma_system/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dma_system/rstn" type="logic">
+      <obj_property name="ElementShortName">rstn</obj_property>
+      <obj_property name="ObjectShortName">rstn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dma_system/C_AWADDR" type="array">
+      <obj_property name="ElementShortName">C_AWADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">C_AWADDR[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dma_system/C_AWVALID" type="logic">
+      <obj_property name="ElementShortName">C_AWVALID</obj_property>
+      <obj_property name="ObjectShortName">C_AWVALID</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dma_system/S_AWREADY" type="logic">
+      <obj_property name="ElementShortName">S_AWREADY</obj_property>
+      <obj_property name="ObjectShortName">S_AWREADY</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dma_system/C_WDATA" type="array">
+      <obj_property name="ElementShortName">C_WDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">C_WDATA[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dma_system/C_WVALID" type="logic">
+      <obj_property name="ElementShortName">C_WVALID</obj_property>
+      <obj_property name="ObjectShortName">C_WVALID</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dma_system/S_WREADY" type="logic">
+      <obj_property name="ElementShortName">S_WREADY</obj_property>
+      <obj_property name="ObjectShortName">S_WREADY</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dma_system/S_BVALID" type="logic">
+      <obj_property name="ElementShortName">S_BVALID</obj_property>
+      <obj_property name="ObjectShortName">S_BVALID</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dma_system/C_BREADY" type="logic">
+      <obj_property name="ElementShortName">C_BREADY</obj_property>
+      <obj_property name="ObjectShortName">C_BREADY</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dma_system/C_ARVALID" type="logic">
+      <obj_property name="ElementShortName">C_ARVALID</obj_property>
+      <obj_property name="ObjectShortName">C_ARVALID</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dma_system/S_ARREADY" type="logic">
+      <obj_property name="ElementShortName">S_ARREADY</obj_property>
+      <obj_property name="ObjectShortName">S_ARREADY</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dma_system/C_ARADDR" type="array">
+      <obj_property name="ElementShortName">C_ARADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">C_ARADDR[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dma_system/S_RVALID" type="logic">
+      <obj_property name="ElementShortName">S_RVALID</obj_property>
+      <obj_property name="ObjectShortName">S_RVALID</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dma_system/C_RREADY" type="logic">
+      <obj_property name="ElementShortName">C_RREADY</obj_property>
+      <obj_property name="ObjectShortName">C_RREADY</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dma_system/S_RDATA" type="array">
+      <obj_property name="ElementShortName">S_RDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">S_RDATA[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dma_system/src_addr" type="array">
+      <obj_property name="ElementShortName">src_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">src_addr[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dma_system/dst_addr" type="array">
+      <obj_property name="ElementShortName">dst_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dst_addr[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dma_system/len" type="array">
+      <obj_property name="ElementShortName">len[31:0]</obj_property>
+      <obj_property name="ObjectShortName">len[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dma_system/ctrl_start" type="logic">
+      <obj_property name="ElementShortName">ctrl_start</obj_property>
+      <obj_property name="ObjectShortName">ctrl_start</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dma_system/M_ARADDR" type="array">
+      <obj_property name="ElementShortName">M_ARADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">M_ARADDR[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dma_system/M_ARVALID" type="logic">
+      <obj_property name="ElementShortName">M_ARVALID</obj_property>
+      <obj_property name="ObjectShortName">M_ARVALID</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dma_system/MEM_ARREADY" type="logic">
+      <obj_property name="ElementShortName">MEM_ARREADY</obj_property>
+      <obj_property name="ObjectShortName">MEM_ARREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dma_system/MEM_RDATA" type="array">
+      <obj_property name="ElementShortName">MEM_RDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_RDATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dma_system/M_RREADY" type="logic">
+      <obj_property name="ElementShortName">M_RREADY</obj_property>
+      <obj_property name="ObjectShortName">M_RREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dma_system/MEM_RVALID" type="logic">
+      <obj_property name="ElementShortName">MEM_RVALID</obj_property>
+      <obj_property name="ObjectShortName">MEM_RVALID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dma_system/M_AWADDR" type="array">
+      <obj_property name="ElementShortName">M_AWADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">M_AWADDR[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dma_system/M_AWVALID" type="logic">
+      <obj_property name="ElementShortName">M_AWVALID</obj_property>
+      <obj_property name="ObjectShortName">M_AWVALID</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dma_system/MEM_AWREADY" type="logic">
+      <obj_property name="ElementShortName">MEM_AWREADY</obj_property>
+      <obj_property name="ObjectShortName">MEM_AWREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dma_system/M_WDATA" type="array">
+      <obj_property name="ElementShortName">M_WDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">M_WDATA[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dma_system/M_WVALID" type="logic">
+      <obj_property name="ElementShortName">M_WVALID</obj_property>
+      <obj_property name="ObjectShortName">M_WVALID</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dma_system/MEM_WREADY" type="logic">
+      <obj_property name="ElementShortName">MEM_WREADY</obj_property>
+      <obj_property name="ObjectShortName">MEM_WREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dma_system/MEM_BVALID" type="logic">
+      <obj_property name="ElementShortName">MEM_BVALID</obj_property>
+      <obj_property name="ObjectShortName">MEM_BVALID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dma_system/M_BREADY" type="logic">
+      <obj_property name="ElementShortName">M_BREADY</obj_property>
+      <obj_property name="ObjectShortName">M_BREADY</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dma_system/status_done" type="logic">
+      <obj_property name="ElementShortName">status_done</obj_property>
+      <obj_property name="ObjectShortName">status_done</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+</wave_config>
