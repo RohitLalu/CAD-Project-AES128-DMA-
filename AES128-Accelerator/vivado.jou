@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Mon Jan 19 09:06:38 2026
+# Process ID         : 9244
+# Current directory  : C:/Data/Academics/Sem VI/EC440 - VLSI CAD/CAD-Project-AES128-DMA-/AES128-Accelerator
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent18848 C:\Data\Academics\Sem VI\EC440 - VLSI CAD\CAD-Project-AES128-DMA-\AES128-Accelerator\AES128-Accelerator.xpr
+# Log file           : C:/Data/Academics/Sem VI/EC440 - VLSI CAD/CAD-Project-AES128-DMA-/AES128-Accelerator/vivado.log
+# Journal file       : C:/Data/Academics/Sem VI/EC440 - VLSI CAD/CAD-Project-AES128-DMA-/AES128-Accelerator\vivado.jou
+# Running On         : DD
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : 12th Gen Intel(R) Core(TM) i5-12500H
+# CPU Frequency      : 3110 MHz
+# CPU Physical cores : 12
+# CPU Logical cores  : 16
+# Host memory        : 16849 MB
+# Swap memory        : 6592 MB
+# Total Virtual      : 23441 MB
+# Available Virtual  : 2687 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Data/Academics/Sem VI/EC440 - VLSI CAD/CAD-Project-AES128-DMA-/AES128-Accelerator/AES128-Accelerator.xpr}
+update_compile_order -fileset sources_1
