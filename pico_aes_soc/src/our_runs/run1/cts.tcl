@@ -10,10 +10,6 @@ if {[file exists "picosoc_aes.sdc"]} {
     create_clock -name clk -period 25.0 [get_ports {clk}]
 }
 
-set_cts_buf_cell sky130_fd_sc_hd__clkbuf_8
-set_cts_buf_cell sky130_fd_sc_hd__clkbuf_4  
-set_cts_buf_cell sky130_fd_sc_hd__clkbuf_2
-
-clock_tree_synthesis
+clock_tree_synthesis -buf_list {sky130_fd_sc_hd__clkbuf_8 sky130_fd_sc_hd__clkbuf_4 sky130_fd_sc_hd__clkbuf_2}
 
 report_clock_skew
