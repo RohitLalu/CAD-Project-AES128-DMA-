@@ -34,8 +34,8 @@ link_design picosoc
 # With margins: ~1100 µm × 1100 µm die
 
 initialize_floorplan \
-    -die_area {0 0 1100 1100} \
-    -core_area {100 100 1000 1000} \
+    -die_area {0 0 1150 1150} \
+    -core_area {100 100 1050 1050} \
     -site unithd
 
 report_design_area

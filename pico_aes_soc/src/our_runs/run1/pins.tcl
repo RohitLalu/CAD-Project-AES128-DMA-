@@ -1,46 +1,4 @@
-# #!/usr/bin/env openroad
-
-# # STAGE 3: Pin Placement
-# # WEST (left) - Control
-# set west_pins {clk resetn iomem_ready ser_rx irq_5 irq_6 irq_7}
-
-# # EAST (right) - Control outputs
-# set east_pins {iomem_valid ser_tx flash_csb flash_clk}
-
-# # NORTH (top) - Input data
-# set north_pins {}
-# for {set i 0} {$i < 32} {incr i} {
-#     lappend north_pins "iomem_rdata\[$i\]"
-# }
-# lappend north_pins "flash_io0_di" "flash_io1_di" "flash_io2_di" "flash_io3_di"
-
-# # SOUTH (bottom) - Output data
-# set south_pins {}
-# for {set i 0} {$i < 4} {incr i} {
-#     lappend south_pins "iomem_wstrb\[$i\]"
-# }
-# for {set i 0} {$i < 32} {incr i} {
-#     lappend south_pins "iomem_addr\[$i\]"
-#     lappend south_pins "iomem_wdata\[$i\]"
-# }
-# for {set i 0} {$i < 4} {incr i} {
-#     lappend south_pins "flash_io${i}_oe" "flash_io${i}_do"
-# }
-
-# set_io_pin_constraint -direction left   -pin_names $west_pins
-# set_io_pin_constraint -direction right  -pin_names $east_pins
-# set_io_pin_constraint -direction top    -pin_names $north_pins
-# set_io_pin_constraint -direction bottom -pin_names $south_pins
-
-# make_tracks
-# place_pins -hor_layers met3 -ver_layers met2
-
-# puts "✓ Pins placed on all 4 edges"
-
-
-
-
-
+#!/usr/bin/env openroad
 
 puts "Pin Placement - PicoSoC AES"
 
@@ -118,23 +76,21 @@ puts "  TOTAL:         $total_pins pins"
 
 # Set Pin Constraints
 
+define_pin_shape_pattern -layer met2 -x_step 1 -y_step 1 -region * -size {1 1}
 
-set_io_pin_constraint -direction left   -pin_names $west_pins
-set_io_pin_constraint -direction right  -pin_names $east_pins
-set_io_pin_constraint -direction top    -pin_names $north_pins
-set_io_pin_constraint -direction bottom -pin_names $south_pins
+set_io_pin_constraint -pin_names $west_pins -region left:*
+set_io_pin_constraint -pin_names $east_pins -region right:*
+set_io_pin_constraint -pin_names $north_pins -region top:*
+set_io_pin_constraint -pin_names $south_pins -region bottom:*
 
 puts "✓ Pin constraints set for all 4 edges"
-
-# Place Pins
-
 
 # Generate routing tracks
 make_tracks
 
 # Place pins using constraints
 
-place_pins -hor_layers met3 -ver_layers met2
+place_pins -hor_layers met3 -ver_layers met2 -write_pin_placement pin_placement.rpt
 
 puts "✓ Pins placed successfully"
 
