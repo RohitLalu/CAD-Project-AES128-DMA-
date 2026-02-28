@@ -12,16 +12,16 @@ set_routing_layers -signal li1-met5 \
 
 global_route \
     -congestion_iterations 30 \
-    -congestion_report_file grt_congestion.rpt \
+    -congestion_report_file grt_faster_congestion.rpt \
     -verbose
 
 # ── Detailed Routing ─────────────────────────────────────────────────────────
 detailed_route \
-    -bottom_routing_layer li1 \
+    -output_drc route_faster_drc.rpt \
+    -verbose 0 \
+    -bottom_routing_layer met1 \
     -top_routing_layer met5 \
-    -output_drc route_drc.rpt \
-    -output_maze route_maze.log \
-    -verbose 1
+    -droute_end_iter 10
 
 # ── Post-route checks ────────────────────────────────────────────────────────
 set_propagated_clock [all_clocks]
@@ -33,5 +33,5 @@ report_wns
 report_tns
 report_power
 
-puts "\n✓ Routing complete. Check route_drc.rpt for violations."
+puts "\n✓ Routing complete. Check route_faster_drc.rpt for violations."
 puts "  Timing summary written to timing_post_route.rpt"

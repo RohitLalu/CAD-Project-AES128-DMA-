@@ -162,7 +162,7 @@ opt
 # Memory Handling for SRAM Macro
 # ========================================================================
 
-# Prepare memories but DON'T map to flip-flops
+# Prepare memories mapping to flip-flops
 memory -nomap
 memory_map
 # Mark picosoc_mem as blackbox (will be SRAM macro in OpenROAD)
