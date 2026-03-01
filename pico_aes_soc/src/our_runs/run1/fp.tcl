@@ -1,41 +1,98 @@
-#!/usr/bin/env openroad
+# ========================================================================
+# OpenROAD Floorplanning Script for PicoSoC
+# ========================================================================
+# Target: Sky130 130nm
+# Step: 1 (Floorplanning)
+# ========================================================================
 
-# Design: 55,508 cells, 0.57 mm² (cell area)
-# Target: Sky130 @ 40 MHz
+# -------------------------------------------------------------------------
+# 1. SETUP & PATHS
+# -------------------------------------------------------------------------
+puts "\[INFO\] Setting up environment..."
 
-
-# Environment Setup
-set PDK_ROOT "/Users/hello.welcometothisdevice/.ciel/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af"
+# Use environment variable for HOME to make it portable
+set PDK_ROOT "$env(HOME)/.ciel/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af"
 set PDK "sky130A"
-set LIB "sky130_fd_sc_hd"
+set STD_CELL_LIB "sky130_fd_sc_hd"
 
-set TECH_LEF "/Users/hello.welcometothisdevice/.ciel/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__nom.tlef"
-set SC_LEF "/Users/hello.welcometothisdevice/.ciel/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef"
-set LIB_FILE "/Users/hello.welcometothisdevice/.ciel/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib"
+# Define Reference File Paths
+set TECH_LEF "${PDK_ROOT}/${PDK}/libs.ref/${STD_CELL_LIB}/techlef/${STD_CELL_LIB}__nom.tlef"
+set SC_LEF   "${PDK_ROOT}/${PDK}/libs.ref/${STD_CELL_LIB}/lef/${STD_CELL_LIB}.lef"
+set LIB_FILE "${PDK_ROOT}/${PDK}/libs.ref/${STD_CELL_LIB}/lib/${STD_CELL_LIB}__tt_025C_1v80.lib"
 
-# STAGE 1: Read Design
+# Define Output Paths
+set RESULTS_DIR "results"
+set LOGS_DIR "logs"
 
+# Create output directories if they don't exist
+if {![file exists $RESULTS_DIR]} {
+    file mkdir $RESULTS_DIR
+}
+if {![file exists $LOGS_DIR]} {
+    file mkdir $LOGS_DIR
+}
 
+set DB_FLOORPLAN "${RESULTS_DIR}/01_floorplan.odb"
+
+# -------------------------------------------------------------------------
+# 2. READ DESIGN
+# -------------------------------------------------------------------------
+puts "\[INFO\] Reading design files..."
+
+# Read Physical Rules (LEF)
 read_lef $TECH_LEF
 read_lef $SC_LEF
+
+# Read Timing Rules (Liberty)
 read_liberty $LIB_FILE
 
-read_verilog picosoc_aes_sram.v
+# Read Synthesized Verilog (Output from Yosys)
+# Make sure this file exists in your current directory!
+if {[file exists picosoc_aes_sram.v]} {
+    read_verilog picosoc_aes_sram.v
+} else {
+    puts "\[ERROR\] picosoc_aes_sram.v not found! Did synthesis finish?"
+    exit 1
+}
 
+# Link the Design (Top module name matches Yosys script)
 link_design picosoc
 
-# STAGE 2: Floorplan
+# -------------------------------------------------------------------------
+# 3. FLOORPLANNING
+# -------------------------------------------------------------------------
+puts "\[INFO\] Stage 1: Floorplanning"
 
-# Die size calculation:
-# Cell area: 570,135 µm²
-# Target utilization: 65%
-# Core area needed: 570,135 / 0.65 = 877,131 µm²
-# Core side: √877,131 = 937 µm
-# With margins: ~1100 µm × 1100 µm die
+# Die Size Calculation:
+# Target: ~1100um x 1100um Die
+# Core:   ~1000um x 1000um (Leaving 50um margins for power rings/IO)
 
 initialize_floorplan \
-    -die_area {0 0 110 1100} \
-    -core_area {50 50 970 970} \
+    -die_area {0 0 1100 1100} \
+    -core_area {50 50 1050 1050} \
     -site unithd
 
+# CRITICAL: Create Routing Tracks
+# The router needs a grid to snap wires to.
+make_tracks
+
+# Insert Tap Cells
+# Essential for Sky130 to prevent latch-up (connects substrate to power/ground)
+tapcell \
+  -distance 14 \
+  -tapcell_master sky130_fd_sc_hd__tapvpwrvgnd_1 \
+  -endcap_master sky130_fd_sc_hd__decap_4
+
+# -------------------------------------------------------------------------
+# 4. REPORTING
+# -------------------------------------------------------------------------
+puts "\[INFO\] Floorplan Complete."
 report_design_area
+
+# -------------------------------------------------------------------------
+# 5. SAVE INTERMEDIATE DATABASE
+# -------------------------------------------------------------------------
+puts "\[INFO\] Saving floorplan database to: $DB_FLOORPLAN"
+write_db $DB_FLOORPLAN
+
+puts "\[INFO\] Floorplanning step completed successfully!"

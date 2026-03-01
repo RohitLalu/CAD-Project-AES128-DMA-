@@ -1,50 +1,45 @@
-# #!/usr/bin/env openroad
+# ========================================================================
+# OpenROAD Pin Placement Script for PicoSoC AES
+# ========================================================================
+# Usage: source pins.tcl
+# Pre-req: Floorplan must be initialized (01_floorplan.odb)
+# ========================================================================
 
-# # STAGE 3: Pin Placement
-# # WEST (left) - Control
-# set west_pins {clk resetn iomem_ready ser_rx irq_5 irq_6 irq_7}
+puts "\[INFO\] Starting Pin Placement..."
 
-# # EAST (right) - Control outputs
-# set east_pins {iomem_valid ser_tx flash_csb flash_clk}
+# -------------------------------------------------------------------------
+# 1. SETUP & PATHS
+# -------------------------------------------------------------------------
+set RESULTS_DIR "results"
+set LOGS_DIR "logs"
 
-# # NORTH (top) - Input data
-# set north_pins {}
-# for {set i 0} {$i < 32} {incr i} {
-#     lappend north_pins "iomem_rdata\[$i\]"
-# }
-# lappend north_pins "flash_io0_di" "flash_io1_di" "flash_io2_di" "flash_io3_di"
+# Create output directories if they don't exist
+if {![file exists $RESULTS_DIR]} {
+    file mkdir $RESULTS_DIR
+}
+if {![file exists $LOGS_DIR]} {
+    file mkdir $LOGS_DIR
+}
 
-# # SOUTH (bottom) - Output data
-# set south_pins {}
-# for {set i 0} {$i < 4} {incr i} {
-#     lappend south_pins "iomem_wstrb\[$i\]"
-# }
-# for {set i 0} {$i < 32} {incr i} {
-#     lappend south_pins "iomem_addr\[$i\]"
-#     lappend south_pins "iomem_wdata\[$i\]"
-# }
-# for {set i 0} {$i < 4} {incr i} {
-#     lappend south_pins "flash_io${i}_oe" "flash_io${i}_do"
-# }
+set DB_FLOORPLAN "${RESULTS_DIR}/01_floorplan.odb"
+set DB_PINS "${RESULTS_DIR}/02_pins.odb"
 
-# set_io_pin_constraint -direction left   -pin_names $west_pins
-# set_io_pin_constraint -direction right  -pin_names $east_pins
-# set_io_pin_constraint -direction top    -pin_names $north_pins
-# set_io_pin_constraint -direction bottom -pin_names $south_pins
+# -------------------------------------------------------------------------
+# 2. LOAD PREVIOUS STAGE DATABASE
+# -------------------------------------------------------------------------
+puts "\[INFO\] Loading floorplan database from: $DB_FLOORPLAN"
+if {![file exists $DB_FLOORPLAN]} {
+    puts "\[ERROR\] Floorplan database not found: $DB_FLOORPLAN"
+    puts "\[ERROR\] Please run floorplanning step first (fp.tcl)"
+    exit 1
+}
+read_db $DB_FLOORPLAN
 
-# make_tracks
-# place_pins -hor_layers met3 -ver_layers met2
+# -------------------------------------------------------------------------
+# 3. Define Pin Lists (Side by Side)
+# -------------------------------------------------------------------------
 
-# puts "✓ Pins placed on all 4 edges"
-
-
-
-
-
-
-puts "Pin Placement - PicoSoC AES"
-
-# WEST (Left) - Control Signals
+# --- WEST (Left): Control Inputs ---
 set west_pins {
     clk
     resetn
@@ -55,7 +50,7 @@ set west_pins {
     irq_7
 }
 
-# EAST (Right) - Control Outputs
+# --- EAST (Right): Control Outputs ---
 set east_pins {
     iomem_valid
     ser_tx
@@ -63,78 +58,86 @@ set east_pins {
     flash_clk
 }
 
-# NORTH (Top) - Input Data Buses
+# --- NORTH (Top): Input Data ---
 set north_pins {}
 
-# Input data bus
+# Add iomem_rdata [0..31]
 for {set i 0} {$i < 32} {incr i} {
     lappend north_pins "iomem_rdata\[$i\]"
 }
 
-# Flash input data
-lappend north_pins "flash_io0_di"
-lappend north_pins "flash_io1_di"
-lappend north_pins "flash_io2_di"
-lappend north_pins "flash_io3_di"
+# Add flash_io_di [0..3]
+for {set i 0} {$i < 4} {incr i} {
+    lappend north_pins "flash_io${i}_di"
+}
 
-# SOUTH (Bottom) - Output Data Buses
+# --- SOUTH (Bottom): Output Data & Address ---
 set south_pins {}
 
-# Write strobe
+# Add iomem_wstrb [0..3]
 for {set i 0} {$i < 4} {incr i} {
     lappend south_pins "iomem_wstrb\[$i\]"
 }
 
-# Address bus
+# Add iomem_addr [0..31]
 for {set i 0} {$i < 32} {incr i} {
     lappend south_pins "iomem_addr\[$i\]"
 }
 
-# Write data bus
+# Add iomem_wdata [0..31]
 for {set i 0} {$i < 32} {incr i} {
     lappend south_pins "iomem_wdata\[$i\]"
 }
 
-# Flash outputs
-lappend south_pins "flash_io0_oe"
-lappend south_pins "flash_io1_oe"
-lappend south_pins "flash_io2_oe"
-lappend south_pins "flash_io3_oe"
-lappend south_pins "flash_io0_do"
-lappend south_pins "flash_io1_do"
-lappend south_pins "flash_io2_do"
-lappend south_pins "flash_io3_do"
+# Add flash outputs (OE and DO) [0..3]
+for {set i 0} {$i < 4} {incr i} {
+    lappend south_pins "flash_io${i}_oe"
+    lappend south_pins "flash_io${i}_do"
+}
 
-# ========================================================================
-# Summary
-# ========================================================================
-puts "\nPin distribution:"
-puts "  WEST (left):   [llength $west_pins] pins"
-puts "  EAST (right):  [llength $east_pins] pins"
-puts "  NORTH (top):   [llength $north_pins] pins"
-puts "  SOUTH (bottom): [llength $south_pins] pins"
-set total_pins [expr {[llength $west_pins] + [llength $east_pins] + [llength $north_pins] + [llength $south_pins]}]
-puts "  TOTAL:         $total_pins pins"
+# -------------------------------------------------------------------------
+# 4. Report Pin Counts
+# -------------------------------------------------------------------------
+set count_w [llength $west_pins]
+set count_e [llength $east_pins]
+set count_n [llength $north_pins]
+set count_s [llength $south_pins]
+set total   [expr $count_w + $count_e + $count_n + $count_s]
 
-# Set Pin Constraints
+puts "-------------------------------------"
+puts " Pin Distribution Summary:"
+puts "  WEST  (Left)   : $count_w"
+puts "  EAST  (Right)  : $count_e"
+puts "  NORTH (Top)    : $count_n"
+puts "  SOUTH (Bottom) : $count_s"
+puts "  TOTAL          : $total"
+puts "-------------------------------------"
 
+# -------------------------------------------------------------------------
+# 5. Apply Constraints & Place
+# -------------------------------------------------------------------------
 
-set_io_pin_constraint -direction left   -pin_names $west_pins
-set_io_pin_constraint -direction right  -pin_names $east_pins
-set_io_pin_constraint -direction top    -pin_names $north_pins
-set_io_pin_constraint -direction bottom -pin_names $south_pins
+# Assign pins to specific edges
+# Note: Ensure the variable lists are not empty before assigning
+if {$count_w > 0} { set_io_pin_constraint -direction left   -pin_names $west_pins }
+if {$count_e > 0} { set_io_pin_constraint -direction right  -pin_names $east_pins }
+if {$count_n > 0} { set_io_pin_constraint -direction top    -pin_names $north_pins }
+if {$count_s > 0} { set_io_pin_constraint -direction bottom -pin_names $south_pins }
 
-puts "✓ Pin constraints set for all 4 edges"
-
-# Place Pins
-
-
-# Generate routing tracks
+# Ensure routing tracks exist (Critical for pin snapping)
 make_tracks
 
-# Place pins using constraints
-
+# Run Placement
+# Uses Metal 3 for horizontal pins (Top/Bottom)
+# Uses Metal 2 for vertical pins (Left/Right)
 place_pins -hor_layers met3 -ver_layers met2
 
-puts "✓ Pins placed successfully"
+puts "\[SUCCESS\] Pin placement complete."
 
+# -------------------------------------------------------------------------
+# 6. SAVE INTERMEDIATE DATABASE
+# -------------------------------------------------------------------------
+puts "\[INFO\] Saving pin placement database to: $DB_PINS"
+write_db $DB_PINS
+
+puts "\[INFO\] Pin placement step completed successfully!"

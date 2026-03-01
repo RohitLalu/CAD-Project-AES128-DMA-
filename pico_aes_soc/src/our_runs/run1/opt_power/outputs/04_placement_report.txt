@@ -1,0 +1,7 @@
+===== Placement Report — Power Optimized =====
+Global Placement Density  : 0.45
+Routability Driven        : yes
+Timing Driven             : yes
+Max Displacement (DPL)    : 50
+Decap Fill                : yes
+=============================================

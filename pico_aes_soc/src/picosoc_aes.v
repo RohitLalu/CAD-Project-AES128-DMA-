@@ -49,7 +49,7 @@
 
 `define PICOSOC_V
 
-module picosoc (
+module picosoc_aes (
     input clk,
     input resetn,
 

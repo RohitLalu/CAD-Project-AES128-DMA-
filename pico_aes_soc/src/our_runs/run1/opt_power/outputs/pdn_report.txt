@@ -1,0 +1,6 @@
+===== PDN Report — Power Optimized =====
+Ring  : met4/met5, width=4.0, spacing=1.6, offset=2.0
+Straps: met4/met5, width=2.0, pitch=40.0, offset=8.0
+Rails : met1, followpins
+Rationale: denser/wider grid → <5% IR drop → stable leakage
+=========================================

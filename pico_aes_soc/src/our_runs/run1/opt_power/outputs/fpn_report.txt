@@ -1,0 +1,9 @@
+===== Floorplan Report — Power Optimized =====
+Die  Area         : 1600 x 1600 um
+Core Area         : 1480 x 1480 um
+Margins           : 60 um (power ring clearance)
+Target Utilization: 50-55%
+Tap Cell Pitch    : 8 um
+Library Corner    : TT 025C 1v80
+===============================================
+

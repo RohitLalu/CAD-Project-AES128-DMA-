@@ -1,0 +1,13 @@
+OpenROAD edf00dff99f6c40d67a30c0e22a8191c5d2ed9d6 
+Features included (+) or not (-): +Charts +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO] Stage 3: PDN Generation (power optimized)
+[INFO] Loading pin placement database...
+[INFO] Generating PDN...
+[INFO PDN-0001] Inserting grid: stdcell_grid
+[INFO] Writing PDN report...
+[INFO] Saving: /home/diddy/CAD-Project-AES128-DMA-/pico_aes_soc/src/our_runs/run1/opt_power/outputs/03_pdn.odb
+[SUCCESS] PDN Generation Done!
+[INFO]    Database : /home/diddy/CAD-Project-AES128-DMA-/pico_aes_soc/src/our_runs/run1/opt_power/outputs/03_pdn.odb
+[INFO]    Report   : /home/diddy/CAD-Project-AES128-DMA-/pico_aes_soc/src/our_runs/run1/opt_power/outputs/pdn_report.txt

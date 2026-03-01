@@ -1,0 +1,8 @@
+===== Pin Placement Report — Power Optimized =====
+WEST  : 7 pins  (clk/reset isolated for short H-tree)
+EAST  : 4 pins
+NORTH : 36 pins
+SOUTH : 76 pins
+TOTAL : 123 pins
+Pin Layers: hor=met3, ver=met4 (frees met1/2 for cell routing)
+===================================================

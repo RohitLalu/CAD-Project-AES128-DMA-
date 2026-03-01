@@ -1,0 +1,9 @@
+===== Placement Report — Power Optimized =====
+Global Placement Density : 0.55 (vs 0.75 area)
+Max Displacement (DPL)   : 100  (vs 50 area)
+Routability Driven       : yes
+Timing Driven            : yes
+Pre-DPL Timing Repair    : setup + hold @ 65% util
+Library Corner           : SS 1.60V (leakage-aware)
+===============================================
+

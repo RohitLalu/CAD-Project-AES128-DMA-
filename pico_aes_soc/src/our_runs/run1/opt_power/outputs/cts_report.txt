@@ -1,0 +1,9 @@
+===== CTS Report — Power Optimized =====
+Clock Period              : 25.0 ns (40 MHz)
+Buffer List               : clkbuf_1, clkbuf_2, clkbuf_4
+Sink Clustering           : enabled, size=6, diameter=35
+Hold Repair Util Cap      : 60% (vs 80% area)
+Library Corner            : SS 1.60V
+Rationale: shallower tree + tighter clusters = less Cclk = less Pdyn
+========================================
+

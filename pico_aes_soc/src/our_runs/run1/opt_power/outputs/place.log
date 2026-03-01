@@ -1,0 +1,147 @@
+OpenROAD edf00dff99f6c40d67a30c0e22a8191c5d2ed9d6 
+Features included (+) or not (-): +Charts +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO] Stage 4: Cell Placement (power optimized)
+[INFO] Loading PDN database...
+[INFO] Running Global Placement...
+[INFO GPL-0002] DBU: 1000
+[INFO GPL-0003] SiteSize: (  0.460  2.720 ) um
+[INFO GPL-0004] CoreBBox: ( 60.260 62.560 ) ( 1539.620 1539.520 ) um
+[INFO GPL-0006] NumInstances:            107515
+[INFO GPL-0007] NumPlaceInstances:        55199
+[INFO GPL-0008] NumFixedInstances:        52316
+[INFO GPL-0009] NumDummyInstances:            0
+[INFO GPL-0010] NumNets:                  55242
+[INFO GPL-0011] NumPins:                 210351
+[INFO GPL-0012] DieBBox:  (  0.000  0.000 ) ( 1600.000 1600.000 ) um
+[INFO GPL-0013] CoreBBox: ( 60.260 62.560 ) ( 1539.620 1539.520 ) um
+[INFO GPL-0016] CoreArea:            2184955.546 um^2
+[INFO GPL-0017] NonPlaceInstsArea:    69534.189 um^2
+[INFO GPL-0018] PlaceInstsArea:      569376.077 um^2
+[INFO GPL-0019] Util:                    26.915 %
+[INFO GPL-0020] StdInstsArea:        569376.077 um^2
+[INFO GPL-0021] MacroInstsArea:           0.000 um^2
+[InitialPlace]  Iter: 1 CG residual: 0.01064592 HPWL: 532973700
+[InitialPlace]  Iter: 2 CG residual: 0.01018361 HPWL: 561377905
+[InitialPlace]  Iter: 3 CG residual: 0.00825068 HPWL: 563004555
+[InitialPlace]  Iter: 4 CG residual: 0.01163612 HPWL: 564265302
+[InitialPlace]  Iter: 5 CG residual: 0.00822067 HPWL: 562695689
+[InitialPlace]  Iter: 6 CG residual: 0.01074506 HPWL: 562641709
+[InitialPlace]  Iter: 7 CG residual: 0.00766242 HPWL: 560756545
+[InitialPlace]  Iter: 8 CG residual: 0.01144487 HPWL: 560649952
+[InitialPlace]  Iter: 9 CG residual: 0.00790186 HPWL: 558998726
+[InitialPlace]  Iter: 10 CG residual: 0.01209106 HPWL: 558515669
+[InitialPlace]  Iter: 11 CG residual: 0.00781110 HPWL: 556528402
+[InitialPlace]  Iter: 12 CG residual: 0.01144712 HPWL: 556102853
+[InitialPlace]  Iter: 13 CG residual: 0.00768411 HPWL: 554075000
+[InitialPlace]  Iter: 14 CG residual: 0.01110006 HPWL: 553802467
+[InitialPlace]  Iter: 15 CG residual: 0.00791310 HPWL: 552101024
+[InitialPlace]  Iter: 16 CG residual: 0.01207126 HPWL: 551897813
+[InitialPlace]  Iter: 17 CG residual: 0.00798914 HPWL: 549595139
+[InitialPlace]  Iter: 18 CG residual: 0.01246136 HPWL: 549429541
+[InitialPlace]  Iter: 19 CG residual: 0.00720471 HPWL: 547508608
+[InitialPlace]  Iter: 20 CG residual: 0.01402246 HPWL: 547353655
+[INFO GPL-0031] FillerInit:NumGCells:     93934
+[INFO GPL-0032] FillerInit:NumGNets:      55242
+[INFO GPL-0033] FillerInit:NumGPins:     210351
+[INFO GPL-0023] TargetDensity:            0.450
+[INFO GPL-0024] AvrgPlaceInstArea:       10.315 um^2
+[INFO GPL-0025] IdealBinArea:            22.922 um^2
+[INFO GPL-0026] IdealBinCnt:              95320
+[INFO GPL-0027] TotalBinArea:        2184955.546 um^2
+[INFO GPL-0028] BinCnt:       256    256
+[INFO GPL-0029] BinSize: (  5.779  5.770 )
+[INFO GPL-0030] NumBins: 65536
+[NesterovSolve] Iter:    1 overflow: 0.998 HPWL: 187479300
+[NesterovSolve] Iter:   10 overflow: 0.994 HPWL: 257930289
+[NesterovSolve] Iter:   20 overflow: 0.992 HPWL: 267646576
+[NesterovSolve] Iter:   30 overflow: 0.991 HPWL: 269542173
+[NesterovSolve] Iter:   40 overflow: 0.989 HPWL: 270993057
+[NesterovSolve] Iter:   50 overflow: 0.988 HPWL: 274046879
+[NesterovSolve] Iter:   60 overflow: 0.988 HPWL: 276122398
+[NesterovSolve] Iter:   70 overflow: 0.988 HPWL: 276308600
+[NesterovSolve] Iter:   80 overflow: 0.989 HPWL: 274308556
+[NesterovSolve] Iter:   90 overflow: 0.989 HPWL: 270130829
+[NesterovSolve] Iter:  100 overflow: 0.989 HPWL: 264724335
+[NesterovSolve] Iter:  110 overflow: 0.989 HPWL: 259040822
+[NesterovSolve] Iter:  120 overflow: 0.989 HPWL: 253653835
+[NesterovSolve] Iter:  130 overflow: 0.989 HPWL: 248807952
+[NesterovSolve] Iter:  140 overflow: 0.989 HPWL: 244578129
+[NesterovSolve] Iter:  150 overflow: 0.989 HPWL: 241113090
+[NesterovSolve] Iter:  160 overflow: 0.989 HPWL: 239304368
+[NesterovSolve] Iter:  170 overflow: 0.989 HPWL: 240071657
+[NesterovSolve] Iter:  180 overflow: 0.987 HPWL: 244377480
+[NesterovSolve] Iter:  190 overflow: 0.985 HPWL: 253286751
+[NesterovSolve] Iter:  200 overflow: 0.983 HPWL: 268409025
+[NesterovSolve] Iter:  210 overflow: 0.979 HPWL: 291959411
+[NesterovSolve] Iter:  220 overflow: 0.974 HPWL: 327797450
+[NesterovSolve] Iter:  230 overflow: 0.967 HPWL: 387680591
+[NesterovSolve] Iter:  240 overflow: 0.954 HPWL: 489852245
+[NesterovSolve] Iter:  250 overflow: 0.935 HPWL: 616310506
+[NesterovSolve] Iter:  260 overflow: 0.915 HPWL: 769682043
+[NesterovSolve] Iter:  270 overflow: 0.893 HPWL: 899538559
+[NesterovSolve] Iter:  280 overflow: 0.866 HPWL: 1000229810
+[NesterovSolve] Iter:  290 overflow: 0.834 HPWL: 1098885871
+[NesterovSolve] Iter:  300 overflow: 0.803 HPWL: 1194398809
+[INFO GPL-0100] Timing-driven: executing resizer for reweighting nets.
+[INFO GPL-0101] Timing-driven: worst slack 1e+30
+[WARNING GPL-0102] Timing-driven: no slacks found. Timing-driven mode disabled.
+[NesterovSolve] Iter:  310 overflow: 0.774 HPWL: 1171995190
+[NesterovSolve] Iter:  320 overflow: 0.733 HPWL: 1282389752
+[NesterovSolve] Iter:  330 overflow: 0.701 HPWL: 1277526881
+[NesterovSolve] Iter:  340 overflow: 0.659 HPWL: 1271250246
+[NesterovSolve] Iter:  350 overflow: 0.618 HPWL: 1305577545
+[NesterovSolve] Snapshot saved at iter = 354
+[NesterovSolve] Iter:  360 overflow: 0.576 HPWL: 1287124802
+[NesterovSolve] Iter:  370 overflow: 0.536 HPWL: 1307684141
+[NesterovSolve] Iter:  380 overflow: 0.490 HPWL: 1277414181
+[NesterovSolve] Iter:  390 overflow: 0.446 HPWL: 1269515158
+[NesterovSolve] Iter:  400 overflow: 0.405 HPWL: 1253975373
+[NesterovSolve] Iter:  410 overflow: 0.364 HPWL: 1234346762
+[NesterovSolve] Iter:  420 overflow: 0.328 HPWL: 1222882043
+[NesterovSolve] Iter:  430 overflow: 0.299 HPWL: 1219772188
+[INFO GPL-0075] Routability numCall: 1 inflationIterCnt: 1 bloatIterCnt: 0
+[INFO GPL-0036] TileBBox: (    0    0 ) ( 6900 6900 ) DBU
+[INFO GPL-0038] TileCnt:     231  231
+[INFO GPL-0040] NumTiles: 53361
+[INFO GPL-0081] TotalRouteOverflow: 30.670117378234863
+[INFO GPL-0082] OverflowTileCnt: 139
+[INFO GPL-0083] 0.5%RC: 1.0299168858635293
+[INFO GPL-0084] 1.0%RC: 0.8323857506339469
+[INFO GPL-0085] 2.0%RC: 0.6884908356916591
+[INFO GPL-0086] 5.0%RC: 0.549712748775861
+[INFO GPL-0087] FinalRC: 0.93115133
+[INFO GPL-0077] FinalRC lower than targetRC(1.01), routability not needed.
+[NesterovSolve] Iter:  440 overflow: 0.269 HPWL: 1223785519
+[NesterovSolve] Iter:  450 overflow: 0.240 HPWL: 1229549141
+[NesterovSolve] Iter:  460 overflow: 0.213 HPWL: 1235447623
+[NesterovSolve] Iter:  470 overflow: 0.185 HPWL: 1241051776
+[NesterovSolve] Iter:  480 overflow: 0.159 HPWL: 1245905709
+[NesterovSolve] Iter:  490 overflow: 0.135 HPWL: 1250318697
+[NesterovSolve] Iter:  500 overflow: 0.114 HPWL: 1254307381
+[NesterovSolve] Finished with Overflow: 0.099516
+[INFO] Running Detailed Placement...
+Placement Analysis
+---------------------------------
+total displacement     126698.8 u
+average displacement        1.2 u
+max displacement            9.7 u
+original HPWL         1257505.1 u
+legalized HPWL        1373071.3 u
+delta HPWL                    9 %
+
+[INFO] Running post-placement optimization...
+[INFO DPL-0020] Mirrored 15063 instances
+[INFO DPL-0021] HPWL before          1373071.3 u
+[INFO DPL-0022] HPWL after           1354678.9 u
+[INFO DPL-0023] HPWL delta               -1.3 %
+[INFO] Validating placement...
+[INFO] Inserting filler and decap cells...
+[INFO DPL-0001] Placed 180097 filler instances.
+[INFO] Writing placement report...
+Design area 633475 u^2 29% utilization.
+[INFO] Saving: /home/diddy/CAD-Project-AES128-DMA-/pico_aes_soc/src/our_runs/run1/opt_power/outputs/04_placement.odb
+[SUCCESS] Cell Placement Done!
+[INFO]    Database : /home/diddy/CAD-Project-AES128-DMA-/pico_aes_soc/src/our_runs/run1/opt_power/outputs/04_placement.odb
+[INFO]    Report   : /home/diddy/CAD-Project-AES128-DMA-/pico_aes_soc/src/our_runs/run1/opt_power/outputs/04_placement_report.txt
