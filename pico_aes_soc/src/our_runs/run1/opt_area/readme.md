@@ -1,5 +1,3 @@
----
-
 # The PPA Tradeoff in VLSI Physical Design
 
 ## 1. Introduction to PPA
