@@ -11,8 +11,10 @@ global_placement -density 0.55 -overflow 0.10
 # We must downgrade their status to PLACED so detailed_placement can
 # move them to legal non-overlapping locations.
 puts "\n--- Inserting tie cells for constants ---"
-insert_tiecells sky130_fd_sc_hd__conb_1/HI -prefix "TIEHI"
-insert_tiecells sky130_fd_sc_hd__conb_1/LO -prefix "TIELO"
+insert_tiecells sky130_fd_sc_hd__conb_1/HI 
+#-prefix "TIEHI"
+insert_tiecells sky130_fd_sc_hd__conb_1/LO 
+#-prefix "TIELO"
 puts "  ✓ Tie cells inserted"
 
 # Downgrade tie cell status from FIXED -> PLACED so detailed_placement

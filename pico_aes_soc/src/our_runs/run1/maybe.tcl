@@ -37,10 +37,10 @@ puts "✓ Design loaded"
 puts "\n--- Floorplan ---"
 initialize_floorplan \
     -die_area {0 0 1600 1600} \
-    -core_area {100 100 1500 1500} \
+    -core_area {50 50 1550 1550} \
     -site unithd
 report_design_area
-puts "✓ Floorplan: 1600×1600 die, 1400×1400 core"
+puts "✓ Floorplan: 1600×1600 die, 1500×1500 core"
 
 # ========================================================================
 # Stage 3: Pin Placement (1 min) - SIMPLE AND WORKING
@@ -107,12 +107,7 @@ insert_tiecells sky130_fd_sc_hd__conb_1/HI
 insert_tiecells sky130_fd_sc_hd__conb_1/LO
 # -prefix "TIELO"
 
-global_placement -density 0.45
-
-# insert_tiecells sky130_fd_sc_hd__conb_1/HI
-# # -prefix "TIEHI"
-# insert_tiecells sky130_fd_sc_hd__conb_1/LO
-# # -prefix "TIELO"
+global_placement -density 0.3
 set_placement_padding -global -left 0 -right 0
 detailed_placement
 check_placement -verbose -report_file_name placement_check_faster.rpt

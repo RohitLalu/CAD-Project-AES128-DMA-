@@ -1,0 +1,1911 @@
+  violation type: Short
+    srcs: net:_22442_ net:_22909_ 
+    bbox = ( 126.225, 1040.57 ) - ( 126.365, 1040.64 ) on Layer met1
+  violation type: Short
+    srcs: net:_22442_ net:_22909_ 
+    bbox = ( 126.225, 1040.57 ) - ( 126.46, 1040.64 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_22442_ 
+    bbox = ( 126.17, 1040.8 ) - ( 126.46, 1040.84 ) on Layer met1
+  violation type: Short
+    srcs: net:_22350_ net:_22476_ 
+    bbox = ( 143.22, 1037.45 ) - ( 143.36, 1037.58 ) on Layer met1
+  violation type: Short
+    srcs: net:_22350_ net:_22476_ 
+    bbox = ( 143.22, 1037.39 ) - ( 143.36, 1037.58 ) on Layer met1
+  violation type: Short
+    srcs: net:_22350_ net:_22476_ 
+    bbox = ( 143.68, 1037.44 ) - ( 143.82, 1037.58 ) on Layer met1
+  violation type: Short
+    srcs: net:_22350_ net:_22359_ 
+    bbox = ( 144.14, 1037.44 ) - ( 144.28, 1037.58 ) on Layer met1
+  violation type: Short
+    srcs: net:_22350_ net:_22359_ 
+    bbox = ( 144.065, 1037.44 ) - ( 144.355, 1037.58 ) on Layer met1
+  violation type: Short
+    srcs: net:_22350_ net:_22476_ 
+    bbox = ( 143.22, 1037.45 ) - ( 143.82, 1037.58 ) on Layer met1
+  violation type: Short
+    srcs: net:_22350_ net:_22476_ 
+    bbox = ( 143.22, 1037.44 ) - ( 143.435, 1037.58 ) on Layer met1
+  violation type: Short
+    srcs: net:_22357_ net:_22359_ 
+    bbox = ( 144.14, 1037.77 ) - ( 144.28, 1037.92 ) on Layer met1
+  violation type: Short
+    srcs: net:_22357_ net:_22359_ 
+    bbox = ( 144.14, 1037.78 ) - ( 144.28, 1037.92 ) on Layer met1
+  violation type: Short
+    srcs: net:_22357_ net:_22359_ 
+    bbox = ( 144.14, 1037.78 ) - ( 144.28, 1037.91 ) on Layer met1
+  violation type: Short
+    srcs: net:_22357_ net:_22359_ 
+    bbox = ( 144.14, 1037.77 ) - ( 144.28, 1037.91 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_22476_ 
+    bbox = ( 192.825, 1095.42 ) - ( 193.115, 1095.52 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_22413_ net:_22589_ 
+    bbox = ( 120.405, 1059.35 ) - ( 120.45, 1059.48 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_22372_ net:_22406_ 
+    bbox = ( 122.46, 1059.44 ) - ( 122.72, 1059.54 ) on Layer met2
+  violation type: Metal Spacing
+    srcs: net:_22372_ net:_22590_ 
+    bbox = ( 123.025, 1059.68 ) - ( 123.12, 1059.79 ) on Layer met2
+  violation type: Metal Spacing
+    srcs: net:_22372_ net:_22590_ 
+    bbox = ( 122.98, 1059.68 ) - ( 123.12, 1059.79 ) on Layer met2
+  violation type: Metal Spacing
+    srcs: net:_22372_ net:_22590_ 
+    bbox = ( 122.92, 1059.68 ) - ( 123.12, 1059.79 ) on Layer met2
+  violation type: Short
+    srcs: net:_22372_ net:_22455_ 
+    bbox = ( 122.46, 1059.6 ) - ( 122.72, 1059.68 ) on Layer met2
+  violation type: Short
+    srcs: net:_22372_ net:_22455_ 
+    bbox = ( 122.45, 1059.6 ) - ( 122.73, 1059.68 ) on Layer met2
+  violation type: Metal Spacing
+    srcs: net:_22372_ 
+    bbox = ( 122.98, 1059 ) - ( 123.12, 1059.03 ) on Layer met2
+  violation type: Metal Spacing
+    srcs: net:_22372_ 
+    bbox = ( 122.98, 1059 ) - ( 123.165, 1059.03 ) on Layer met2
+  violation type: Short
+    srcs: net:_22443_ net:_22747_ 
+    bbox = ( 128.27, 1043.56 ) - ( 128.41, 1043.7 ) on Layer met1
+  violation type: Short
+    srcs: net:_22419_ net:_22572_ 
+    bbox = ( 127.12, 1045.88 ) - ( 127.26, 1046.08 ) on Layer met1
+  violation type: Short
+    srcs: net:_22419_ net:_22572_ 
+    bbox = ( 127.15, 1045.88 ) - ( 127.26, 1046.14 ) on Layer met1
+  violation type: Short
+    srcs: net:_22419_ net:_22572_ 
+    bbox = ( 127.15, 1045.94 ) - ( 127.29, 1046.14 ) on Layer met1
+  violation type: Short
+    srcs: net:_22419_ net:_22572_ 
+    bbox = ( 127.12, 1045.94 ) - ( 127.29, 1046.08 ) on Layer met1
+  violation type: Short
+    srcs: net:_22419_ net:_22572_ 
+    bbox = ( 127.12, 1045.94 ) - ( 127.26, 1046.08 ) on Layer met1
+  violation type: Short
+    srcs: net:_22419_ net:_22572_ 
+    bbox = ( 127.15, 1045.94 ) - ( 127.26, 1046.08 ) on Layer met1
+  violation type: Short
+    srcs: net:_22419_ net:_22572_ 
+    bbox = ( 127.15, 1045.94 ) - ( 127.29, 1046.08 ) on Layer met1
+  violation type: Short
+    srcs: net:_22477_ net:_22731_ 
+    bbox = ( 128.04, 1043.56 ) - ( 128.18, 1043.7 ) on Layer met2
+  violation type: Short
+    srcs: net:_22477_ net:_22731_ 
+    bbox = ( 127.97, 1043.56 ) - ( 128.25, 1043.64 ) on Layer met2
+  violation type: Metal Spacing
+    srcs: net:_22601_ 
+    bbox = ( 137.655, 1043.79 ) - ( 137.84, 1043.9 ) on Layer met2
+  violation type: Metal Spacing
+    srcs: net:_22601_ 
+    bbox = ( 137.655, 1043.79 ) - ( 137.795, 1043.9 ) on Layer met2
+  violation type: Short
+    srcs: net:_28013_ net:_28748_ 
+    bbox = ( 625.76, 972.455 ) - ( 625.9, 972.64 ) on Layer met1
+  violation type: Short
+    srcs: net:_28013_ net:_28748_ 
+    bbox = ( 625.685, 972.5 ) - ( 625.9, 972.64 ) on Layer met1
+  violation type: Short
+    srcs: net:_28013_ net:_28748_ 
+    bbox = ( 625.76, 972.5 ) - ( 625.9, 972.64 ) on Layer met1
+  violation type: Short
+    srcs: net:_22372_ net:_22446_ 
+    bbox = ( 127.58, 1035.06 ) - ( 127.72, 1035.19 ) on Layer met1
+  violation type: Short
+    srcs: net:_22372_ net:_22446_ 
+    bbox = ( 127.58, 1035.02 ) - ( 127.72, 1035.19 ) on Layer met1
+  violation type: Short
+    srcs: net:_22372_ net:_22446_ 
+    bbox = ( 127.965, 1035.06 ) - ( 128.255, 1035.2 ) on Layer met1
+  violation type: Short
+    srcs: net:_22372_ net:_22446_ 
+    bbox = ( 127.58, 1035.06 ) - ( 128.255, 1035.19 ) on Layer met1
+  violation type: Short
+    srcs: net:_22372_ net:_22446_ 
+    bbox = ( 127.58, 1035.05 ) - ( 127.795, 1035.19 ) on Layer met1
+  violation type: Short
+    srcs: net:_22446_ net:_22469_ 
+    bbox = ( 128.5, 1035.06 ) - ( 128.64, 1035.2 ) on Layer met1
+  violation type: Short
+    srcs: net:_22446_ net:_22469_ 
+    bbox = ( 128.425, 1035.06 ) - ( 128.715, 1035.2 ) on Layer met1
+  violation type: Short
+    srcs: net:_27984_ net:_27993_ 
+    bbox = ( 624.41, 991.2 ) - ( 624.55, 991.34 ) on Layer met1
+  violation type: Short
+    srcs: net:_27984_ net:_27993_ 
+    bbox = ( 624.41, 991.21 ) - ( 624.55, 991.34 ) on Layer met1
+  violation type: Short
+    srcs: net:_27993_ net:_28045_ 
+    bbox = ( 624.305, 991.54 ) - ( 624.595, 991.68 ) on Layer met1
+  violation type: Short
+    srcs: net:_27993_ net:_28045_ 
+    bbox = ( 624.41, 991.54 ) - ( 624.55, 991.68 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_27993_ 
+    bbox = ( 665.245, 966.905 ) - ( 665.535, 967 ) on Layer met1
+  violation type: Short
+    srcs: net:_27932_ net:_28015_ 
+    bbox = ( 658.33, 983.04 ) - ( 658.65, 983.18 ) on Layer met1
+  violation type: Short
+    srcs: net:_22379_ net:_22451_ 
+    bbox = ( 157.02, 1035.06 ) - ( 157.16, 1035.2 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_22350_ net:_22359_ 
+    bbox = ( 144.355, 1037.39 ) - ( 144.475, 1037.62 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_22333_ net:_22349_ 
+    bbox = ( 158.77, 1037.64 ) - ( 158.77, 1037.77 ) on Layer met1
+  violation type: Short
+    srcs: net:_22333_ net:_22443_ 
+    bbox = ( 166.22, 1038.12 ) - ( 166.345, 1038.26 ) on Layer met1
+  violation type: Short
+    srcs: net:_22333_ net:_22443_ 
+    bbox = ( 165.82, 1038.12 ) - ( 165.96, 1038.26 ) on Layer met1
+  violation type: Short
+    srcs: net:_22333_ net:_22443_ 
+    bbox = ( 165.82, 1038.12 ) - ( 166.345, 1038.26 ) on Layer met1
+  violation type: Short
+    srcs: net:_22333_ net:_22443_ 
+    bbox = ( 166.205, 1038.12 ) - ( 166.345, 1038.26 ) on Layer met1
+  violation type: Short
+    srcs: net:_22333_ net:_22355_ 
+    bbox = ( 168.09, 1038.12 ) - ( 168.23, 1038.26 ) on Layer met1
+  violation type: Short
+    srcs: net:_22344_ net:_22392_ 
+    bbox = ( 144.6, 1041.18 ) - ( 144.74, 1041.32 ) on Layer met1
+  violation type: Short
+    srcs: net:_22338_ net:_22344_ 
+    bbox = ( 144.6, 1040.5 ) - ( 144.74, 1040.68 ) on Layer met1
+  violation type: Short
+    srcs: net:_22338_ net:_22344_ 
+    bbox = ( 144.6, 1040.5 ) - ( 144.74, 1040.64 ) on Layer met1
+  violation type: Short
+    srcs: net:_22338_ net:_22344_ 
+    bbox = ( 144.525, 1040.5 ) - ( 144.74, 1040.64 ) on Layer met1
+  violation type: Short
+    srcs: net:_22344_ net:_22392_ 
+    bbox = ( 145.06, 1041.18 ) - ( 145.2, 1041.32 ) on Layer met1
+  violation type: Short
+    srcs: net:_22344_ net:_22392_ 
+    bbox = ( 144.6, 1041.18 ) - ( 145.2, 1041.32 ) on Layer met1
+  violation type: Short
+    srcs: net:_22338_ net:_22556_ 
+    bbox = ( 167.14, 1040.5 ) - ( 167.28, 1040.63 ) on Layer met1
+  violation type: Short
+    srcs: net:_22338_ net:_22556_ 
+    bbox = ( 167.14, 1040.49 ) - ( 167.28, 1040.63 ) on Layer met1
+  violation type: Short
+    srcs: net:_22338_ net:_22556_ 
+    bbox = ( 167.065, 1040.5 ) - ( 167.355, 1040.63 ) on Layer met1
+  violation type: Short
+    srcs: net:_22338_ net:_22556_ 
+    bbox = ( 167.065, 1040.49 ) - ( 167.355, 1040.63 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_22338_ 
+    bbox = ( 189.145, 1064.83 ) - ( 189.435, 1064.92 ) on Layer met1
+  violation type: Short
+    srcs: net:_22338_ net:_22845_ 
+    bbox = ( 194.28, 1072.8 ) - ( 194.42, 1072.94 ) on Layer met1
+  violation type: Short
+    srcs: net:_22338_ net:_22395_ 
+    bbox = ( 192.44, 1072.8 ) - ( 192.58, 1072.94 ) on Layer met1
+  violation type: Short
+    srcs: net:_22338_ net:_22845_ 
+    bbox = ( 194.28, 1072.81 ) - ( 194.42, 1072.94 ) on Layer met1
+  violation type: Short
+    srcs: net:_22338_ net:_22395_ 
+    bbox = ( 192.44, 1072.81 ) - ( 192.58, 1072.94 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_22349_ net:_22395_ 
+    bbox = ( 192.44, 1073.33 ) - ( 192.58, 1073.42 ) on Layer met1
+  violation type: Short
+    srcs: net:_22395_ net:_22486_ 
+    bbox = ( 192.44, 1073.14 ) - ( 192.58, 1073.28 ) on Layer met1
+  violation type: Short
+    srcs: net:_22395_ net:_22845_ 
+    bbox = ( 192.44, 1072.12 ) - ( 192.58, 1072.26 ) on Layer met1
+  violation type: Short
+    srcs: net:_22395_ net:_22845_ 
+    bbox = ( 192.35, 1072.12 ) - ( 192.67, 1072.26 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_22349_ net:_22395_ 
+    bbox = ( 192.365, 1073.33 ) - ( 192.655, 1073.42 ) on Layer met1
+  violation type: Short
+    srcs: net:_22395_ net:_22486_ 
+    bbox = ( 192.365, 1073.14 ) - ( 192.655, 1073.28 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_22379_ 
+    bbox = ( 165.145, 1034.86 ) - ( 165.34, 1034.96 ) on Layer met1
+  violation type: Short
+    srcs: net:_22379_ net:_22612_ 
+    bbox = ( 190.17, 1075.18 ) - ( 190.28, 1075.32 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_22349_ 
+    bbox = ( 158.54, 1037.77 ) - ( 158.63, 1037.92 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_22349_ 
+    bbox = ( 158.54, 1037.78 ) - ( 158.63, 1037.92 ) on Layer met1
+  violation type: Short
+    srcs: net:_22355_ net:_22477_ 
+    bbox = ( 167.985, 1037.78 ) - ( 168.275, 1037.92 ) on Layer met1
+  violation type: Short
+    srcs: net:_22355_ net:_22477_ 
+    bbox = ( 168.09, 1037.78 ) - ( 168.23, 1037.92 ) on Layer met1
+  violation type: Short
+    srcs: net:_22443_ net:_22477_ 
+    bbox = ( 166.205, 1037.78 ) - ( 166.345, 1037.92 ) on Layer met1
+  violation type: Short
+    srcs: net:_22357_ net:_22386_ 
+    bbox = ( 167.6, 1036.76 ) - ( 167.74, 1036.94 ) on Layer met1
+  violation type: Short
+    srcs: net:_22357_ net:_22386_ 
+    bbox = ( 167.6, 1036.76 ) - ( 167.815, 1036.9 ) on Layer met1
+  violation type: Short
+    srcs: net:_22357_ net:_22386_ 
+    bbox = ( 167.6, 1036.76 ) - ( 167.74, 1036.9 ) on Layer met1
+  violation type: Short
+    srcs: net:_22386_ net:_22443_ 
+    bbox = ( 168.06, 1036.76 ) - ( 168.2, 1036.9 ) on Layer met1
+  violation type: Short
+    srcs: net:_22386_ net:_22443_ 
+    bbox = ( 167.97, 1036.76 ) - ( 168.29, 1036.9 ) on Layer met1
+  violation type: Short
+    srcs: net:_22386_ net:_22443_ 
+    bbox = ( 167.2, 1037.44 ) - ( 167.34, 1037.52 ) on Layer met1
+  violation type: Short
+    srcs: net:_22386_ net:_22443_ 
+    bbox = ( 167.115, 1037.44 ) - ( 167.405, 1037.52 ) on Layer met1
+  violation type: Short
+    srcs: net:_22487_ net:_22845_ 
+    bbox = ( 192.005, 1072.12 ) - ( 192.195, 1072.26 ) on Layer met1
+  violation type: Short
+    srcs: net:_22487_ net:_22845_ 
+    bbox = ( 192.005, 1072.12 ) - ( 192.145, 1072.31 ) on Layer met1
+  violation type: Short
+    srcs: net:_22487_ net:_22845_ 
+    bbox = ( 192.005, 1072.12 ) - ( 192.145, 1072.26 ) on Layer met1
+  violation type: Short
+    srcs: net:_22405_ net:_22610_ 
+    bbox = ( 190.14, 1075.86 ) - ( 190.28, 1075.99 ) on Layer met1
+  violation type: Short
+    srcs: net:_22405_ net:_22610_ 
+    bbox = ( 189.22, 1075.86 ) - ( 189.36, 1075.99 ) on Layer met1
+  violation type: Short
+    srcs: net:_22405_ net:_22610_ 
+    bbox = ( 189.22, 1075.86 ) - ( 190.28, 1075.99 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_22386_ 
+    bbox = ( 167.2, 1037.24 ) - ( 167.405, 1037.29 ) on Layer met1
+  violation type: Short
+    srcs: net:_22419_ net:_22783_ 
+    bbox = ( 189.68, 1076.2 ) - ( 189.82, 1076.34 ) on Layer met2
+  violation type: Short
+    srcs: net:_22419_ net:_22783_ 
+    bbox = ( 189.68, 1076.2 ) - ( 189.82, 1076.43 ) on Layer met2
+  violation type: Short
+    srcs: net:_22419_ net:_22783_ 
+    bbox = ( 189.62, 1076.2 ) - ( 189.82, 1076.34 ) on Layer met2
+  violation type: Short
+    srcs: net:_22679_ net:_22743_ 
+    bbox = ( 191.205, 1073.31 ) - ( 191.345, 1073.45 ) on Layer met2
+  violation type: Short
+    srcs: net:_22679_ net:_22743_ 
+    bbox = ( 191.205, 1073.31 ) - ( 191.345, 1073.37 ) on Layer met2
+  violation type: Short
+    srcs: net:_22743_ net:_22783_ 
+    bbox = ( 191.205, 1076.6 ) - ( 191.27, 1076.96 ) on Layer met2
+  violation type: Short
+    srcs: net:_22743_ net:_22783_ 
+    bbox = ( 191.205, 1076.71 ) - ( 191.27, 1076.85 ) on Layer met2
+  violation type: Short
+    srcs: net:_22415_ net:_22679_ 
+    bbox = ( 192.005, 1076.03 ) - ( 192.145, 1076.17 ) on Layer met2
+  violation type: Short
+    srcs: net:_22415_ net:_22679_ 
+    bbox = ( 191.945, 1076.03 ) - ( 192.205, 1076.16 ) on Layer met2
+  violation type: Short
+    srcs: net:_24344_ net:_24385_ 
+    bbox = ( 254.14, 898.72 ) - ( 254.28, 898.86 ) on Layer met1
+  violation type: Short
+    srcs: net:_24375_ net:_24421_ 
+    bbox = ( 301, 885.12 ) - ( 301.14, 885.26 ) on Layer met1
+  violation type: Short
+    srcs: net:_24375_ net:_24421_ 
+    bbox = ( 301.415, 885.12 ) - ( 301.6, 885.26 ) on Layer met1
+  violation type: Short
+    srcs: net:_24375_ net:_24421_ 
+    bbox = ( 301, 885.13 ) - ( 301.6, 885.26 ) on Layer met1
+  violation type: Short
+    srcs: net:_24375_ net:_24421_ 
+    bbox = ( 301.46, 885.12 ) - ( 301.6, 885.27 ) on Layer met1
+  violation type: Short
+    srcs: net:_24375_ net:_24421_ 
+    bbox = ( 301.46, 885.13 ) - ( 301.6, 885.27 ) on Layer met1
+  violation type: Short
+    srcs: net:_24375_ net:_24421_ 
+    bbox = ( 301.46, 885.13 ) - ( 301.705, 885.27 ) on Layer met1
+  violation type: Short
+    srcs: net:_24375_ net:_24421_ 
+    bbox = ( 301, 885.13 ) - ( 301.14, 885.26 ) on Layer met1
+  violation type: Short
+    srcs: net:_24375_ net:_24421_ 
+    bbox = ( 301.415, 885.13 ) - ( 301.705, 885.26 ) on Layer met1
+  violation type: Short
+    srcs: net:_24375_ net:_24421_ 
+    bbox = ( 301, 885.13 ) - ( 301.705, 885.26 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_24368_ 
+    bbox = ( 267.735, 874.18 ) - ( 267.79, 874.395 ) on Layer met1
+  violation type: Short
+    srcs: net:_24396_ net:_24444_ 
+    bbox = ( 296.77, 874.19 ) - ( 297.09, 874.33 ) on Layer met1
+  violation type: Short
+    srcs: net:_24396_ net:_24444_ 
+    bbox = ( 296.77, 874.195 ) - ( 297.09, 874.33 ) on Layer met1
+  violation type: Short
+    srcs: net:_24396_ net:_24444_ 
+    bbox = ( 296.785, 874.19 ) - ( 297.075, 874.33 ) on Layer met1
+  violation type: Short
+    srcs: net:_24396_ net:_24444_ 
+    bbox = ( 296.785, 874.195 ) - ( 297.075, 874.33 ) on Layer met1
+  violation type: Short
+    srcs: net:_24396_ net:_24441_ 
+    bbox = ( 296.4, 874.57 ) - ( 296.49, 875.06 ) on Layer met1
+  violation type: Short
+    srcs: net:_24396_ net:_24441_ 
+    bbox = ( 296.4, 874.57 ) - ( 296.49, 874.71 ) on Layer met1
+  violation type: Short
+    srcs: net:_24396_ net:_24441_ 
+    bbox = ( 296.4, 874.58 ) - ( 296.49, 874.71 ) on Layer met1
+  violation type: Short
+    srcs: net:_24396_ net:_24441_ 
+    bbox = ( 296.4, 874.92 ) - ( 296.54, 875.06 ) on Layer met1
+  violation type: Short
+    srcs: net:_24396_ net:_24444_ 
+    bbox = ( 296.4, 874.24 ) - ( 296.54, 874.33 ) on Layer met1
+  violation type: Short
+    srcs: net:_24396_ net:_24444_ 
+    bbox = ( 296.4, 874.24 ) - ( 297.09, 874.33 ) on Layer met1
+  violation type: Short
+    srcs: net:_24396_ net:_24441_ 
+    bbox = ( 296.35, 874.92 ) - ( 296.49, 875.06 ) on Layer met1
+  violation type: Short
+    srcs: net:_24396_ net:_24441_ 
+    bbox = ( 296.35, 874.92 ) - ( 296.54, 875.06 ) on Layer met1
+  violation type: Short
+    srcs: net:_24312_ net:_24452_ 
+    bbox = ( 293.7, 874.29 ) - ( 293.78, 874.38 ) on Layer met1
+  violation type: Short
+    srcs: net:_24312_ net:_24452_ 
+    bbox = ( 293.7, 874.29 ) - ( 293.78, 874.425 ) on Layer met1
+  violation type: Short
+    srcs: net:_24312_ net:_24452_ 
+    bbox = ( 293.7, 874.29 ) - ( 293.84, 874.38 ) on Layer met1
+  violation type: Short
+    srcs: net:_24312_ net:_24452_ 
+    bbox = ( 293.7, 874.29 ) - ( 293.84, 874.425 ) on Layer met1
+  violation type: Short
+    srcs: net:_24312_ net:_24452_ 
+    bbox = ( 293.565, 874.29 ) - ( 293.855, 874.38 ) on Layer met1
+  violation type: Short
+    srcs: net:_24312_ net:_24452_ 
+    bbox = ( 293.565, 874.29 ) - ( 293.855, 874.425 ) on Layer met1
+  violation type: Short
+    srcs: net:_24452_ net:_24457_ 
+    bbox = ( 294.125, 874.29 ) - ( 294.265, 874.315 ) on Layer met1
+  violation type: Short
+    srcs: net:_24452_ net:_24457_ 
+    bbox = ( 294.045, 874.29 ) - ( 294.335, 874.315 ) on Layer met1
+  violation type: Short
+    srcs: net:_24327_ net:_24397_ 
+    bbox = ( 300.465, 880.01 ) - ( 300.6, 880.15 ) on Layer met1
+  violation type: Short
+    srcs: net:_24327_ net:_24397_ 
+    bbox = ( 300.46, 880.01 ) - ( 300.6, 880.15 ) on Layer met1
+  violation type: Short
+    srcs: net:_24327_ net:_24397_ 
+    bbox = ( 300.54, 880.01 ) - ( 300.6, 880.16 ) on Layer met1
+  violation type: Short
+    srcs: net:_24327_ net:_24397_ 
+    bbox = ( 300.54, 880.02 ) - ( 300.6, 880.16 ) on Layer met1
+  violation type: Short
+    srcs: net:_24327_ net:_24397_ 
+    bbox = ( 300.465, 880.02 ) - ( 300.6, 880.15 ) on Layer met1
+  violation type: Short
+    srcs: net:_24327_ net:_24397_ 
+    bbox = ( 300.46, 880.02 ) - ( 300.6, 880.15 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_24329_ 
+    bbox = ( 280.685, 912.18 ) - ( 280.975, 912.275 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_24330_ 
+    bbox = ( 284.365, 912.505 ) - ( 284.655, 912.6 ) on Layer met1
+  violation type: Short
+    srcs: net:_24355_ net:_24886_ 
+    bbox = ( 296.4, 876.11 ) - ( 296.49, 876.25 ) on Layer met2
+  violation type: Short
+    srcs: net:_24355_ net:_24886_ 
+    bbox = ( 296.4, 876.11 ) - ( 296.49, 876.42 ) on Layer met2
+  violation type: Short
+    srcs: net:_24355_ net:_24886_ 
+    bbox = ( 296.4, 876.28 ) - ( 296.54, 876.42 ) on Layer met2
+  violation type: Short
+    srcs: net:_24355_ net:_24835_ 
+    bbox = ( 296.955, 876.11 ) - ( 297.095, 876.25 ) on Layer met2
+  violation type: Metal Spacing
+    srcs: net:_24355_ net:_24886_ 
+    bbox = ( 296.4, 876.25 ) - ( 297, 876.28 ) on Layer met2
+  violation type: Short
+    srcs: net:_24355_ net:_24835_ 
+    bbox = ( 296.955, 876.11 ) - ( 297, 876.25 ) on Layer met2
+  violation type: Metal Spacing
+    srcs: net:_24355_ net:_24886_ 
+    bbox = ( 296.86, 876.25 ) - ( 297, 876.28 ) on Layer met2
+  violation type: Metal Spacing
+    srcs: net:_24452_ net:VPWR 
+    bbox = ( 289.48, 875.655 ) - ( 289.5, 876.025 ) on Layer met2
+  violation type: Short
+    srcs: net:_24835_ net:_24886_ 
+    bbox = ( 296.955, 876.28 ) - ( 297, 876.76 ) on Layer met2
+  violation type: Short
+    srcs: net:_24835_ net:_24886_ 
+    bbox = ( 296.86, 876.62 ) - ( 297, 876.76 ) on Layer met2
+  violation type: Short
+    srcs: net:_24835_ net:_24886_ 
+    bbox = ( 296.95, 876.62 ) - ( 297, 876.76 ) on Layer met2
+  violation type: Short
+    srcs: net:_24835_ net:_24886_ 
+    bbox = ( 296.955, 876.28 ) - ( 297, 876.42 ) on Layer met2
+  violation type: Short
+    srcs: net:_24835_ net:_24886_ 
+    bbox = ( 296.955, 876.62 ) - ( 297.095, 876.76 ) on Layer met2
+  violation type: Short
+    srcs: net:_24835_ net:_24886_ 
+    bbox = ( 296.86, 876.62 ) - ( 297.095, 876.76 ) on Layer met2
+  violation type: Metal Spacing
+    srcs: net:_24886_ 
+    bbox = ( 297.26, 876.76 ) - ( 297.46, 876.8 ) on Layer met2
+  violation type: Short
+    srcs: net:_24835_ net:_24886_ 
+    bbox = ( 296.955, 876.62 ) - ( 297, 876.76 ) on Layer met2
+  violation type: Short
+    srcs: net:_24756_ net:clknet_10_292__leaf_clk 
+    bbox = ( 301, 879.73 ) - ( 301.14, 879.87 ) on Layer met2
+  violation type: Metal Spacing
+    srcs: net:_28565_ 
+    bbox = ( 661.085, 1013.25 ) - ( 661.18, 1013.44 ) on Layer met1
+  violation type: Short
+    srcs: net:_27952_ net:_27974_ 
+    bbox = ( 640.48, 1013.3 ) - ( 640.62, 1013.44 ) on Layer met1
+  violation type: Short
+    srcs: net:_28087_ net:_28129_ 
+    bbox = ( 662.56, 1027.24 ) - ( 662.7, 1027.38 ) on Layer met1
+  violation type: Short
+    srcs: net:_27905_ net:_28087_ 
+    bbox = ( 662.485, 1026.86 ) - ( 662.775, 1026.87 ) on Layer met1
+  violation type: Short
+    srcs: net:_27905_ net:_28087_ 
+    bbox = ( 662.56, 1026.86 ) - ( 662.7, 1026.87 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_27905_ net:_28079_ 
+    bbox = ( 662.945, 1026.65 ) - ( 663.235, 1026.73 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_27905_ net:_28079_ 
+    bbox = ( 662.93, 1026.65 ) - ( 663.25, 1026.73 ) on Layer met1
+  violation type: Short
+    srcs: net:_27905_ net:_28078_ 
+    bbox = ( 663.865, 1026.9 ) - ( 664.155, 1027.04 ) on Layer met1
+  violation type: Short
+    srcs: net:_27905_ net:_28078_ 
+    bbox = ( 663.94, 1026.9 ) - ( 664.08, 1027.04 ) on Layer met1
+  violation type: Short
+    srcs: net:_28080_ net:_28087_ 
+    bbox = ( 662.945, 1027.58 ) - ( 663.235, 1027.72 ) on Layer met1
+  violation type: Short
+    srcs: net:_28080_ net:_28087_ 
+    bbox = ( 662.945, 1027.58 ) - ( 663.71, 1027.72 ) on Layer met1
+  violation type: Short
+    srcs: net:_28080_ net:_28087_ 
+    bbox = ( 663.39, 1027.58 ) - ( 663.71, 1027.72 ) on Layer met1
+  violation type: Short
+    srcs: net:_28096_ net:_28415_ 
+    bbox = ( 636.8, 1014.03 ) - ( 636.94, 1014.4 ) on Layer met2
+  violation type: Short
+    srcs: net:_28096_ net:_28415_ 
+    bbox = ( 636.8, 1014.23 ) - ( 636.94, 1014.37 ) on Layer met2
+  violation type: Short
+    srcs: net:_28096_ net:_28413_ 
+    bbox = ( 637.26, 1014.83 ) - ( 637.4, 1014.97 ) on Layer met2
+  violation type: Short
+    srcs: net:_28096_ net:_28413_ 
+    bbox = ( 637.2, 1014.91 ) - ( 637.46, 1014.97 ) on Layer met2
+  violation type: Metal Spacing
+    srcs: net:_28568_ net:VPWR 
+    bbox = ( 639.48, 1017.01 ) - ( 639.585, 1017.1 ) on Layer met2
+  violation type: Metal Spacing
+    srcs: net:_28415_ 
+    bbox = ( 638.105, 1014.21 ) - ( 638.32, 1014.23 ) on Layer met2
+  violation type: Short
+    srcs: net:_28413_ net:_28415_ 
+    bbox = ( 637.26, 1014.23 ) - ( 637.4, 1014.37 ) on Layer met2
+  violation type: Metal Spacing
+    srcs: net:_21474_ 
+    bbox = ( 1139.95, 904.3 ) - ( 1140.18, 904.39 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_21474_ 
+    bbox = ( 1140.04, 904.3 ) - ( 1140.18, 904.39 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_21474_ 
+    bbox = ( 1142.27, 907.065 ) - ( 1142.56, 907.16 ) on Layer met1
+  violation type: Short
+    srcs: net:_22345_ net:_22532_ 
+    bbox = ( 168.98, 1062.26 ) - ( 169.12, 1062.39 ) on Layer met1
+  violation type: Short
+    srcs: net:_22345_ net:_22532_ 
+    bbox = ( 168.98, 1062.26 ) - ( 169.58, 1062.39 ) on Layer met1
+  violation type: Short
+    srcs: net:_22345_ net:_22532_ 
+    bbox = ( 169.365, 1062.25 ) - ( 169.58, 1062.39 ) on Layer met1
+  violation type: Short
+    srcs: net:_22345_ net:_22532_ 
+    bbox = ( 169.44, 1062.26 ) - ( 169.58, 1062.4 ) on Layer met1
+  violation type: Short
+    srcs: net:_22345_ net:_22532_ 
+    bbox = ( 169.44, 1062.25 ) - ( 169.58, 1062.4 ) on Layer met1
+  violation type: Short
+    srcs: net:_22345_ net:_22532_ 
+    bbox = ( 169.44, 1062.26 ) - ( 169.655, 1062.4 ) on Layer met1
+  violation type: Short
+    srcs: net:_22321_ net:_22345_ 
+    bbox = ( 169.885, 1062.56 ) - ( 170.025, 1062.79 ) on Layer met1
+  violation type: Short
+    srcs: net:_22321_ net:_22345_ 
+    bbox = ( 169.885, 1062.6 ) - ( 170.025, 1062.74 ) on Layer met1
+  violation type: Short
+    srcs: net:_22345_ net:_22532_ 
+    bbox = ( 168.98, 1062.26 ) - ( 169.655, 1062.39 ) on Layer met1
+  violation type: Short
+    srcs: net:_22345_ net:_22532_ 
+    bbox = ( 169.365, 1062.26 ) - ( 169.655, 1062.39 ) on Layer met1
+  violation type: Short
+    srcs: net:_22376_ net:_22477_ 
+    bbox = ( 166.205, 1059.54 ) - ( 166.345, 1059.73 ) on Layer met1
+  violation type: Short
+    srcs: net:_22376_ net:_22477_ 
+    bbox = ( 166.205, 1059.54 ) - ( 166.45, 1059.68 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_22321_ net:_22376_ 
+    bbox = ( 166.13, 1059.34 ) - ( 166.45, 1059.47 ) on Layer met1
+  violation type: Short
+    srcs: net:_22532_ net:_22926_ 
+    bbox = ( 167.6, 1062.6 ) - ( 167.74, 1062.74 ) on Layer met1
+  violation type: Short
+    srcs: net:_22321_ net:_22477_ 
+    bbox = ( 166.68, 1059.54 ) - ( 166.82, 1059.68 ) on Layer met1
+  violation type: Short
+    srcs: net:_22925_ net:_22929_ 
+    bbox = ( 168.08, 1061.58 ) - ( 168.22, 1061.72 ) on Layer met1
+  violation type: Short
+    srcs: net:_22761_ net:_22925_ 
+    bbox = ( 168.08, 1061.92 ) - ( 168.22, 1062.06 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_22476_ 
+    bbox = ( 147.36, 1059.09 ) - ( 147.56, 1059.2 ) on Layer met2
+  violation type: Short
+    srcs: net:_23079_ net:_23136_ 
+    bbox = ( 250.15, 964.34 ) - ( 250.29, 964.43 ) on Layer met1
+  violation type: Short
+    srcs: net:_23079_ net:_23136_ 
+    bbox = ( 250.15, 964.33 ) - ( 250.29, 964.43 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_23079_ net:_23136_ 
+    bbox = ( 250.05, 964 ) - ( 250.15, 964.43 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_23079_ net:_23136_ 
+    bbox = ( 250.05, 964 ) - ( 250.15, 964.14 ) on Layer met1
+  violation type: Short
+    srcs: net:_23079_ net:_23136_ 
+    bbox = ( 249.94, 964.34 ) - ( 250.29, 964.43 ) on Layer met1
+  violation type: Short
+    srcs: net:_23079_ net:_23136_ 
+    bbox = ( 249.94, 964.29 ) - ( 250.05, 964.43 ) on Layer met1
+  violation type: Short
+    srcs: net:_23079_ net:_23136_ 
+    bbox = ( 249.94, 964.34 ) - ( 250.08, 964.48 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_23079_ net:_23136_ 
+    bbox = ( 250.08, 964.33 ) - ( 250.15, 964.48 ) on Layer met1
+  violation type: Short
+    srcs: net:_23079_ net:_23136_ 
+    bbox = ( 249.94, 964.29 ) - ( 250.05, 964.48 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_23079_ net:_23136_ 
+    bbox = ( 250.08, 964.33 ) - ( 250.15, 964.47 ) on Layer met1
+  violation type: Short
+    srcs: net:_23079_ net:_23136_ 
+    bbox = ( 249.94, 964.34 ) - ( 250.08, 964.47 ) on Layer met1
+  violation type: Short
+    srcs: net:_23079_ net:_23136_ 
+    bbox = ( 249.91, 964.34 ) - ( 250.08, 964.48 ) on Layer met1
+  violation type: Short
+    srcs: net:_23079_ net:_23136_ 
+    bbox = ( 249.91, 964.34 ) - ( 250.05, 964.48 ) on Layer met1
+  violation type: Short
+    srcs: net:_23079_ net:_23136_ 
+    bbox = ( 249.91, 964.34 ) - ( 250.08, 964.47 ) on Layer met1
+  violation type: Short
+    srcs: net:_23079_ net:_23136_ 
+    bbox = ( 249.91, 964.34 ) - ( 250.29, 964.43 ) on Layer met1
+  violation type: Short
+    srcs: net:_23079_ net:_23136_ 
+    bbox = ( 249.91, 964.34 ) - ( 250.05, 964.43 ) on Layer met1
+  violation type: Short
+    srcs: net:_23136_ net:_23311_ 
+    bbox = ( 257.76, 966.97 ) - ( 257.9, 967.11 ) on Layer met1
+  violation type: Short
+    srcs: net:_23136_ net:_23312_ 
+    bbox = ( 257.76, 967.05 ) - ( 257.9, 967.19 ) on Layer met1
+  violation type: Short
+    srcs: net:_23136_ net:_23312_ 
+    bbox = ( 257.76, 967.06 ) - ( 257.9, 967.19 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_23136_ net:_23311_ 
+    bbox = ( 257.685, 966.905 ) - ( 257.975, 966.97 ) on Layer met1
+  violation type: Short
+    srcs: net:_23119_ net:_23369_ 
+    bbox = ( 262.285, 931.87 ) - ( 262.5, 931.885 ) on Layer met1
+  violation type: Short
+    srcs: net:_23119_ net:_23369_ 
+    bbox = ( 262.36, 931.87 ) - ( 262.5, 931.885 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_23119_ net:_23120_ 
+    bbox = ( 262.165, 931.685 ) - ( 262.285, 931.885 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_23119_ net:_23120_ 
+    bbox = ( 262.165, 931.7 ) - ( 262.285, 931.84 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_23119_ net:_23311_ 
+    bbox = ( 257.3, 966.92 ) - ( 257.53, 966.97 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_23119_ net:_23311_ 
+    bbox = ( 257.3, 966.92 ) - ( 257.44, 966.97 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_23119_ net:_23312_ 
+    bbox = ( 257.3, 966.92 ) - ( 257.53, 967.05 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_23119_ net:_23312_ 
+    bbox = ( 257.3, 966.92 ) - ( 257.44, 967.05 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_23119_ 
+    bbox = ( 256.75, 966.72 ) - ( 256.84, 966.86 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_23119_ 
+    bbox = ( 256.75, 966.72 ) - ( 256.84, 966.91 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_23119_ net:_23311_ 
+    bbox = ( 257.3, 966.86 ) - ( 257.53, 966.97 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_23119_ net:_23311_ 
+    bbox = ( 257.3, 966.86 ) - ( 257.44, 966.97 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_23079_ 
+    bbox = ( 250.05, 964.33 ) - ( 250.15, 964.48 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_23079_ 
+    bbox = ( 250.05, 964.33 ) - ( 250.15, 964.47 ) on Layer met1
+  violation type: Short
+    srcs: net:_23079_ net:_23417_ 
+    bbox = ( 249.48, 964 ) - ( 249.62, 964.14 ) on Layer met1
+  violation type: Short
+    srcs: net:_23079_ net:_23417_ 
+    bbox = ( 249.39, 964 ) - ( 249.71, 964.14 ) on Layer met1
+  violation type: Short
+    srcs: net:_23079_ net:_23187_ 
+    bbox = ( 254.43, 964.34 ) - ( 254.57, 964.48 ) on Layer met1
+  violation type: Short
+    srcs: net:_23079_ net:_23510_ 
+    bbox = ( 259.985, 969.055 ) - ( 260.275, 969.285 ) on Layer met1
+  violation type: Short
+    srcs: net:_23079_ net:_23510_ 
+    bbox = ( 260.06, 969.04 ) - ( 260.2, 969.285 ) on Layer met1
+  violation type: Short
+    srcs: net:_23079_ net:_23510_ 
+    bbox = ( 259.985, 969.1 ) - ( 260.275, 969.24 ) on Layer met1
+  violation type: Short
+    srcs: net:_23079_ net:_23510_ 
+    bbox = ( 260.06, 969.1 ) - ( 260.2, 969.24 ) on Layer met1
+  violation type: Short
+    srcs: net:_23120_ net:_23369_ 
+    bbox = ( 261.875, 931.87 ) - ( 262.165, 931.915 ) on Layer met1
+  violation type: Short
+    srcs: net:_23120_ net:_23369_ 
+    bbox = ( 261.9, 931.87 ) - ( 262.04, 931.915 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_23008_ 
+    bbox = ( 250.365, 967.06 ) - ( 250.4, 967.2 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_23008_ 
+    bbox = ( 250.365, 967.05 ) - ( 250.4, 967.2 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_23008_ net:_23028_ 
+    bbox = ( 251.23, 966.93 ) - ( 251.55, 967.06 ) on Layer met1
+  violation type: Short
+    srcs: net:_23008_ net:_23313_ 
+    bbox = ( 258.22, 969.78 ) - ( 258.345, 969.87 ) on Layer met1
+  violation type: Short
+    srcs: net:_23008_ net:_23313_ 
+    bbox = ( 258.22, 969.78 ) - ( 258.345, 969.92 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_23008_ net:_23313_ 
+    bbox = ( 258.125, 969.78 ) - ( 258.22, 969.95 ) on Layer met1
+  violation type: Short
+    srcs: net:_23008_ net:_23313_ 
+    bbox = ( 258.205, 969.81 ) - ( 258.345, 969.92 ) on Layer met1
+  violation type: Short
+    srcs: net:_23008_ net:_23313_ 
+    bbox = ( 257.835, 969.81 ) - ( 258.125, 969.92 ) on Layer met1
+  violation type: Short
+    srcs: net:_23008_ net:_23313_ 
+    bbox = ( 257.835, 969.81 ) - ( 258.345, 969.92 ) on Layer met1
+  violation type: Short
+    srcs: net:_23008_ net:_23313_ 
+    bbox = ( 257.835, 969.81 ) - ( 258.125, 969.95 ) on Layer met1
+  violation type: Short
+    srcs: net:_23008_ net:_23313_ 
+    bbox = ( 258.205, 969.81 ) - ( 258.345, 969.87 ) on Layer met1
+  violation type: Short
+    srcs: net:_23008_ net:_23313_ 
+    bbox = ( 257.835, 969.81 ) - ( 258.125, 969.87 ) on Layer met1
+  violation type: Short
+    srcs: net:_23008_ net:_23313_ 
+    bbox = ( 257.835, 969.81 ) - ( 258.345, 969.87 ) on Layer met1
+  violation type: Short
+    srcs: net:_23025_ net:_23279_ 
+    bbox = ( 251.78, 966.04 ) - ( 251.92, 966.18 ) on Layer met1
+  violation type: Short
+    srcs: net:_23025_ net:_23279_ 
+    bbox = ( 249.94, 966.04 ) - ( 250.08, 966.18 ) on Layer met1
+  violation type: Short
+    srcs: net:_23025_ net:_23279_ 
+    bbox = ( 249.94, 966.04 ) - ( 251.92, 966.18 ) on Layer met1
+  violation type: Short
+    srcs: net:_23311_ net:_23312_ 
+    bbox = ( 258.68, 966.72 ) - ( 258.82, 966.86 ) on Layer met1
+  violation type: Short
+    srcs: net:_23311_ net:_23312_ 
+    bbox = ( 257.3, 967.05 ) - ( 258.345, 967.11 ) on Layer met1
+  violation type: Short
+    srcs: net:_23311_ net:_23312_ 
+    bbox = ( 257.3, 967.05 ) - ( 257.44, 967.19 ) on Layer met1
+  violation type: Short
+    srcs: net:_23311_ net:_23312_ 
+    bbox = ( 258.205, 967.05 ) - ( 258.345, 967.11 ) on Layer met1
+  violation type: Short
+    srcs: net:_23311_ net:_23312_ 
+    bbox = ( 257.3, 967.05 ) - ( 257.44, 967.11 ) on Layer met1
+  violation type: Short
+    srcs: net:_23311_ net:_23312_ 
+    bbox = ( 257.3, 967.05 ) - ( 257.44, 967.2 ) on Layer met1
+  violation type: Short
+    srcs: net:_23311_ net:_23312_ 
+    bbox = ( 257.3, 967.06 ) - ( 257.44, 967.11 ) on Layer met1
+  violation type: Short
+    srcs: net:_23311_ net:_23312_ 
+    bbox = ( 257.3, 967.06 ) - ( 257.44, 967.2 ) on Layer met1
+  violation type: Short
+    srcs: net:_23311_ net:_23312_ 
+    bbox = ( 256.38, 967.4 ) - ( 256.52, 967.54 ) on Layer met1
+  violation type: Short
+    srcs: net:_23311_ net:_23312_ 
+    bbox = ( 257.3, 967.06 ) - ( 258.345, 967.11 ) on Layer met1
+  violation type: Short
+    srcs: net:_23311_ net:_23312_ 
+    bbox = ( 257.3, 967.06 ) - ( 257.44, 967.19 ) on Layer met1
+  violation type: Short
+    srcs: net:_23311_ net:_23312_ 
+    bbox = ( 258.205, 967.06 ) - ( 258.345, 967.11 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_23313_ 
+    bbox = ( 258.125, 969.735 ) - ( 258.205, 969.92 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_23069_ net:_23085_ 
+    bbox = ( 256.75, 972.41 ) - ( 256.825, 972.5 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_23069_ net:_23085_ 
+    bbox = ( 256.75, 972.41 ) - ( 257.07, 972.5 ) on Layer met1
+  violation type: Short
+    srcs: net:_23076_ net:_23417_ 
+    bbox = ( 249.48, 964 ) - ( 249.62, 964.085 ) on Layer met2
+  violation type: Short
+    srcs: net:_23076_ net:_23417_ 
+    bbox = ( 249.48, 964 ) - ( 249.62, 964.14 ) on Layer met2
+  violation type: Short
+    srcs: net:_23076_ net:_23417_ 
+    bbox = ( 249.48, 963.91 ) - ( 249.62, 964.23 ) on Layer met2
+  violation type: Short
+    srcs: net:_23085_ net:_23309_ 
+    bbox = ( 262.36, 974.03 ) - ( 262.5, 974.17 ) on Layer met2
+  violation type: Metal Spacing
+    srcs: net:_23307_ 
+    bbox = ( 267.88, 972.35 ) - ( 268.08, 972.41 ) on Layer met2
+  violation type: Metal Spacing
+    srcs: net:_23093_ 
+    bbox = ( 257.995, 973.255 ) - ( 258.14, 973.57 ) on Layer met3
+  violation type: Short
+    srcs: net:_23698_ net:_23963_ 
+    bbox = ( 374.6, 957.88 ) - ( 374.74, 958.02 ) on Layer met1
+  violation type: Short
+    srcs: net:_23698_ net:_23963_ 
+    bbox = ( 374.17, 957.88 ) - ( 374.74, 958.02 ) on Layer met1
+  violation type: Short
+    srcs: net:_23698_ net:_23963_ 
+    bbox = ( 374.17, 957.88 ) - ( 374.31, 958.02 ) on Layer met1
+  violation type: Short
+    srcs: net:_23852_ net:_23971_ 
+    bbox = ( 380.12, 983.05 ) - ( 380.26, 983.19 ) on Layer met1
+  violation type: Short
+    srcs: net:_23852_ net:_23971_ 
+    bbox = ( 380.12, 983.05 ) - ( 380.26, 983.18 ) on Layer met1
+  violation type: Short
+    srcs: net:_23852_ net:_23971_ 
+    bbox = ( 380.12, 983.04 ) - ( 380.26, 983.18 ) on Layer met1
+  violation type: Short
+    srcs: net:_23852_ net:_23971_ 
+    bbox = ( 380.12, 983.04 ) - ( 380.26, 983.19 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_23858_ 
+    bbox = ( 384.185, 975.08 ) - ( 384.475, 975.175 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_23674_ 
+    bbox = ( 381.425, 988.665 ) - ( 381.715, 988.76 ) on Layer met1
+  violation type: Short
+    srcs: net:_23746_ net:_23973_ 
+    bbox = ( 377.36, 977.26 ) - ( 377.5, 977.4 ) on Layer met2
+  violation type: Short
+    srcs: net:_23746_ net:_23971_ 
+    bbox = ( 378.74, 982.19 ) - ( 378.88, 982.33 ) on Layer met2
+  violation type: Short
+    srcs: net:_24176_ net:_24177_ 
+    bbox = ( 378.28, 933.4 ) - ( 378.42, 933.54 ) on Layer met2
+  violation type: Short
+    srcs: net:_29189_ net:_29192_ 
+    bbox = ( 543.365, 1353.93 ) - ( 543.505, 1354.16 ) on Layer met1
+  violation type: Short
+    srcs: net:_29189_ net:_29192_ 
+    bbox = ( 543.345, 1353.93 ) - ( 543.635, 1354.16 ) on Layer met1
+  violation type: Short
+    srcs: net:_29189_ net:_29192_ 
+    bbox = ( 543.365, 1353.98 ) - ( 543.505, 1354.12 ) on Layer met1
+  violation type: Short
+    srcs: net:_29189_ net:_29192_ 
+    bbox = ( 543.345, 1353.98 ) - ( 543.65, 1354.12 ) on Layer met1
+  violation type: Short
+    srcs: net:_29696_ net:_29701_ 
+    bbox = ( 544.71, 1352.96 ) - ( 544.735, 1353.1 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_22400_ net:_22905_ 
+    bbox = ( 124.285, 1042.74 ) - ( 124.575, 1042.84 ) on Layer met1
+  violation type: Short
+    srcs: net:_22400_ net:_22443_ 
+    bbox = ( 124.36, 1042.88 ) - ( 124.5, 1043.02 ) on Layer met1
+  violation type: Short
+    srcs: net:_22400_ net:_22443_ 
+    bbox = ( 124.36, 1042.88 ) - ( 124.5, 1043.07 ) on Layer met1
+  violation type: Short
+    srcs: net:_22400_ net:_22443_ 
+    bbox = ( 124.285, 1042.88 ) - ( 124.5, 1043.02 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_22486_ net:_22601_ 
+    bbox = ( 123.44, 1046.12 ) - ( 123.58, 1046.22 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_22486_ net:_22601_ 
+    bbox = ( 123.41, 1046.12 ) - ( 123.67, 1046.22 ) on Layer met1
+  violation type: Short
+    srcs: net:_22388_ net:_22462_ 
+    bbox = ( 124.36, 1046.28 ) - ( 124.5, 1046.42 ) on Layer met2
+  violation type: Metal Spacing
+    srcs: net:_24327_ 
+    bbox = ( 317.025, 874.425 ) - ( 317.315, 874.52 ) on Layer met1
+  violation type: Short
+    srcs: net:_24327_ net:_24519_ 
+    bbox = ( 321.7, 876.62 ) - ( 321.84, 876.76 ) on Layer met1
+  violation type: Short
+    srcs: net:_23654_ net:_24128_ 
+    bbox = ( 342.86, 928.595 ) - ( 343, 928.825 ) on Layer met1
+  violation type: Short
+    srcs: net:_23654_ net:_24128_ 
+    bbox = ( 342.86, 928.64 ) - ( 343, 928.78 ) on Layer met1
+  violation type: Short
+    srcs: net:_23654_ net:_24128_ 
+    bbox = ( 342.86, 928.64 ) - ( 343, 928.75 ) on Layer met1
+  violation type: Short
+    srcs: net:_23654_ net:_23728_ 
+    bbox = ( 346.54, 929.05 ) - ( 346.68, 929.12 ) on Layer met1
+  violation type: Short
+    srcs: net:_23654_ net:_23728_ 
+    bbox = ( 346.54, 928.98 ) - ( 346.68, 929.12 ) on Layer met1
+  violation type: Short
+    srcs: net:_23645_ net:_23654_ 
+    bbox = ( 347.92, 928.98 ) - ( 348.06, 929.12 ) on Layer met1
+  violation type: Short
+    srcs: net:_23645_ net:_23654_ 
+    bbox = ( 347.92, 929.05 ) - ( 348.06, 929.12 ) on Layer met1
+  violation type: Short
+    srcs: net:_23645_ net:_24124_ 
+    bbox = ( 350.22, 928.3 ) - ( 350.36, 928.44 ) on Layer met1
+  violation type: Short
+    srcs: net:_23645_ net:_24124_ 
+    bbox = ( 349.36, 928.3 ) - ( 350.36, 928.44 ) on Layer met1
+  violation type: Short
+    srcs: net:_23645_ net:_24124_ 
+    bbox = ( 349.36, 928.3 ) - ( 349.5, 928.44 ) on Layer met1
+  violation type: Short
+    srcs: net:_23645_ net:_23654_ 
+    bbox = ( 347.845, 928.98 ) - ( 348.135, 929.12 ) on Layer met1
+  violation type: Short
+    srcs: net:_23645_ net:_23654_ 
+    bbox = ( 347.845, 929.05 ) - ( 348.135, 929.12 ) on Layer met1
+  violation type: Short
+    srcs: net:_23654_ net:_24124_ 
+    bbox = ( 345.16, 928.64 ) - ( 345.3, 928.75 ) on Layer met1
+  violation type: Short
+    srcs: net:_23654_ net:_24124_ 
+    bbox = ( 345.16, 928.64 ) - ( 345.19, 928.78 ) on Layer met1
+  violation type: Short
+    srcs: net:_23654_ net:_24124_ 
+    bbox = ( 345.16, 928.69 ) - ( 345.19, 928.78 ) on Layer met1
+  violation type: Short
+    srcs: net:_23654_ net:_24124_ 
+    bbox = ( 345.16, 928.69 ) - ( 345.3, 928.75 ) on Layer met1
+  violation type: Short
+    srcs: net:_23654_ net:_24124_ 
+    bbox = ( 345.62, 928.64 ) - ( 345.76, 928.75 ) on Layer met1
+  violation type: Short
+    srcs: net:_23654_ net:_24124_ 
+    bbox = ( 345.16, 928.64 ) - ( 345.76, 928.75 ) on Layer met1
+  violation type: Short
+    srcs: net:_23654_ net:_24124_ 
+    bbox = ( 345.16, 928.69 ) - ( 345.76, 928.75 ) on Layer met1
+  violation type: Short
+    srcs: net:_23654_ net:_23787_ 
+    bbox = ( 350.22, 929.32 ) - ( 350.36, 929.46 ) on Layer met1
+  violation type: Short
+    srcs: net:_23676_ net:_23790_ 
+    bbox = ( 349.3, 926.26 ) - ( 349.44, 926.4 ) on Layer met1
+  violation type: Short
+    srcs: net:_23676_ net:_23790_ 
+    bbox = ( 349.225, 926.26 ) - ( 349.515, 926.4 ) on Layer met1
+  violation type: Short
+    srcs: net:_23790_ net:_23795_ 
+    bbox = ( 348.38, 926.26 ) - ( 348.52, 926.445 ) on Layer met1
+  violation type: Short
+    srcs: net:_23790_ net:_23795_ 
+    bbox = ( 348.38, 926.26 ) - ( 348.545, 926.4 ) on Layer met1
+  violation type: Short
+    srcs: net:_23790_ net:_23795_ 
+    bbox = ( 348.38, 926.26 ) - ( 348.52, 926.4 ) on Layer met1
+  violation type: Short
+    srcs: net:_23827_ net:_24291_ 
+    bbox = ( 347.92, 929.15 ) - ( 348.06, 929.19 ) on Layer met2
+  violation type: Short
+    srcs: net:_23827_ net:_23858_ 
+    bbox = ( 347.46, 929.15 ) - ( 347.6, 929.29 ) on Layer met2
+  violation type: Metal Spacing
+    srcs: net:_23645_ net:_23750_ 
+    bbox = ( 351.97, 928.53 ) - ( 352, 928.87 ) on Layer met2
+  violation type: Metal Spacing
+    srcs: net:_23645_ net:_23750_ 
+    bbox = ( 351.97, 928.53 ) - ( 351.99, 928.725 ) on Layer met2
+  violation type: Metal Spacing
+    srcs: net:_23645_ net:_23750_ 
+    bbox = ( 351.97, 928.53 ) - ( 352, 928.67 ) on Layer met2
+  violation type: Metal Spacing
+    srcs: net:_23645_ net:_23750_ 
+    bbox = ( 351.97, 928.53 ) - ( 351.99, 928.67 ) on Layer met2
+  violation type: Short
+    srcs: net:_23750_ net:_23790_ 
+    bbox = ( 344.7, 929.83 ) - ( 344.84, 929.97 ) on Layer met2
+  violation type: Short
+    srcs: net:_23717_ net:_24091_ 
+    bbox = ( 372.3, 999.7 ) - ( 372.44, 999.84 ) on Layer met1
+  violation type: Short
+    srcs: net:_23717_ net:_24091_ 
+    bbox = ( 371.84, 999.7 ) - ( 372.44, 999.84 ) on Layer met1
+  violation type: Short
+    srcs: net:_23717_ net:_24091_ 
+    bbox = ( 371.84, 999.7 ) - ( 371.98, 999.84 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_23717_ net:_24090_ 
+    bbox = ( 371.75, 999.61 ) - ( 372.07, 999.7 ) on Layer met1
+  violation type: Short
+    srcs: net:_23717_ net:_24023_ 
+    bbox = ( 370.92, 1000.38 ) - ( 371.06, 1000.52 ) on Layer met1
+  violation type: Short
+    srcs: net:_23717_ net:_24023_ 
+    bbox = ( 370.46, 1000.38 ) - ( 371.06, 1000.52 ) on Layer met1
+  violation type: Short
+    srcs: net:_23717_ net:_24023_ 
+    bbox = ( 370.46, 1000.38 ) - ( 370.6, 1000.52 ) on Layer met1
+  violation type: Short
+    srcs: net:_23634_ net:_23740_ 
+    bbox = ( 368.53, 999.3 ) - ( 368.66, 999.45 ) on Layer met1
+  violation type: Short
+    srcs: net:_23634_ net:_23740_ 
+    bbox = ( 368.53, 999.31 ) - ( 368.85, 999.45 ) on Layer met1
+  violation type: Short
+    srcs: net:_23634_ net:_23740_ 
+    bbox = ( 368.53, 999.315 ) - ( 368.85, 999.45 ) on Layer met1
+  violation type: Short
+    srcs: net:_23748_ net:_24208_ 
+    bbox = ( 372.76, 997.66 ) - ( 372.89, 997.8 ) on Layer met1
+  violation type: Short
+    srcs: net:_23748_ net:_24208_ 
+    bbox = ( 372.76, 997.32 ) - ( 372.89, 997.8 ) on Layer met1
+  violation type: Short
+    srcs: net:_23748_ net:_24208_ 
+    bbox = ( 372.76, 997.32 ) - ( 372.9, 997.46 ) on Layer met1
+  violation type: Short
+    srcs: net:_23645_ net:_24018_ 
+    bbox = ( 368.16, 999.69 ) - ( 368.25, 999.84 ) on Layer met1
+  violation type: Short
+    srcs: net:_23645_ net:_24018_ 
+    bbox = ( 368.16, 999.69 ) - ( 368.3, 999.84 ) on Layer met1
+  violation type: Short
+    srcs: net:_23645_ net:_23810_ 
+    bbox = ( 368.11, 999.69 ) - ( 368.3, 999.84 ) on Layer met1
+  violation type: Short
+    srcs: net:_23645_ net:_23810_ 
+    bbox = ( 368.11, 999.7 ) - ( 368.3, 999.75 ) on Layer met1
+  violation type: Short
+    srcs: net:_23645_ net:_23810_ 
+    bbox = ( 368.11, 999.69 ) - ( 368.3, 999.75 ) on Layer met1
+  violation type: Short
+    srcs: net:_23645_ net:_23810_ 
+    bbox = ( 367.7, 999.7 ) - ( 367.84, 999.75 ) on Layer met1
+  violation type: Short
+    srcs: net:_23645_ net:_24018_ 
+    bbox = ( 368.16, 999.7 ) - ( 368.25, 999.84 ) on Layer met1
+  violation type: Short
+    srcs: net:_23645_ net:_24018_ 
+    bbox = ( 368.16, 999.7 ) - ( 368.3, 999.84 ) on Layer met1
+  violation type: Short
+    srcs: net:_23645_ net:_23810_ 
+    bbox = ( 368.085, 999.7 ) - ( 368.3, 999.84 ) on Layer met1
+  violation type: Short
+    srcs: net:_23645_ net:_23810_ 
+    bbox = ( 368.085, 999.7 ) - ( 368.375, 999.84 ) on Layer met1
+  violation type: Short
+    srcs: net:_23645_ net:_23810_ 
+    bbox = ( 367.7, 999.7 ) - ( 368.375, 999.75 ) on Layer met1
+  violation type: Short
+    srcs: net:_23645_ net:_23810_ 
+    bbox = ( 367.7, 999.7 ) - ( 368.3, 999.75 ) on Layer met1
+  violation type: Short
+    srcs: net:_23731_ net:_24091_ 
+    bbox = ( 371.84, 998.68 ) - ( 371.98, 998.82 ) on Layer met1
+  violation type: Short
+    srcs: net:_23731_ net:_24091_ 
+    bbox = ( 371.765, 998.68 ) - ( 372.055, 998.82 ) on Layer met1
+  violation type: Short
+    srcs: net:_23810_ net:_24018_ 
+    bbox = ( 368.16, 999.61 ) - ( 368.25, 999.75 ) on Layer met1
+  violation type: Short
+    srcs: net:_23810_ net:_24018_ 
+    bbox = ( 368.16, 999.61 ) - ( 368.3, 999.75 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_23810_ net:_24018_ 
+    bbox = ( 368.11, 999.51 ) - ( 368.3, 999.61 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_23810_ net:_24018_ 
+    bbox = ( 368.11, 999.51 ) - ( 368.25, 999.61 ) on Layer met1
+  violation type: Short
+    srcs: net:_23810_ net:_24018_ 
+    bbox = ( 368.16, 999.61 ) - ( 368.25, 999.885 ) on Layer met1
+  violation type: Short
+    srcs: net:_23810_ net:_24018_ 
+    bbox = ( 368.16, 999.61 ) - ( 368.3, 999.885 ) on Layer met1
+  violation type: Short
+    srcs: net:_23810_ net:_24018_ 
+    bbox = ( 368.16, 999.655 ) - ( 368.25, 999.75 ) on Layer met1
+  violation type: Short
+    srcs: net:_23810_ net:_24018_ 
+    bbox = ( 368.16, 999.655 ) - ( 368.3, 999.75 ) on Layer met1
+  violation type: Short
+    srcs: net:_23810_ net:_24018_ 
+    bbox = ( 368.16, 999.655 ) - ( 368.25, 999.885 ) on Layer met1
+  violation type: Short
+    srcs: net:_23810_ net:_24018_ 
+    bbox = ( 368.16, 999.655 ) - ( 368.3, 999.885 ) on Layer met1
+  violation type: Short
+    srcs: net:_23810_ net:_24018_ 
+    bbox = ( 368.16, 999.7 ) - ( 368.25, 999.75 ) on Layer met1
+  violation type: Short
+    srcs: net:_23810_ net:_24018_ 
+    bbox = ( 368.16, 999.7 ) - ( 368.3, 999.75 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_24090_ net:_24091_ 
+    bbox = ( 371.84, 999.61 ) - ( 372.07, 999.7 ) on Layer met1
+  violation type: Short
+    srcs: net:_24090_ net:_24091_ 
+    bbox = ( 371.84, 999.35 ) - ( 371.98, 999.61 ) on Layer met1
+  violation type: Short
+    srcs: net:_24090_ net:_24091_ 
+    bbox = ( 371.84, 999.41 ) - ( 371.98, 999.55 ) on Layer met1
+  violation type: Short
+    srcs: net:_24090_ net:_24091_ 
+    bbox = ( 371.84, 999.41 ) - ( 371.98, 999.545 ) on Layer met1
+  violation type: Short
+    srcs: net:_24023_ net:_24091_ 
+    bbox = ( 372.3, 999.995 ) - ( 372.44, 1000.23 ) on Layer met1
+  violation type: Short
+    srcs: net:_24023_ net:_24091_ 
+    bbox = ( 372.3, 1000.04 ) - ( 372.44, 1000.18 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_24023_ 
+    bbox = ( 368.16, 1000.18 ) - ( 368.36, 1000.29 ) on Layer met2
+  violation type: Metal Spacing
+    srcs: net:_13903_ 
+    bbox = ( 599.985, 384.88 ) - ( 600, 384.98 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_13903_ 
+    bbox = ( 599.76, 384.88 ) - ( 599.985, 384.98 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_28061_ net:_28876_ 
+    bbox = ( 617.85, 1020.92 ) - ( 618.17, 1021.03 ) on Layer met1
+  violation type: Short
+    srcs: net:_27969_ net:_28061_ 
+    bbox = ( 617.85, 1021.06 ) - ( 618.17, 1021.29 ) on Layer met1
+  violation type: Short
+    srcs: net:_27969_ net:_28061_ 
+    bbox = ( 617.85, 1021.12 ) - ( 618.17, 1021.26 ) on Layer met1
+  violation type: Short
+    srcs: net:_27982_ net:_28458_ 
+    bbox = ( 616.935, 1026.92 ) - ( 617.225, 1027.04 ) on Layer met1
+  violation type: Short
+    srcs: net:_27982_ net:_28458_ 
+    bbox = ( 617.01, 1026.9 ) - ( 617.15, 1027.04 ) on Layer met1
+  violation type: Short
+    srcs: net:_27932_ net:_28253_ 
+    bbox = ( 618.86, 1021.41 ) - ( 619, 1021.43 ) on Layer met1
+  violation type: Short
+    srcs: net:_27932_ net:_28253_ 
+    bbox = ( 618.785, 1021.41 ) - ( 619, 1021.43 ) on Layer met1
+  violation type: Short
+    srcs: net:_28022_ net:_28682_ 
+    bbox = ( 614.72, 1024.52 ) - ( 614.86, 1024.66 ) on Layer met1
+  violation type: Short
+    srcs: net:_28004_ net:_28253_ 
+    bbox = ( 616.56, 1021.8 ) - ( 616.7, 1021.94 ) on Layer met1
+  violation type: Short
+    srcs: net:_28004_ net:_28253_ 
+    bbox = ( 616.56, 1021.8 ) - ( 617.98, 1021.94 ) on Layer met1
+  violation type: Short
+    srcs: net:_28004_ net:_28253_ 
+    bbox = ( 617.84, 1021.8 ) - ( 617.98, 1021.94 ) on Layer met1
+  violation type: Short
+    srcs: net:_27987_ net:_28682_ 
+    bbox = ( 615.64, 1024.52 ) - ( 615.78, 1024.66 ) on Layer met1
+  violation type: Short
+    srcs: net:_28061_ net:aes_inst.core.dec_block.block_w0_reg[9] 
+    bbox = ( 618.035, 1020.95 ) - ( 618.08, 1021.09 ) on Layer met2
+  violation type: Short
+    srcs: net:_28061_ net:aes_inst.core.dec_block.block_w0_reg[9] 
+    bbox = ( 617.94, 1020.95 ) - ( 618.08, 1021.09 ) on Layer met2
+  violation type: Short
+    srcs: net:_27969_ net:_28061_ 
+    bbox = ( 617.88, 1021.03 ) - ( 618.08, 1021.09 ) on Layer met2
+  violation type: Short
+    srcs: net:_28061_ net:aes_inst.core.dec_block.block_w0_reg[9] 
+    bbox = ( 618.035, 1020.95 ) - ( 618.08, 1021.32 ) on Layer met2
+  violation type: Short
+    srcs: net:_28061_ net:aes_inst.core.dec_block.block_w0_reg[9] 
+    bbox = ( 617.94, 1020.95 ) - ( 618.08, 1021.32 ) on Layer met2
+  violation type: Short
+    srcs: net:_27969_ net:_28061_ 
+    bbox = ( 617.88, 1021.03 ) - ( 618.08, 1021.32 ) on Layer met2
+  violation type: Short
+    srcs: net:_27969_ net:_28061_ 
+    bbox = ( 617.88, 1021.12 ) - ( 618.08, 1021.26 ) on Layer met2
+  violation type: Short
+    srcs: net:_27969_ net:_28061_ 
+    bbox = ( 617.88, 1021.12 ) - ( 618.08, 1021.21 ) on Layer met2
+  violation type: Short
+    srcs: net:_28061_ net:aes_inst.core.dec_block.block_w0_reg[9] 
+    bbox = ( 618.035, 1021 ) - ( 618.08, 1021.32 ) on Layer met2
+  violation type: Short
+    srcs: net:_28061_ net:aes_inst.core.dec_block.block_w0_reg[9] 
+    bbox = ( 617.94, 1021 ) - ( 618.08, 1021.32 ) on Layer met2
+  violation type: Short
+    srcs: net:_28061_ net:aes_inst.core.dec_block.block_w0_reg[9] 
+    bbox = ( 617.94, 1021 ) - ( 618.14, 1021.09 ) on Layer met2
+  violation type: Short
+    srcs: net:_27969_ net:_28061_ 
+    bbox = ( 617.88, 1021.03 ) - ( 618.14, 1021.32 ) on Layer met2
+  violation type: Short
+    srcs: net:_28061_ net:aes_inst.core.dec_block.block_w0_reg[9] 
+    bbox = ( 618.035, 1021 ) - ( 618.14, 1021.09 ) on Layer met2
+  violation type: Short
+    srcs: net:_27969_ net:_28061_ 
+    bbox = ( 617.88, 1021.12 ) - ( 618.14, 1021.26 ) on Layer met2
+  violation type: Short
+    srcs: net:_27969_ net:_28061_ 
+    bbox = ( 617.88, 1021.12 ) - ( 618.14, 1021.21 ) on Layer met2
+  violation type: Short
+    srcs: net:_28061_ net:aes_inst.core.dec_block.block_w0_reg[9] 
+    bbox = ( 618.035, 1021 ) - ( 618.08, 1021.09 ) on Layer met2
+  violation type: Short
+    srcs: net:_28061_ net:aes_inst.core.dec_block.block_w0_reg[9] 
+    bbox = ( 617.94, 1021 ) - ( 618.08, 1021.09 ) on Layer met2
+  violation type: Short
+    srcs: net:_27969_ net:_28061_ 
+    bbox = ( 617.88, 1021.03 ) - ( 618.14, 1021.09 ) on Layer met2
+  violation type: Short
+    srcs: net:_27932_ net:_28022_ 
+    bbox = ( 620.24, 1023.16 ) - ( 620.38, 1023.3 ) on Layer met2
+  violation type: Short
+    srcs: net:_27969_ net:aes_inst.core.dec_block.block_w0_reg[9] 
+    bbox = ( 618.035, 1021.03 ) - ( 618.08, 1021.35 ) on Layer met2
+  violation type: Short
+    srcs: net:_27969_ net:aes_inst.core.dec_block.block_w0_reg[9] 
+    bbox = ( 617.94, 1021.03 ) - ( 618.08, 1021.35 ) on Layer met2
+  violation type: Short
+    srcs: net:_27969_ net:aes_inst.core.dec_block.block_w0_reg[9] 
+    bbox = ( 617.94, 1021.03 ) - ( 618.14, 1021.09 ) on Layer met2
+  violation type: Short
+    srcs: net:_27969_ net:aes_inst.core.dec_block.block_w0_reg[9] 
+    bbox = ( 618.035, 1021.03 ) - ( 618.14, 1021.09 ) on Layer met2
+  violation type: Short
+    srcs: net:_27969_ net:aes_inst.core.dec_block.block_w0_reg[9] 
+    bbox = ( 618.035, 1021.12 ) - ( 618.08, 1021.26 ) on Layer met2
+  violation type: Short
+    srcs: net:_27969_ net:aes_inst.core.dec_block.block_w0_reg[9] 
+    bbox = ( 617.94, 1021.12 ) - ( 618.08, 1021.26 ) on Layer met2
+  violation type: Metal Spacing
+    srcs: net:_27969_ net:aes_inst.core.dec_block.block_w0_reg[9] 
+    bbox = ( 617.94, 1021.09 ) - ( 618.175, 1021.12 ) on Layer met2
+  violation type: Metal Spacing
+    srcs: net:_27969_ net:aes_inst.core.dec_block.block_w0_reg[9] 
+    bbox = ( 618.035, 1021.09 ) - ( 618.175, 1021.12 ) on Layer met2
+  violation type: Short
+    srcs: net:_27969_ net:aes_inst.core.dec_block.block_w0_reg[9] 
+    bbox = ( 618.035, 1021.12 ) - ( 618.08, 1021.21 ) on Layer met2
+  violation type: Short
+    srcs: net:_27969_ net:aes_inst.core.dec_block.block_w0_reg[9] 
+    bbox = ( 617.94, 1021.12 ) - ( 618.08, 1021.21 ) on Layer met2
+  violation type: Metal Spacing
+    srcs: net:_28042_ 
+    bbox = ( 616.56, 1027.21 ) - ( 616.7, 1027.24 ) on Layer met2
+  violation type: Metal Spacing
+    srcs: net:_28042_ 
+    bbox = ( 616.56, 1027.21 ) - ( 617.16, 1027.24 ) on Layer met2
+  violation type: Cut Short
+    srcs: net:_27969_ net:_28061_ 
+    bbox = ( 617.935, 1021.12 ) - ( 618.085, 1021.24 ) on Layer via
+  violation type: Metal Spacing
+    srcs: net:_26833_ 
+    bbox = ( 615.64, 1366.99 ) - ( 616.24, 1367.07 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_26833_ 
+    bbox = ( 615.565, 1366.99 ) - ( 616.24, 1367.07 ) on Layer met1
+  violation type: Short
+    srcs: net:_26807_ net:_26833_ 
+    bbox = ( 616.485, 1366.93 ) - ( 616.775, 1367.07 ) on Layer met1
+  violation type: Short
+    srcs: net:_26807_ net:_26833_ 
+    bbox = ( 616.47, 1366.93 ) - ( 616.79, 1367.07 ) on Layer met1
+  violation type: Short
+    srcs: net:_26807_ net:_26833_ 
+    bbox = ( 616.485, 1366.93 ) - ( 616.775, 1366.99 ) on Layer met1
+  violation type: Short
+    srcs: net:_26807_ net:_26833_ 
+    bbox = ( 616.47, 1366.93 ) - ( 616.79, 1366.99 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_26903_ 
+    bbox = ( 615.105, 1366.76 ) - ( 615.395, 1366.86 ) on Layer met1
+  violation type: Short
+    srcs: net:_26767_ net:_26833_ 
+    bbox = ( 613.28, 1367.24 ) - ( 613.54, 1367.38 ) on Layer met2
+  violation type: Short
+    srcs: net:_26767_ net:_26833_ 
+    bbox = ( 613.34, 1367.24 ) - ( 613.48, 1367.38 ) on Layer met2
+  violation type: Min Hole
+    srcs: net:_26833_ 
+    bbox = ( 615.855, 1366.99 ) - ( 616.1, 1367.07 ) on Layer met1
+  violation type: Short
+    srcs: net:_23109_ net:_23569_ 
+    bbox = ( 197.825, 935.1 ) - ( 198.145, 935.24 ) on Layer met1
+  violation type: Short
+    srcs: net:_23109_ net:_23569_ 
+    bbox = ( 197.825, 935.1 ) - ( 198.175, 935.24 ) on Layer met1
+  violation type: Short
+    srcs: net:_22982_ net:_23109_ 
+    bbox = ( 216.82, 972.16 ) - ( 216.96, 972.36 ) on Layer met1
+  violation type: Short
+    srcs: net:_22982_ net:_23109_ 
+    bbox = ( 216.82, 972.16 ) - ( 216.96, 972.3 ) on Layer met1
+  violation type: Short
+    srcs: net:_22982_ net:_23109_ 
+    bbox = ( 216.73, 972.16 ) - ( 216.96, 972.3 ) on Layer met1
+  violation type: Short
+    srcs: net:_23023_ net:_23244_ 
+    bbox = ( 215.595, 931.73 ) - ( 215.885, 931.87 ) on Layer met1
+  violation type: Short
+    srcs: net:_23023_ net:_23244_ 
+    bbox = ( 215.595, 931.73 ) - ( 215.885, 931.84 ) on Layer met1
+  violation type: Short
+    srcs: net:_23023_ net:_23244_ 
+    bbox = ( 215.79, 931.73 ) - ( 215.885, 931.87 ) on Layer met1
+  violation type: Short
+    srcs: net:_23023_ net:_23244_ 
+    bbox = ( 215.79, 931.73 ) - ( 215.885, 931.84 ) on Layer met1
+  violation type: Short
+    srcs: net:_23023_ net:_23244_ 
+    bbox = ( 215.81, 931.73 ) - ( 215.885, 931.87 ) on Layer met1
+  violation type: Short
+    srcs: net:_23023_ net:_23244_ 
+    bbox = ( 215.81, 931.73 ) - ( 215.885, 931.84 ) on Layer met1
+  violation type: Short
+    srcs: net:_23023_ net:_23244_ 
+    bbox = ( 215.595, 931.73 ) - ( 215.93, 931.87 ) on Layer met1
+  violation type: Short
+    srcs: net:_23023_ net:_23244_ 
+    bbox = ( 215.595, 931.73 ) - ( 215.93, 931.84 ) on Layer met1
+  violation type: Short
+    srcs: net:_23023_ net:_23244_ 
+    bbox = ( 215.79, 931.73 ) - ( 215.93, 931.87 ) on Layer met1
+  violation type: Short
+    srcs: net:_23023_ net:_23244_ 
+    bbox = ( 215.79, 931.73 ) - ( 215.93, 931.84 ) on Layer met1
+  violation type: Short
+    srcs: net:_23023_ net:_23244_ 
+    bbox = ( 215.81, 931.73 ) - ( 215.93, 931.87 ) on Layer met1
+  violation type: Short
+    srcs: net:_23023_ net:_23244_ 
+    bbox = ( 215.81, 931.73 ) - ( 215.93, 931.84 ) on Layer met1
+  violation type: Short
+    srcs: net:_23023_ net:_23244_ 
+    bbox = ( 215.79, 931.869 ) - ( 216.04, 931.871 ) on Layer met1
+  violation type: Short
+    srcs: net:_23023_ net:_23244_ 
+    bbox = ( 215.81, 931.869 ) - ( 216.04, 931.871 ) on Layer met1
+  violation type: Short
+    srcs: net:_23023_ net:_23244_ 
+    bbox = ( 215.595, 931.869 ) - ( 216.04, 931.871 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_23023_ net:_23244_ 
+    bbox = ( 215.81, 931.87 ) - ( 216.13, 931.98 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_23023_ net:_23244_ 
+    bbox = ( 215.79, 931.87 ) - ( 216.13, 931.98 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_22992_ 
+    bbox = ( 211.685, 931.885 ) - ( 211.975, 931.98 ) on Layer met1
+  violation type: Short
+    srcs: net:_23073_ net:_23554_ 
+    bbox = ( 222.725, 934.08 ) - ( 223.015, 934.22 ) on Layer met1
+  violation type: Short
+    srcs: net:_23073_ net:_23554_ 
+    bbox = ( 222.34, 934.09 ) - ( 222.48, 934.22 ) on Layer met1
+  violation type: Short
+    srcs: net:_23073_ net:_23554_ 
+    bbox = ( 222.34, 934.09 ) - ( 222.48, 934.265 ) on Layer met1
+  violation type: Short
+    srcs: net:_23073_ net:_23554_ 
+    bbox = ( 222.34, 934.09 ) - ( 223.015, 934.22 ) on Layer met1
+  violation type: Short
+    srcs: net:_23073_ net:_23554_ 
+    bbox = ( 222.34, 934.09 ) - ( 222.525, 934.23 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_22986_ 
+    bbox = ( 235.145, 975.08 ) - ( 235.435, 975.175 ) on Layer met1
+  violation type: Short
+    srcs: net:_22991_ net:_23006_ 
+    bbox = ( 223.645, 972.13 ) - ( 223.86, 972.27 ) on Layer met1
+  violation type: Short
+    srcs: net:_22991_ net:_23006_ 
+    bbox = ( 223.72, 972.115 ) - ( 223.86, 972.27 ) on Layer met1
+  violation type: Short
+    srcs: net:_22991_ net:_23006_ 
+    bbox = ( 223.72, 972.13 ) - ( 223.86, 972.27 ) on Layer met1
+  violation type: Short
+    srcs: net:_22991_ net:_23006_ 
+    bbox = ( 223.645, 972.21 ) - ( 223.86, 972.27 ) on Layer met1
+  violation type: Short
+    srcs: net:_22991_ net:_23006_ 
+    bbox = ( 223.72, 972.21 ) - ( 223.86, 972.27 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_23055_ 
+    bbox = ( 232.41, 966.69 ) - ( 232.6, 966.725 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_23092_ 
+    bbox = ( 229.165, 966.905 ) - ( 229.455, 967 ) on Layer met1
+  violation type: Short
+    srcs: net:_23025_ net:_23094_ 
+    bbox = ( 231.57, 966.38 ) - ( 231.71, 966.52 ) on Layer met1
+  violation type: Short
+    srcs: net:_23025_ net:_23094_ 
+    bbox = ( 231.08, 966.38 ) - ( 231.22, 966.52 ) on Layer met1
+  violation type: Short
+    srcs: net:_23025_ net:_23094_ 
+    bbox = ( 231.08, 966.38 ) - ( 231.71, 966.52 ) on Layer met1
+  violation type: Short
+    srcs: net:_23099_ net:_23107_ 
+    bbox = ( 231.005, 979.64 ) - ( 231.11, 979.78 ) on Layer met1
+  violation type: Short
+    srcs: net:_23099_ net:_23107_ 
+    bbox = ( 231.005, 979.64 ) - ( 231.11, 979.825 ) on Layer met1
+  violation type: Short
+    srcs: net:_23132_ net:_23569_ 
+    bbox = ( 198.48, 937.14 ) - ( 198.56, 937.28 ) on Layer met2
+  violation type: Short
+    srcs: net:_23132_ net:_23569_ 
+    bbox = ( 198.48, 937.14 ) - ( 198.62, 937.28 ) on Layer met2
+  violation type: Metal Spacing
+    srcs: net:_22982_ 
+    bbox = ( 248.32, 963.07 ) - ( 248.48, 963.37 ) on Layer met3
+  violation type: Metal Spacing
+    srcs: net:_22982_ 
+    bbox = ( 248.32, 963.07 ) - ( 248.48, 963.38 ) on Layer met3
+  violation type: Metal Spacing
+    srcs: net:_22982_ 
+    bbox = ( 248.32, 963.07 ) - ( 248.48, 963.54 ) on Layer met3
+  violation type: Short
+    srcs: net:_23694_ net:_23739_ 
+    bbox = ( 321.24, 947 ) - ( 321.38, 947.14 ) on Layer met1
+  violation type: Short
+    srcs: net:_23694_ net:_23739_ 
+    bbox = ( 321.52, 947 ) - ( 321.66, 947.14 ) on Layer met1
+  violation type: Short
+    srcs: net:_23694_ net:_23739_ 
+    bbox = ( 321.24, 947 ) - ( 321.66, 947.14 ) on Layer met1
+  violation type: Short
+    srcs: net:_23675_ net:_23694_ 
+    bbox = ( 310.23, 947.68 ) - ( 310.37, 947.82 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_23639_ net:_23694_ 
+    bbox = ( 310.185, 947.975 ) - ( 310.23, 947.99 ) on Layer met1
+  violation type: Short
+    srcs: net:_23694_ net:_23727_ 
+    bbox = ( 313.42, 947.34 ) - ( 313.56, 947.48 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_23675_ net:_23694_ 
+    bbox = ( 310.43, 947.82 ) - ( 310.57, 947.85 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_23694_ 
+    bbox = ( 310.57, 947.975 ) - ( 310.585, 948.16 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_23675_ net:_23694_ 
+    bbox = ( 310.23, 947.82 ) - ( 310.57, 947.85 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_23694_ 
+    bbox = ( 310.57, 947.975 ) - ( 310.585, 947.99 ) on Layer met1
+  violation type: Short
+    srcs: net:_23727_ net:_23767_ 
+    bbox = ( 313.42, 948.02 ) - ( 313.56, 948.155 ) on Layer met1
+  violation type: Short
+    srcs: net:_23727_ net:_23767_ 
+    bbox = ( 313.42, 947.85 ) - ( 313.56, 948.155 ) on Layer met1
+  violation type: Short
+    srcs: net:_23727_ net:_23767_ 
+    bbox = ( 313.42, 947.85 ) - ( 313.56, 947.99 ) on Layer met1
+  violation type: Short
+    srcs: net:_23727_ net:_23767_ 
+    bbox = ( 313.345, 948.02 ) - ( 313.56, 948.155 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_23727_ net:_23767_ 
+    bbox = ( 313.235, 947.975 ) - ( 313.345, 948.155 ) on Layer met1
+  violation type: Short
+    srcs: net:_23727_ net:_23767_ 
+    bbox = ( 313.42, 947.925 ) - ( 313.56, 948.155 ) on Layer met1
+  violation type: Short
+    srcs: net:_23727_ net:_23767_ 
+    bbox = ( 313.42, 947.925 ) - ( 313.635, 947.99 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_23665_ net:_24146_ 
+    bbox = ( 310.415, 953.075 ) - ( 310.43, 953.26 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_23665_ net:_24146_ 
+    bbox = ( 310.415, 953.12 ) - ( 310.43, 953.26 ) on Layer met1
+  violation type: Short
+    srcs: net:_23584_ net:_24029_ 
+    bbox = ( 351.17, 932.04 ) - ( 351.49, 932.18 ) on Layer met1
+  violation type: Short
+    srcs: net:_23584_ net:_24029_ 
+    bbox = ( 351.065, 932.04 ) - ( 351.49, 932.18 ) on Layer met1
+  violation type: Short
+    srcs: net:_23641_ net:_23757_ 
+    bbox = ( 319.4, 948.64 ) - ( 319.54, 948.84 ) on Layer met1
+  violation type: Short
+    srcs: net:_23641_ net:_23757_ 
+    bbox = ( 319.4, 948.7 ) - ( 319.63, 948.84 ) on Layer met1
+  violation type: Short
+    srcs: net:_23641_ net:_23757_ 
+    bbox = ( 319.4, 948.7 ) - ( 319.54, 948.84 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_23740_ 
+    bbox = ( 310.585, 952.625 ) - ( 310.875, 952.72 ) on Layer met1
+  violation type: Short
+    srcs: net:_23740_ net:_24146_ 
+    bbox = ( 310.569, 952.78 ) - ( 310.571, 952.98 ) on Layer met1
+  violation type: Short
+    srcs: net:_23740_ net:_24146_ 
+    bbox = ( 310.569, 952.78 ) - ( 310.571, 952.92 ) on Layer met1
+  violation type: Short
+    srcs: net:_23723_ net:_23769_ 
+    bbox = ( 314.71, 948.19 ) - ( 314.94, 948.22 ) on Layer met1
+  violation type: Short
+    srcs: net:_23723_ net:_23769_ 
+    bbox = ( 314.8, 948.19 ) - ( 314.94, 948.22 ) on Layer met1
+  violation type: Short
+    srcs: net:_23663_ net:_23723_ 
+    bbox = ( 311.58, 952.78 ) - ( 311.72, 952.92 ) on Layer met1
+  violation type: Short
+    srcs: net:_23675_ net:_23767_ 
+    bbox = ( 312.945, 948.02 ) - ( 313.19, 948.16 ) on Layer met1
+  violation type: Short
+    srcs: net:_23675_ net:_23767_ 
+    bbox = ( 312.945, 947.975 ) - ( 313.19, 948.205 ) on Layer met1
+  violation type: Short
+    srcs: net:_23702_ net:_24147_ 
+    bbox = ( 316.64, 958.9 ) - ( 316.87, 959.04 ) on Layer met1
+  violation type: Short
+    srcs: net:_23702_ net:_24147_ 
+    bbox = ( 316.55, 958.93 ) - ( 316.87, 959.04 ) on Layer met1
+  violation type: Short
+    srcs: net:_23702_ net:_24147_ 
+    bbox = ( 316.64, 958.9 ) - ( 316.78, 959.07 ) on Layer met1
+  violation type: Short
+    srcs: net:_23702_ net:_24147_ 
+    bbox = ( 316.55, 958.93 ) - ( 316.78, 959.07 ) on Layer met1
+  violation type: Short
+    srcs: net:_23702_ net:_23750_ 
+    bbox = ( 316.18, 958.93 ) - ( 316.32, 959.04 ) on Layer met1
+  violation type: Short
+    srcs: net:_23702_ net:_23750_ 
+    bbox = ( 316.18, 958.93 ) - ( 316.32, 959.07 ) on Layer met1
+  violation type: Short
+    srcs: net:_23702_ net:_23750_ 
+    bbox = ( 316.18, 958.855 ) - ( 316.32, 959.085 ) on Layer met1
+  violation type: Short
+    srcs: net:_23659_ net:_23750_ 
+    bbox = ( 315.17, 959.58 ) - ( 315.49, 959.72 ) on Layer met1
+  violation type: Short
+    srcs: net:_23659_ net:_23750_ 
+    bbox = ( 315.26, 959.58 ) - ( 315.4, 959.72 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_23712_ net:_23767_ 
+    bbox = ( 314.17, 947.975 ) - ( 314.265, 947.99 ) on Layer met1
+  violation type: Short
+    srcs: net:_23712_ net:_23769_ 
+    bbox = ( 314.265, 948.19 ) - ( 314.555, 948.33 ) on Layer met1
+  violation type: Short
+    srcs: net:_23712_ net:_23769_ 
+    bbox = ( 314.25, 948.19 ) - ( 314.57, 948.33 ) on Layer met1
+  violation type: Short
+    srcs: net:_23757_ net:_23769_ 
+    bbox = ( 319.4, 948.36 ) - ( 319.54, 948.5 ) on Layer met1
+  violation type: Short
+    srcs: net:_23725_ net:_24144_ 
+    bbox = ( 313.42, 958.9 ) - ( 313.56, 959.04 ) on Layer met1
+  violation type: Short
+    srcs: net:_23725_ net:_24144_ 
+    bbox = ( 313.42, 958.855 ) - ( 313.56, 959.04 ) on Layer met1
+  violation type: Short
+    srcs: net:_23725_ net:_24144_ 
+    bbox = ( 313.42, 958.9 ) - ( 313.56, 959.03 ) on Layer met1
+  violation type: Short
+    srcs: net:_23725_ net:_24144_ 
+    bbox = ( 313.42, 958.9 ) - ( 313.575, 959.04 ) on Layer met1
+  violation type: Short
+    srcs: net:_23725_ net:_24144_ 
+    bbox = ( 313.42, 958.9 ) - ( 313.575, 959.03 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_23725_ 
+    bbox = ( 314.02, 958.9 ) - ( 314.065, 959.04 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_23725_ 
+    bbox = ( 314.02, 958.9 ) - ( 314.065, 959.07 ) on Layer met1
+  violation type: Short
+    srcs: net:_23725_ net:_24144_ 
+    bbox = ( 313.42, 958.93 ) - ( 313.575, 959.04 ) on Layer met1
+  violation type: Short
+    srcs: net:_23725_ net:_24144_ 
+    bbox = ( 313.42, 958.93 ) - ( 313.575, 959.03 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_23659_ net:_24144_ 
+    bbox = ( 313.235, 958.855 ) - ( 313.285, 959.085 ) on Layer met1
+  violation type: Short
+    srcs: net:_23659_ net:_24144_ 
+    bbox = ( 312.96, 958.9 ) - ( 313.1, 959.04 ) on Layer met1
+  violation type: Short
+    srcs: net:_23659_ net:_24144_ 
+    bbox = ( 312.945, 958.9 ) - ( 313.235, 959.04 ) on Layer met1
+  violation type: Short
+    srcs: net:_23659_ net:_24144_ 
+    bbox = ( 312.96, 958.9 ) - ( 313.1, 959.03 ) on Layer met1
+  violation type: Short
+    srcs: net:_23659_ net:_24144_ 
+    bbox = ( 312.945, 958.9 ) - ( 313.235, 959.03 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_23730_ 
+    bbox = ( 324.83, 993.44 ) - ( 325.15, 993.52 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_23796_ 
+    bbox = ( 325.305, 953.32 ) - ( 325.595, 953.415 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_23947_ 
+    bbox = ( 372.67, 981 ) - ( 372.76, 981.14 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_23947_ 
+    bbox = ( 372.67, 980.66 ) - ( 372.76, 981.14 ) on Layer met1
+  violation type: Short
+    srcs: net:_23727_ net:_23767_ 
+    bbox = ( 341.48, 937.875 ) - ( 341.62, 937.96 ) on Layer met2
+  violation type: Short
+    srcs: net:_23727_ net:_23767_ 
+    bbox = ( 341.48, 937.82 ) - ( 341.62, 937.96 ) on Layer met2
+  violation type: Short
+    srcs: net:_23727_ net:_23767_ 
+    bbox = ( 341.48, 937.73 ) - ( 341.62, 937.96 ) on Layer met2
+  violation type: Short
+    srcs: net:_23727_ net:_23767_ 
+    bbox = ( 341.48, 937.875 ) - ( 341.68, 937.96 ) on Layer met2
+  violation type: Short
+    srcs: net:_23727_ net:_23767_ 
+    bbox = ( 341.48, 937.82 ) - ( 341.68, 937.96 ) on Layer met2
+  violation type: Metal Spacing
+    srcs: net:_23637_ net:_23663_ 
+    bbox = ( 312.04, 950.2 ) - ( 312.18, 950.31 ) on Layer met2
+  violation type: Short
+    srcs: net:_23637_ net:_24082_ 
+    bbox = ( 312.04, 949.55 ) - ( 312.18, 949.69 ) on Layer met2
+  violation type: Metal Spacing
+    srcs: net:_23637_ net:_23663_ 
+    bbox = ( 312.04, 950.2 ) - ( 312.24, 950.31 ) on Layer met2
+  violation type: Short
+    srcs: net:_24147_ net:_24221_ 
+    bbox = ( 316.68, 958.81 ) - ( 316.78, 959.13 ) on Layer met2
+  violation type: Short
+    srcs: net:_24147_ net:_24221_ 
+    bbox = ( 316.68, 958.9 ) - ( 316.78, 959.04 ) on Layer met2
+  violation type: Short
+    srcs: net:_24147_ net:_24221_ 
+    bbox = ( 316.68, 958.81 ) - ( 316.79, 959.04 ) on Layer met2
+  violation type: Short
+    srcs: net:_24147_ net:_24221_ 
+    bbox = ( 316.68, 958.9 ) - ( 316.79, 959.04 ) on Layer met2
+  violation type: Short
+    srcs: net:_24147_ net:_24221_ 
+    bbox = ( 316.65, 958.81 ) - ( 316.79, 959.04 ) on Layer met2
+  violation type: Short
+    srcs: net:_24147_ net:_24221_ 
+    bbox = ( 316.65, 958.9 ) - ( 316.79, 959.04 ) on Layer met2
+  violation type: Short
+    srcs: net:_24147_ net:_24221_ 
+    bbox = ( 316.65, 958.81 ) - ( 316.78, 959.13 ) on Layer met2
+  violation type: Short
+    srcs: net:_24147_ net:_24221_ 
+    bbox = ( 316.65, 958.9 ) - ( 316.78, 959.04 ) on Layer met2
+  violation type: Short
+    srcs: net:_24147_ net:_24221_ 
+    bbox = ( 316.64, 958.9 ) - ( 316.78, 959.13 ) on Layer met2
+  violation type: Short
+    srcs: net:_24147_ net:_24221_ 
+    bbox = ( 316.64, 958.9 ) - ( 316.78, 959.04 ) on Layer met2
+  violation type: Short
+    srcs: net:_24147_ net:_24221_ 
+    bbox = ( 316.64, 958.9 ) - ( 316.79, 959.04 ) on Layer met2
+  violation type: Metal Spacing
+    srcs: net:_24147_ net:_24221_ 
+    bbox = ( 316.58, 959.13 ) - ( 316.78, 959.24 ) on Layer met2
+  violation type: Short
+    srcs: net:_23740_ net:_24082_ 
+    bbox = ( 311.58, 949.55 ) - ( 311.72, 949.69 ) on Layer met2
+  violation type: Short
+    srcs: net:_23636_ net:_23740_ 
+    bbox = ( 310.66, 952.44 ) - ( 310.8, 952.58 ) on Layer met2
+  violation type: Metal Spacing
+    srcs: net:_23636_ net:_23740_ 
+    bbox = ( 310.6, 952.58 ) - ( 310.86, 952.69 ) on Layer met2
+  violation type: Short
+    srcs: net:_24051_ net:_24280_ 
+    bbox = ( 320.82, 943.43 ) - ( 320.88, 944.25 ) on Layer met2
+  violation type: Metal Spacing
+    srcs: net:_24051_ net:_24280_ 
+    bbox = ( 320.74, 944.25 ) - ( 320.88, 944.28 ) on Layer met2
+  violation type: Short
+    srcs: net:_24051_ net:_24280_ 
+    bbox = ( 320.82, 943.43 ) - ( 320.88, 944.42 ) on Layer met2
+  violation type: Short
+    srcs: net:_24051_ net:_24280_ 
+    bbox = ( 320.78, 944.28 ) - ( 320.88, 944.42 ) on Layer met2
+  violation type: Short
+    srcs: net:_24051_ net:_24280_ 
+    bbox = ( 320.82, 943.43 ) - ( 320.87, 944.42 ) on Layer met2
+  violation type: Short
+    srcs: net:_24051_ net:_24280_ 
+    bbox = ( 320.78, 944.28 ) - ( 320.87, 944.42 ) on Layer met2
+  violation type: Short
+    srcs: net:_24051_ net:_24280_ 
+    bbox = ( 320.82, 943.43 ) - ( 320.88, 943.57 ) on Layer met2
+  violation type: Short
+    srcs: net:_24051_ net:_24280_ 
+    bbox = ( 320.82, 944.11 ) - ( 320.92, 944.42 ) on Layer met2
+  violation type: Short
+    srcs: net:_24051_ net:_24280_ 
+    bbox = ( 320.78, 944.28 ) - ( 320.92, 944.42 ) on Layer met2
+  violation type: Short
+    srcs: net:_24051_ net:_24280_ 
+    bbox = ( 320.82, 944.11 ) - ( 320.92, 944.25 ) on Layer met2
+  violation type: Metal Spacing
+    srcs: net:_24051_ net:_24280_ 
+    bbox = ( 320.74, 944.25 ) - ( 320.92, 944.28 ) on Layer met2
+  violation type: Metal Spacing
+    srcs: net:VGND net:_23695_ 
+    bbox = ( 312.96, 959.89 ) - ( 313.1, 959.975 ) on Layer met2
+  violation type: Metal Spacing
+    srcs: net:_23695_ net:_23776_ 
+    bbox = ( 312.5, 959.72 ) - ( 312.64, 959.75 ) on Layer met2
+  violation type: Metal Spacing
+    srcs: net:VGND net:_23695_ 
+    bbox = ( 312.94, 959.89 ) - ( 313.1, 959.975 ) on Layer met2
+  violation type: Metal Spacing
+    srcs: net:_23730_ 
+    bbox = ( 324.86, 993.47 ) - ( 325.12, 993.49 ) on Layer met2
+  violation type: Short
+    srcs: net:_23720_ net:_24155_ 
+    bbox = ( 316.64, 979.98 ) - ( 316.78, 980.12 ) on Layer met2
+  violation type: Short
+    srcs: net:_23720_ net:_24155_ 
+    bbox = ( 316.64, 979.98 ) - ( 316.78, 980.29 ) on Layer met2
+  violation type: Metal Spacing
+    srcs: net:_23720_ net:_24155_ 
+    bbox = ( 316.18, 980.12 ) - ( 316.78, 980.15 ) on Layer met2
+  violation type: Short
+    srcs: net:_23720_ net:_24155_ 
+    bbox = ( 316.64, 980.15 ) - ( 316.78, 980.29 ) on Layer met2
+  violation type: Metal Spacing
+    srcs: net:_23720_ net:_24155_ 
+    bbox = ( 316.18, 980.12 ) - ( 316.32, 980.15 ) on Layer met2
+  violation type: Metal Spacing
+    srcs: net:_23720_ net:_24155_ 
+    bbox = ( 316.18, 980.12 ) - ( 316.38, 980.15 ) on Layer met2
+  violation type: Metal Spacing
+    srcs: net:_23720_ net:_24155_ 
+    bbox = ( 316.18, 980.12 ) - ( 316.38, 980.23 ) on Layer met2
+  violation type: Metal Spacing
+    srcs: net:_23720_ net:_24155_ 
+    bbox = ( 316.18, 980.12 ) - ( 316.32, 980.23 ) on Layer met2
+  violation type: Metal Spacing
+    srcs: net:_23720_ net:_24155_ 
+    bbox = ( 316.18, 980.12 ) - ( 316.78, 980.23 ) on Layer met2
+  violation type: Short
+    srcs: net:_23720_ net:_24155_ 
+    bbox = ( 316.64, 980.23 ) - ( 316.78, 980.29 ) on Layer met2
+  violation type: Metal Spacing
+    srcs: net:_24155_ 
+    bbox = ( 316.18, 979.87 ) - ( 316.41, 979.98 ) on Layer met2
+  violation type: Short
+    srcs: net:_23735_ net:_23808_ 
+    bbox = ( 342.4, 937.48 ) - ( 342.54, 937.62 ) on Layer met2
+  violation type: Short
+    srcs: net:_23735_ net:_23808_ 
+    bbox = ( 342.4, 937.48 ) - ( 342.54, 938.13 ) on Layer met2
+  violation type: Short
+    srcs: net:_23735_ net:_23808_ 
+    bbox = ( 342.4, 937.99 ) - ( 342.54, 938.13 ) on Layer met2
+  violation type: Short
+    srcs: net:_23773_ net:_23983_ 
+    bbox = ( 347, 957.71 ) - ( 347.14, 957.85 ) on Layer met2
+  violation type: Short
+    srcs: net:_23938_ net:_23983_ 
+    bbox = ( 347, 958.275 ) - ( 347.14, 958.36 ) on Layer met2
+  violation type: Short
+    srcs: net:_23938_ net:_23983_ 
+    bbox = ( 347, 958.275 ) - ( 347.21, 958.36 ) on Layer met2
+  violation type: Metal Spacing
+    srcs: net:_23639_ net:_23938_ 
+    bbox = ( 318.4, 958.71 ) - ( 318.7, 958.95 ) on Layer met3
+  violation type: Metal Spacing
+    srcs: net:_23639_ 
+    bbox = ( 318.59, 959.46 ) - ( 318.7, 959.66 ) on Layer met3
+  violation type: Metal Spacing
+    srcs: net:_23639_ 
+    bbox = ( 318.4, 959.46 ) - ( 318.7, 959.67 ) on Layer met3
+  violation type: Metal Spacing
+    srcs: net:_23639_ net:_23938_ 
+    bbox = ( 318.4, 958.71 ) - ( 318.7, 958.99 ) on Layer met3
+  violation type: Metal Spacing
+    srcs: net:_23639_ 
+    bbox = ( 317.94, 959.46 ) - ( 318.7, 959.67 ) on Layer met3
+  violation type: Cut Spacing
+    srcs: net:_23659_ net:_24144_ 
+    bbox = ( 313.175, 958.885 ) - ( 313.345, 959.055 ) on Layer mcon
+  violation type: Metal Spacing
+    srcs: net:_28066_ 
+    bbox = ( 619.78, 988.665 ) - ( 619.985, 988.73 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_28066_ 
+    bbox = ( 619.78, 988.62 ) - ( 619.985, 988.73 ) on Layer met1
+  violation type: Short
+    srcs: net:_28066_ net:_28665_ 
+    bbox = ( 619.235, 988.59 ) - ( 619.525, 988.62 ) on Layer met1
+  violation type: Short
+    srcs: net:_28066_ net:_28665_ 
+    bbox = ( 619.23, 988.59 ) - ( 619.55, 988.62 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_26783_ 
+    bbox = ( 579.685, 1317.8 ) - ( 579.975, 1317.89 ) on Layer met1
+  violation type: Short
+    srcs: net:_26964_ net:_27618_ 
+    bbox = ( 620.93, 1360.44 ) - ( 621.07, 1360.92 ) on Layer met1
+  violation type: Short
+    srcs: net:_26964_ net:_27618_ 
+    bbox = ( 620.93, 1360.44 ) - ( 621.07, 1360.58 ) on Layer met1
+  violation type: Short
+    srcs: net:_26964_ net:_27618_ 
+    bbox = ( 620.93, 1360.78 ) - ( 621.07, 1360.92 ) on Layer met1
+  violation type: Short
+    srcs: net:_27618_ net:_27622_ 
+    bbox = ( 620.93, 1361.13 ) - ( 621.07, 1361.26 ) on Layer met1
+  violation type: Short
+    srcs: net:_27618_ net:_27622_ 
+    bbox = ( 620.93, 1361.12 ) - ( 621.07, 1361.26 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_27618_ net:_27622_ 
+    bbox = ( 620.87, 1361.12 ) - ( 620.93, 1361.6 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_27618_ 
+    bbox = ( 620.915, 1361.41 ) - ( 620.93, 1361.6 ) on Layer met1
+  violation type: Short
+    srcs: net:_27613_ net:_27618_ 
+    bbox = ( 621.05, 1361.41 ) - ( 621.07, 1361.6 ) on Layer met1
+  violation type: Short
+    srcs: net:_27618_ net:_27622_ 
+    bbox = ( 620.73, 1361.41 ) - ( 620.87, 1361.6 ) on Layer met1
+  violation type: Short
+    srcs: net:_27618_ net:_27622_ 
+    bbox = ( 620.625, 1361.46 ) - ( 620.87, 1361.6 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_27613_ net:_27618_ 
+    bbox = ( 620.915, 1361.41 ) - ( 621.05, 1361.64 ) on Layer met1
+  violation type: Short
+    srcs: net:_27618_ net:_27622_ 
+    bbox = ( 620.73, 1361.46 ) - ( 620.87, 1361.6 ) on Layer met1
+  violation type: Short
+    srcs: net:_27613_ net:_27618_ 
+    bbox = ( 621.05, 1361.46 ) - ( 621.07, 1361.6 ) on Layer met1
+  violation type: Metal Spacing
+    srcs: net:_27085_ 
+    bbox = ( 618.86, 1358.2 ) - ( 619, 1358.23 ) on Layer met2
+  violation type: Metal Spacing
+    srcs: net:_27085_ 
+    bbox = ( 618.75, 1358.2 ) - ( 619, 1358.23 ) on Layer met2
