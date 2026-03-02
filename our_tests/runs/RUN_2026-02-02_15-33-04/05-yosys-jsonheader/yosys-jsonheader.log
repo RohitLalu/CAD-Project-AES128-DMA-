@@ -1,0 +1,1209 @@
+
+ /----------------------------------------------------------------------------\
+ |  yosys -- Yosys Open SYnthesis Suite                                       |
+ |  Copyright (C) 2012 - 2024  Claire Xenia Wolf <claire@yosyshq.com>         |
+ |  Distributed under an ISC-like license, type "license" to see terms        |
+ \----------------------------------------------------------------------------/
+ Yosys 0.46 (git sha1 e97731b9dda91fa5fa53ed87df7c34163ba59a41, clang++ 16.0.6 -fPIC -O3)
+Loaded SDC plugin
+
+1. Executing Verilog-2005 frontend: /Users/hello.welcometothisdevice/CAD-Project-AES128-DMA-/our_tests/runs/RUN_2026-02-02_15-33-04/tmp/d934184a95834ff397307df1bad652cd.bb.v
+Parsing SystemVerilog input from `/Users/hello.welcometothisdevice/CAD-Project-AES128-DMA-/our_tests/runs/RUN_2026-02-02_15-33-04/tmp/d934184a95834ff397307df1bad652cd.bb.v' to AST representation.
+Generating RTLIL representation for module `\sky130_ef_sc_hd__decap_12'.
+Generating RTLIL representation for module `\sky130_ef_sc_hd__fill_12'.
+Generating RTLIL representation for module `\sky130_ef_sc_hd__fill_4'.
+Generating RTLIL representation for module `\sky130_ef_sc_hd__fill_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2111o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2111o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2111o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2111oi_0'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2111oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2111oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2111oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a211o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a211o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a211o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a211oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a211oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a211oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21bo_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21bo_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21bo_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21boi_0'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21boi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21boi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21boi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a221o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a221o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a221o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a221oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a221oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a221oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a222oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a22o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a22o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a22o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a22oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a22oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a22oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2bb2o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2bb2o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2bb2o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2bb2oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2bb2oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2bb2oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a311o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a311o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a311o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a311oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a311oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a311oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a31o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a31o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a31o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a31oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a31oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a31oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a32o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a32o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a32o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a32oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a32oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a32oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a41o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a41o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a41o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a41oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a41oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a41oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and2_0'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and2_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and2_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and2b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and2b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and2b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and3_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and3_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and3_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and3b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and3b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and3b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and4_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and4_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and4_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and4b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and4b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and4b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and4bb_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and4bb_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and4bb_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__buf_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__buf_12'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__buf_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__buf_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__buf_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__buf_6'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__buf_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__bufbuf_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__bufbuf_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__bufinv_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__bufinv_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkbuf_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkbuf_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkbuf_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkbuf_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkbuf_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkdlybuf4s15_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkdlybuf4s15_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkdlybuf4s18_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkdlybuf4s18_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkdlybuf4s25_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkdlybuf4s25_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkdlybuf4s50_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkdlybuf4s50_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkinv_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkinv_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkinv_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkinv_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkinv_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkinvlp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkinvlp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__conb_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__decap_12'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__decap_3'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__decap_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__decap_6'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__decap_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfbbn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfbbn_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfbbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfrbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfrbp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfrtn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfrtp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfrtp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfrtp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfsbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfsbp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfstp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfstp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfstp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfxbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfxbp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfxtp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfxtp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfxtp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__diode_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlclkp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlclkp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlclkp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrbn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrbn_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrbp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrtn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrtn_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrtn_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrtp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrtp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrtp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlxbn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlxbn_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlxbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlxtn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlxtn_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlxtn_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlxtp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlygate4sd1_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlygate4sd2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlygate4sd3_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlymetal6s2s_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlymetal6s4s_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlymetal6s6s_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__ebufn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__ebufn_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__ebufn_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__ebufn_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__edfxbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__edfxtp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__einvn_0'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__einvn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__einvn_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__einvn_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__einvn_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__einvp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__einvp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__einvp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__einvp_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fa_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fa_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fa_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fah_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fahcin_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fahcon_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fill_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fill_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fill_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fill_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__ha_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__ha_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__ha_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__inv_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__inv_12'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__inv_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__inv_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__inv_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__inv_6'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__inv_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_bleeder_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkbufkapwr_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkbufkapwr_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkbufkapwr_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkbufkapwr_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkbufkapwr_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkinvkapwr_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkinvkapwr_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkinvkapwr_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkinvkapwr_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkinvkapwr_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_decapkapwr_12'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_decapkapwr_3'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_decapkapwr_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_decapkapwr_6'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_decapkapwr_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_inputiso0n_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_inputiso0p_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_inputiso1n_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_inputiso1p_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_inputisolatch_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_isobufsrc_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_isobufsrc_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_isobufsrc_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_isobufsrc_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_isobufsrc_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_isobufsrckapwr_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__macro_sparecell'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__maj3_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__maj3_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__maj3_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux2_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux2_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux2_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux2i_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux2i_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux2i_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux4_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux4_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux4_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand2_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand2_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand2_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand2b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand2b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand2b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand3_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand3_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand3_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand3b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand3b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand3b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand4_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand4_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand4_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand4b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand4b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand4b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand4bb_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand4bb_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand4bb_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor2_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor2_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor2_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor2b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor2b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor2b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor3_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor3_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor3_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor3b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor3b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor3b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor4_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor4_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor4_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor4b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor4b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor4b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor4bb_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor4bb_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor4bb_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2111a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2111a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2111a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2111ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2111ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2111ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o211a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o211a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o211a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o211ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o211ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o211ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21ai_0'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21ba_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21ba_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21ba_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21bai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21bai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21bai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o221a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o221a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o221a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o221ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o221ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o221ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o22a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o22a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o22a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o22ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o22ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o22ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2bb2a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2bb2a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2bb2a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2bb2ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2bb2ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2bb2ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o311a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o311a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o311a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o311ai_0'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o311ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o311ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o311ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o31a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o31a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o31a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o31ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o31ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o31ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o32a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o32a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o32a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o32ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o32ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o32ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o41a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o41a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o41a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o41ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o41ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o41ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or2_0'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or2_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or2_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or2b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or2b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or2b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or3_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or3_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or3_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or3b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or3b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or3b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or4_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or4_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or4_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or4b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or4b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or4b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or4bb_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or4bb_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or4bb_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__probe_p_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__probec_p_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfbbn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfbbn_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfbbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfrbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfrbp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfrtn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfrtp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfrtp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfrtp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfsbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfsbp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfstp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfstp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfstp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfxbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfxbp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfxtp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfxtp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfxtp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdlclkp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdlclkp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdlclkp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sedfxbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sedfxbp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sedfxtp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sedfxtp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sedfxtp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__tap_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__tap_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__tapvgnd2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__tapvgnd_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__tapvpwrvgnd_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xnor2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xnor2_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xnor2_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xnor3_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xnor3_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xnor3_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xor2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xor2_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xor2_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xor3_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xor3_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xor3_4'.
+Successfully finished Verilog frontend.
+
+2. Executing Verilog-2005 frontend: ../picorv32/picorv32.v
+Parsing SystemVerilog input from `../picorv32/picorv32.v' to AST representation.
+Storing AST representation for module `$abstract\picorv32'.
+Storing AST representation for module `$abstract\picorv32_regs'.
+Storing AST representation for module `$abstract\picorv32_pcpi_mul'.
+Storing AST representation for module `$abstract\picorv32_pcpi_fast_mul'.
+Storing AST representation for module `$abstract\picorv32_pcpi_div'.
+Storing AST representation for module `$abstract\picorv32_axi'.
+Storing AST representation for module `$abstract\picorv32_axi_adapter'.
+Storing AST representation for module `$abstract\picorv32_wb'.
+Successfully finished Verilog frontend.
+
+3. Executing HIERARCHY pass (managing design hierarchy).
+
+4. Executing AST frontend in derive mode using pre-parsed AST for module `\picorv32'.
+Generating RTLIL representation for module `\picorv32'.
+
+4.1. Analyzing design hierarchy..
+Top module:  \picorv32
+
+4.2. Analyzing design hierarchy..
+Top module:  \picorv32
+Removing unused module `$abstract\picorv32_wb'.
+Removing unused module `$abstract\picorv32_axi_adapter'.
+Removing unused module `$abstract\picorv32_axi'.
+Removing unused module `$abstract\picorv32_pcpi_div'.
+Removing unused module `$abstract\picorv32_pcpi_fast_mul'.
+Removing unused module `$abstract\picorv32_pcpi_mul'.
+Removing unused module `$abstract\picorv32_regs'.
+Removing unused module `$abstract\picorv32'.
+Removed 8 unused modules.
+Renaming module picorv32 to picorv32.
+
+5. Executing PROC pass (convert processes to netlists).
+
+5.1. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Found and cleaned up 1 empty switch in `\picorv32.$proc$../picorv32/picorv32.v:0$688'.
+Removing empty process `picorv32.$proc$../picorv32/picorv32.v:0$688'.
+Found and cleaned up 17 empty switches in `\picorv32.$proc$../picorv32/picorv32.v:1402$509'.
+Found and cleaned up 1 empty switch in `\picorv32.$proc$../picorv32/picorv32.v:1348$493'.
+Found and cleaned up 6 empty switches in `\picorv32.$proc$../picorv32/picorv32.v:546$129'.
+Removing empty process `picorv32.$proc$../picorv32/picorv32.v:546$129'.
+Cleaned up 25 empty switches.
+
+5.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).
+Marked 34 switch rules as full_case in process $proc$../picorv32/picorv32.v:1402$509 in module picorv32.
+Marked 1 switch rules as full_case in process $proc$../picorv32/picorv32.v:1337$484 in module picorv32.
+Marked 2 switch rules as full_case in process $proc$../picorv32/picorv32.v:1309$472 in module picorv32.
+Marked 2 switch rules as full_case in process $proc$../picorv32/picorv32.v:1295$467 in module picorv32.
+Marked 8 switch rules as full_case in process $proc$../picorv32/picorv32.v:1186$432 in module picorv32.
+Marked 3 switch rules as full_case in process $proc$../picorv32/picorv32.v:858$169 in module picorv32.
+Marked 3 switch rules as full_case in process $proc$../picorv32/picorv32.v:809$167 in module picorv32.
+Marked 2 switch rules as full_case in process $proc$../picorv32/picorv32.v:778$163 in module picorv32.
+Marked 48 switch rules as full_case in process $proc$../picorv32/picorv32.v:701$162 in module picorv32.
+Marked 4 switch rules as full_case in process $proc$../picorv32/picorv32.v:565$138 in module picorv32.
+Marked 1 switch rules as full_case in process $proc$../picorv32/picorv32.v:430$100 in module picorv32.
+Removed 2 dead cases from process $proc$../picorv32/picorv32.v:401$97 in module picorv32.
+Marked 2 switch rules as full_case in process $proc$../picorv32/picorv32.v:401$97 in module picorv32.
+Marked 1 switch rules as full_case in process $proc$../picorv32/picorv32.v:390$92 in module picorv32.
+Marked 1 switch rules as full_case in process $proc$../picorv32/picorv32.v:325$18 in module picorv32.
+Removed a total of 2 dead cases.
+
+5.3. Executing PROC_PRUNE pass (remove redundant assignments in processes).
+Removed 3 redundant assignments.
+Promoted 57 assignments to connections.
+
+5.4. Executing PROC_INIT pass (extract init attributes).
+
+5.5. Executing PROC_ARST pass (detect async resets in processes).
+
+5.6. Executing PROC_ROM pass (convert switches to ROMs).
+Converted 0 switches.
+<suppressed ~187 debug messages>
+
+5.7. Executing PROC_MUX pass (convert decision trees to multiplexers).
+Creating decoders for process `\picorv32.$proc$../picorv32/picorv32.v:1402$509'.
+     1/78: $17\next_irq_pending[2:2]
+     2/78: $16\next_irq_pending[2:2]
+     3/78: $15\next_irq_pending[2:2]
+     4/78: $14\next_irq_pending[2:2]
+     5/78: $13\next_irq_pending[2:2]
+     6/78: $12\next_irq_pending[2:2]
+     7/78: $11\next_irq_pending[2:2]
+     8/78: $2\next_irq_pending[31:0] [31:2]
+     9/78: $3\set_mem_do_rdata[0:0]
+    10/78: $2\next_irq_pending[31:0] [1]
+    11/78: $3\set_mem_do_wdata[0:0]
+    12/78: $2\next_irq_pending[31:0] [0]
+    13/78: $4\set_mem_do_rinst[0:0]
+    14/78: $3\set_mem_do_rinst[0:0]
+    15/78: $4\set_mem_do_wdata[0:0]
+    16/78: $9\next_irq_pending[1:1]
+    17/78: $8\next_irq_pending[1:1]
+    18/78: $7\next_irq_pending[1:1]
+    19/78: $4\set_mem_do_rdata[0:0]
+    20/78: $5\next_irq_pending[1:1]
+    21/78: $4\next_irq_pending[1:1]
+    22/78: $10\next_irq_pending[1:1]
+    23/78: $5\set_mem_do_rinst[0:0]
+    24/78: $6\next_irq_pending[1:1]
+    25/78: $3\next_irq_pending[31:0]
+    26/78: $3\current_pc[31:0]
+    27/78: $2\current_pc[31:0]
+    28/78: $2\set_mem_do_wdata[0:0]
+    29/78: $2\set_mem_do_rdata[0:0]
+    30/78: $2\set_mem_do_rinst[0:0]
+    31/78: $1\next_irq_pending[31:0]
+    32/78: $1\current_pc[31:0]
+    33/78: $1\set_mem_do_wdata[0:0]
+    34/78: $1\set_mem_do_rdata[0:0]
+    35/78: $1\set_mem_do_rinst[0:0]
+    36/78: $0\trace_data[35:0]
+    37/78: $0\count_cycle[63:0]
+    38/78: $0\trace_valid[0:0]
+    39/78: $0\do_waitirq[0:0]
+    40/78: $0\decoder_pseudo_trigger[0:0]
+    41/78: $0\decoder_trigger[0:0]
+    42/78: $0\alu_wait_2[0:0]
+    43/78: $0\alu_wait[0:0]
+    44/78: $0\reg_out[31:0]
+    45/78: $0\reg_sh[4:0]
+    46/78: $0\trap[0:0]
+    47/78: $0\pcpi_timeout[0:0]
+    48/78: $0\latched_rd[4:0]
+    49/78: $0\latched_is_lb[0:0]
+    50/78: $0\latched_is_lh[0:0]
+    51/78: $0\latched_is_lu[0:0]
+    52/78: $0\latched_trace[0:0]
+    53/78: $0\latched_compr[0:0]
+    54/78: $0\latched_branch[0:0]
+    55/78: $0\latched_stalu[0:0]
+    56/78: $0\latched_store[0:0]
+    57/78: $0\irq_state[1:0]
+    58/78: $0\cpu_state[7:0]
+    59/78: $0\dbg_rs2val_valid[0:0]
+    60/78: $0\dbg_rs1val_valid[0:0]
+    61/78: $0\dbg_rs2val[31:0]
+    62/78: $0\dbg_rs1val[31:0]
+    63/78: $0\mem_do_wdata[0:0]
+    64/78: $0\mem_do_rdata[0:0]
+    65/78: $0\mem_do_rinst[0:0]
+    66/78: $0\mem_do_prefetch[0:0]
+    67/78: $0\mem_wordsize[1:0]
+    68/78: $0\timer[31:0]
+    69/78: $0\irq_mask[31:0]
+    70/78: $0\irq_active[0:0]
+    71/78: $0\irq_delay[0:0]
+    72/78: $0\reg_op2[31:0]
+    73/78: $0\reg_op1[31:0]
+    74/78: $0\reg_next_pc[31:0]
+    75/78: $0\reg_pc[31:0]
+    76/78: $0\count_instr[63:0]
+    77/78: $0\eoi[31:0]
+    78/78: $0\pcpi_valid[0:0]
+Creating decoders for process `\picorv32.$proc$../picorv32/picorv32.v:1348$493'.
+Creating decoders for process `\picorv32.$proc$../picorv32/picorv32.v:1337$484'.
+     1/3: $1$memwr$\cpuregs$../picorv32/picorv32.v:1344$17_EN[31:0]$492
+     2/3: $1$memwr$\cpuregs$../picorv32/picorv32.v:1344$17_DATA[31:0]$491
+     3/3: $1$memwr$\cpuregs$../picorv32/picorv32.v:1344$17_ADDR[4:0]$490
+Creating decoders for process `\picorv32.$proc$../picorv32/picorv32.v:1309$472'.
+     1/4: $2\cpuregs_write[0:0]
+     2/4: $2\cpuregs_wrdata[31:0]
+     3/4: $1\cpuregs_wrdata[31:0]
+     4/4: $1\cpuregs_write[0:0]
+Creating decoders for process `\picorv32.$proc$../picorv32/picorv32.v:1295$467'.
+     1/2: $2\clear_prefetched_high_word[0:0]
+     2/2: $1\clear_prefetched_high_word[0:0]
+Creating decoders for process `\picorv32.$proc$../picorv32/picorv32.v:1293$466'.
+Creating decoders for process `\picorv32.$proc$../picorv32/picorv32.v:1249$444'.
+     1/2: $1\alu_out[31:0]
+     2/2: $1\alu_out_0[0:0]
+Creating decoders for process `\picorv32.$proc$../picorv32/picorv32.v:1186$432'.
+     1/8: $8\dbg_ascii_state[127:0]
+     2/8: $7\dbg_ascii_state[127:0]
+     3/8: $6\dbg_ascii_state[127:0]
+     4/8: $5\dbg_ascii_state[127:0]
+     5/8: $4\dbg_ascii_state[127:0]
+     6/8: $3\dbg_ascii_state[127:0]
+     7/8: $2\dbg_ascii_state[127:0]
+     8/8: $1\dbg_ascii_state[127:0]
+Creating decoders for process `\picorv32.$proc$../picorv32/picorv32.v:858$169'.
+     1/77: $0\decoded_rs1[4:0] [4]
+     2/77: $0\decoded_imm_j[31:0] [10]
+     3/77: $0\decoded_imm_j[31:0] [7]
+     4/77: $0\decoded_imm_j[31:0] [6]
+     5/77: $0\decoded_imm_j[31:0] [3:1]
+     6/77: $0\decoded_imm_j[31:0] [5]
+     7/77: $0\decoded_imm_j[31:0] [9:8]
+     8/77: $0\decoded_imm_j[31:0] [31:20]
+     9/77: $0\decoded_imm_j[31:0] [4]
+    10/77: $0\decoded_imm_j[31:0] [11]
+    11/77: $0\decoded_imm_j[31:0] [0]
+    12/77: $0\decoded_rs1[4:0] [3:0]
+    13/77: $0\is_lui_auipc_jal_jalr_addi_add_sub[0:0]
+    14/77: $0\is_alu_reg_reg[0:0]
+    15/77: $0\is_alu_reg_imm[0:0]
+    16/77: $0\is_beq_bne_blt_bge_bltu_bgeu[0:0]
+    17/77: $0\is_sll_srl_sra[0:0]
+    18/77: $0\is_sb_sh_sw[0:0]
+    19/77: $0\is_jalr_addi_slti_sltiu_xori_ori_andi[0:0]
+    20/77: $0\is_slli_srli_srai[0:0]
+    21/77: $0\is_lb_lh_lw_lbu_lhu[0:0]
+    22/77: $0\compressed_instr[0:0]
+    23/77: $0\is_compare[0:0]
+    24/77: $0\decoded_imm[31:0]
+    25/77: $0\decoded_rs2[4:0]
+    26/77: $0\decoded_imm_j[31:0] [19:12]
+    27/77: $0\decoded_rd[4:0]
+    28/77: $0\instr_timer[0:0]
+    29/77: $0\instr_waitirq[0:0]
+    30/77: $0\instr_maskirq[0:0]
+    31/77: $0\instr_retirq[0:0]
+    32/77: $0\instr_setq[0:0]
+    33/77: $0\instr_getq[0:0]
+    34/77: $0\instr_fence[0:0]
+    35/77: $0\instr_ecall_ebreak[0:0]
+    36/77: $0\instr_rdinstrh[0:0]
+    37/77: $0\instr_rdinstr[0:0]
+    38/77: $0\instr_rdcycleh[0:0]
+    39/77: $0\instr_rdcycle[0:0]
+    40/77: $0\instr_and[0:0]
+    41/77: $0\instr_or[0:0]
+    42/77: $0\instr_sra[0:0]
+    43/77: $0\instr_srl[0:0]
+    44/77: $0\instr_xor[0:0]
+    45/77: $0\instr_sltu[0:0]
+    46/77: $0\instr_slt[0:0]
+    47/77: $0\instr_sll[0:0]
+    48/77: $0\instr_sub[0:0]
+    49/77: $0\instr_add[0:0]
+    50/77: $0\instr_srai[0:0]
+    51/77: $0\instr_srli[0:0]
+    52/77: $0\instr_slli[0:0]
+    53/77: $0\instr_andi[0:0]
+    54/77: $0\instr_ori[0:0]
+    55/77: $0\instr_xori[0:0]
+    56/77: $0\instr_sltiu[0:0]
+    57/77: $0\instr_slti[0:0]
+    58/77: $0\instr_addi[0:0]
+    59/77: $0\instr_sw[0:0]
+    60/77: $0\instr_sh[0:0]
+    61/77: $0\instr_sb[0:0]
+    62/77: $0\instr_lhu[0:0]
+    63/77: $0\instr_lbu[0:0]
+    64/77: $0\instr_lw[0:0]
+    65/77: $0\instr_lh[0:0]
+    66/77: $0\instr_lb[0:0]
+    67/77: $0\instr_bgeu[0:0]
+    68/77: $0\instr_bltu[0:0]
+    69/77: $0\instr_bge[0:0]
+    70/77: $0\instr_blt[0:0]
+    71/77: $0\instr_bne[0:0]
+    72/77: $0\instr_beq[0:0]
+    73/77: $0\instr_jalr[0:0]
+    74/77: $0\instr_jal[0:0]
+    75/77: $0\instr_auipc[0:0]
+    76/77: $0\instr_lui[0:0]
+    77/77: $0\pcpi_insn[31:0]
+Creating decoders for process `\picorv32.$proc$../picorv32/picorv32.v:809$167'.
+     1/13: $3\dbg_insn_opcode[31:0]
+     2/13: $2\dbg_insn_rd[4:0]
+     3/13: $2\dbg_insn_rs2[4:0]
+     4/13: $2\dbg_insn_rs1[4:0]
+     5/13: $2\dbg_insn_opcode[31:0]
+     6/13: $2\dbg_insn_imm[31:0]
+     7/13: $2\dbg_ascii_instr[63:0]
+     8/13: $1\dbg_insn_rd[4:0]
+     9/13: $1\dbg_insn_rs2[4:0]
+    10/13: $1\dbg_insn_rs1[4:0]
+    11/13: $1\dbg_insn_imm[31:0]
+    12/13: $1\dbg_ascii_instr[63:0]
+    13/13: $1\dbg_insn_opcode[31:0]
+Creating decoders for process `\picorv32.$proc$../picorv32/picorv32.v:778$163'.
+     1/8: $0\cached_insn_rd[4:0]
+     2/8: $0\cached_insn_rs2[4:0]
+     3/8: $0\cached_insn_rs1[4:0]
+     4/8: $0\cached_insn_opcode[31:0]
+     5/8: $0\cached_insn_imm[31:0]
+     6/8: $0\cached_ascii_instr[63:0]
+     7/8: $0\dbg_valid_insn[0:0]
+     8/8: $0\dbg_insn_addr[31:0]
+Creating decoders for process `\picorv32.$proc$../picorv32/picorv32.v:701$162'.
+     1/48: $48\new_ascii_instr[63:0]
+     2/48: $47\new_ascii_instr[63:0]
+     3/48: $46\new_ascii_instr[63:0]
+     4/48: $45\new_ascii_instr[63:0]
+     5/48: $44\new_ascii_instr[63:0]
+     6/48: $43\new_ascii_instr[63:0]
+     7/48: $42\new_ascii_instr[63:0]
+     8/48: $41\new_ascii_instr[63:0]
+     9/48: $40\new_ascii_instr[63:0]
+    10/48: $39\new_ascii_instr[63:0]
+    11/48: $38\new_ascii_instr[63:0]
+    12/48: $37\new_ascii_instr[63:0]
+    13/48: $36\new_ascii_instr[63:0]
+    14/48: $35\new_ascii_instr[63:0]
+    15/48: $34\new_ascii_instr[63:0]
+    16/48: $33\new_ascii_instr[63:0]
+    17/48: $32\new_ascii_instr[63:0]
+    18/48: $31\new_ascii_instr[63:0]
+    19/48: $30\new_ascii_instr[63:0]
+    20/48: $29\new_ascii_instr[63:0]
+    21/48: $28\new_ascii_instr[63:0]
+    22/48: $27\new_ascii_instr[63:0]
+    23/48: $26\new_ascii_instr[63:0]
+    24/48: $25\new_ascii_instr[63:0]
+    25/48: $24\new_ascii_instr[63:0]
+    26/48: $23\new_ascii_instr[63:0]
+    27/48: $22\new_ascii_instr[63:0]
+    28/48: $21\new_ascii_instr[63:0]
+    29/48: $20\new_ascii_instr[63:0]
+    30/48: $19\new_ascii_instr[63:0]
+    31/48: $18\new_ascii_instr[63:0]
+    32/48: $17\new_ascii_instr[63:0]
+    33/48: $16\new_ascii_instr[63:0]
+    34/48: $15\new_ascii_instr[63:0]
+    35/48: $14\new_ascii_instr[63:0]
+    36/48: $13\new_ascii_instr[63:0]
+    37/48: $12\new_ascii_instr[63:0]
+    38/48: $11\new_ascii_instr[63:0]
+    39/48: $10\new_ascii_instr[63:0]
+    40/48: $9\new_ascii_instr[63:0]
+    41/48: $8\new_ascii_instr[63:0]
+    42/48: $7\new_ascii_instr[63:0]
+    43/48: $6\new_ascii_instr[63:0]
+    44/48: $5\new_ascii_instr[63:0]
+    45/48: $4\new_ascii_instr[63:0]
+    46/48: $3\new_ascii_instr[63:0]
+    47/48: $2\new_ascii_instr[63:0]
+    48/48: $1\new_ascii_instr[63:0]
+Creating decoders for process `\picorv32.$proc$../picorv32/picorv32.v:565$138'.
+     1/9: $0\mem_16bit_buffer[15:0]
+     2/9: $0\prefetched_high_word[0:0]
+     3/9: $0\mem_la_secondword[0:0]
+     4/9: $0\mem_state[1:0]
+     5/9: $0\mem_wstrb[3:0]
+     6/9: $0\mem_wdata[31:0]
+     7/9: $0\mem_addr[31:0]
+     8/9: $0\mem_instr[0:0]
+     9/9: $0\mem_valid[0:0]
+Creating decoders for process `\picorv32.$proc$../picorv32/picorv32.v:1239$677'.
+Creating decoders for process `\picorv32.$proc$../picorv32/picorv32.v:430$100'.
+     1/9: $0\mem_rdata_q[31:0] [31]
+     2/9: $0\mem_rdata_q[31:0] [7]
+     3/9: $0\mem_rdata_q[31:0] [24:20]
+     4/9: $0\mem_rdata_q[31:0] [19:15]
+     5/9: $0\mem_rdata_q[31:0] [6:0]
+     6/9: $0\mem_rdata_q[31:0] [14:12]
+     7/9: $0\mem_rdata_q[31:0] [11:8]
+     8/9: $0\mem_rdata_q[31:0] [30:25]
+     9/9: $0\next_insn_opcode[31:0]
+Creating decoders for process `\picorv32.$proc$../picorv32/picorv32.v:401$97'.
+     1/5: $3\mem_rdata_word[31:0]
+     2/5: $2\mem_rdata_word[31:0]
+     3/5: $1\mem_rdata_word[31:0]
+     4/5: $1\mem_la_wstrb[3:0]
+     5/5: $1\mem_la_wdata[31:0]
+Creating decoders for process `\picorv32.$proc$../picorv32/picorv32.v:390$92'.
+     1/2: $0\last_mem_valid[0:0]
+     2/2: $0\mem_la_firstword_reg[0:0]
+Creating decoders for process `\picorv32.$proc$../picorv32/picorv32.v:325$18'.
+     1/2: $1\pcpi_int_rd[31:0]
+     2/2: $1\pcpi_int_wr[0:0]
+
+5.8. Executing PROC_DLATCH pass (convert process syncs to latches).
+No latch inferred for signal `\picorv32.\cpuregs_rs1' from process `\picorv32.$proc$../picorv32/picorv32.v:1348$493'.
+No latch inferred for signal `\picorv32.\cpuregs_rs2' from process `\picorv32.$proc$../picorv32/picorv32.v:1348$493'.
+No latch inferred for signal `\picorv32.\decoded_rs' from process `\picorv32.$proc$../picorv32/picorv32.v:1348$493'.
+No latch inferred for signal `\picorv32.\cpuregs_write' from process `\picorv32.$proc$../picorv32/picorv32.v:1309$472'.
+No latch inferred for signal `\picorv32.\cpuregs_wrdata' from process `\picorv32.$proc$../picorv32/picorv32.v:1309$472'.
+No latch inferred for signal `\picorv32.\clear_prefetched_high_word' from process `\picorv32.$proc$../picorv32/picorv32.v:1295$467'.
+No latch inferred for signal `\picorv32.\alu_out' from process `\picorv32.$proc$../picorv32/picorv32.v:1249$444'.
+No latch inferred for signal `\picorv32.\alu_out_0' from process `\picorv32.$proc$../picorv32/picorv32.v:1249$444'.
+No latch inferred for signal `\picorv32.\dbg_ascii_state' from process `\picorv32.$proc$../picorv32/picorv32.v:1186$432'.
+No latch inferred for signal `\picorv32.\dbg_insn_opcode' from process `\picorv32.$proc$../picorv32/picorv32.v:809$167'.
+No latch inferred for signal `\picorv32.\dbg_ascii_instr' from process `\picorv32.$proc$../picorv32/picorv32.v:809$167'.
+No latch inferred for signal `\picorv32.\dbg_insn_imm' from process `\picorv32.$proc$../picorv32/picorv32.v:809$167'.
+No latch inferred for signal `\picorv32.\dbg_insn_rs1' from process `\picorv32.$proc$../picorv32/picorv32.v:809$167'.
+No latch inferred for signal `\picorv32.\dbg_insn_rs2' from process `\picorv32.$proc$../picorv32/picorv32.v:809$167'.
+No latch inferred for signal `\picorv32.\dbg_insn_rd' from process `\picorv32.$proc$../picorv32/picorv32.v:809$167'.
+No latch inferred for signal `\picorv32.\new_ascii_instr' from process `\picorv32.$proc$../picorv32/picorv32.v:701$162'.
+No latch inferred for signal `\picorv32.\alu_add_sub' from process `\picorv32.$proc$../picorv32/picorv32.v:1239$677'.
+No latch inferred for signal `\picorv32.\alu_shl' from process `\picorv32.$proc$../picorv32/picorv32.v:1239$677'.
+No latch inferred for signal `\picorv32.\alu_shr' from process `\picorv32.$proc$../picorv32/picorv32.v:1239$677'.
+No latch inferred for signal `\picorv32.\alu_eq' from process `\picorv32.$proc$../picorv32/picorv32.v:1239$677'.
+No latch inferred for signal `\picorv32.\alu_ltu' from process `\picorv32.$proc$../picorv32/picorv32.v:1239$677'.
+No latch inferred for signal `\picorv32.\alu_lts' from process `\picorv32.$proc$../picorv32/picorv32.v:1239$677'.
+No latch inferred for signal `\picorv32.\mem_la_wdata' from process `\picorv32.$proc$../picorv32/picorv32.v:401$97'.
+No latch inferred for signal `\picorv32.\mem_la_wstrb' from process `\picorv32.$proc$../picorv32/picorv32.v:401$97'.
+No latch inferred for signal `\picorv32.\mem_rdata_word' from process `\picorv32.$proc$../picorv32/picorv32.v:401$97'.
+No latch inferred for signal `\picorv32.\pcpi_int_wr' from process `\picorv32.$proc$../picorv32/picorv32.v:325$18'.
+No latch inferred for signal `\picorv32.\pcpi_int_rd' from process `\picorv32.$proc$../picorv32/picorv32.v:325$18'.
+No latch inferred for signal `\picorv32.\pcpi_int_wait' from process `\picorv32.$proc$../picorv32/picorv32.v:325$18'.
+No latch inferred for signal `\picorv32.\pcpi_int_ready' from process `\picorv32.$proc$../picorv32/picorv32.v:325$18'.
+
+5.9. Executing PROC_DFF pass (convert process syncs to FFs).
+Creating register for signal `\picorv32.\trap' using process `\picorv32.$proc$../picorv32/picorv32.v:1402$509'.
+  created $dff cell `$procdff$3414' with positive edge clock.
+Creating register for signal `\picorv32.\pcpi_valid' using process `\picorv32.$proc$../picorv32/picorv32.v:1402$509'.
+  created $dff cell `$procdff$3415' with positive edge clock.
+Creating register for signal `\picorv32.\eoi' using process `\picorv32.$proc$../picorv32/picorv32.v:1402$509'.
+  created $dff cell `$procdff$3416' with positive edge clock.
+Creating register for signal `\picorv32.\trace_valid' using process `\picorv32.$proc$../picorv32/picorv32.v:1402$509'.
+  created $dff cell `$procdff$3417' with positive edge clock.
+Creating register for signal `\picorv32.\trace_data' using process `\picorv32.$proc$../picorv32/picorv32.v:1402$509'.
+  created $dff cell `$procdff$3418' with positive edge clock.
+Creating register for signal `\picorv32.\count_cycle' using process `\picorv32.$proc$../picorv32/picorv32.v:1402$509'.
+  created $dff cell `$procdff$3419' with positive edge clock.
+Creating register for signal `\picorv32.\count_instr' using process `\picorv32.$proc$../picorv32/picorv32.v:1402$509'.
+  created $dff cell `$procdff$3420' with positive edge clock.
+Creating register for signal `\picorv32.\reg_pc' using process `\picorv32.$proc$../picorv32/picorv32.v:1402$509'.
+  created $dff cell `$procdff$3421' with positive edge clock.
+Creating register for signal `\picorv32.\reg_next_pc' using process `\picorv32.$proc$../picorv32/picorv32.v:1402$509'.
+  created $dff cell `$procdff$3422' with positive edge clock.
+Creating register for signal `\picorv32.\reg_op1' using process `\picorv32.$proc$../picorv32/picorv32.v:1402$509'.
+  created $dff cell `$procdff$3423' with positive edge clock.
+Creating register for signal `\picorv32.\reg_op2' using process `\picorv32.$proc$../picorv32/picorv32.v:1402$509'.
+  created $dff cell `$procdff$3424' with positive edge clock.
+Creating register for signal `\picorv32.\reg_out' using process `\picorv32.$proc$../picorv32/picorv32.v:1402$509'.
+  created $dff cell `$procdff$3425' with positive edge clock.
+Creating register for signal `\picorv32.\reg_sh' using process `\picorv32.$proc$../picorv32/picorv32.v:1402$509'.
+  created $dff cell `$procdff$3426' with positive edge clock.
+Creating register for signal `\picorv32.\irq_delay' using process `\picorv32.$proc$../picorv32/picorv32.v:1402$509'.
+  created $dff cell `$procdff$3427' with positive edge clock.
+Creating register for signal `\picorv32.\irq_active' using process `\picorv32.$proc$../picorv32/picorv32.v:1402$509'.
+  created $dff cell `$procdff$3428' with positive edge clock.
+Creating register for signal `\picorv32.\irq_mask' using process `\picorv32.$proc$../picorv32/picorv32.v:1402$509'.
+  created $dff cell `$procdff$3429' with positive edge clock.
+Creating register for signal `\picorv32.\irq_pending' using process `\picorv32.$proc$../picorv32/picorv32.v:1402$509'.
+  created $dff cell `$procdff$3430' with positive edge clock.
+Creating register for signal `\picorv32.\timer' using process `\picorv32.$proc$../picorv32/picorv32.v:1402$509'.
+  created $dff cell `$procdff$3431' with positive edge clock.
+Creating register for signal `\picorv32.\mem_wordsize' using process `\picorv32.$proc$../picorv32/picorv32.v:1402$509'.
+  created $dff cell `$procdff$3432' with positive edge clock.
+Creating register for signal `\picorv32.\mem_do_prefetch' using process `\picorv32.$proc$../picorv32/picorv32.v:1402$509'.
+  created $dff cell `$procdff$3433' with positive edge clock.
+Creating register for signal `\picorv32.\mem_do_rinst' using process `\picorv32.$proc$../picorv32/picorv32.v:1402$509'.
+  created $dff cell `$procdff$3434' with positive edge clock.
+Creating register for signal `\picorv32.\mem_do_rdata' using process `\picorv32.$proc$../picorv32/picorv32.v:1402$509'.
+  created $dff cell `$procdff$3435' with positive edge clock.
+Creating register for signal `\picorv32.\mem_do_wdata' using process `\picorv32.$proc$../picorv32/picorv32.v:1402$509'.
+  created $dff cell `$procdff$3436' with positive edge clock.
+Creating register for signal `\picorv32.\decoder_trigger' using process `\picorv32.$proc$../picorv32/picorv32.v:1402$509'.
+  created $dff cell `$procdff$3437' with positive edge clock.
+Creating register for signal `\picorv32.\decoder_trigger_q' using process `\picorv32.$proc$../picorv32/picorv32.v:1402$509'.
+  created $dff cell `$procdff$3438' with positive edge clock.
+Creating register for signal `\picorv32.\decoder_pseudo_trigger' using process `\picorv32.$proc$../picorv32/picorv32.v:1402$509'.
+  created $dff cell `$procdff$3439' with positive edge clock.
+Creating register for signal `\picorv32.\decoder_pseudo_trigger_q' using process `\picorv32.$proc$../picorv32/picorv32.v:1402$509'.
+  created $dff cell `$procdff$3440' with positive edge clock.
+Creating register for signal `\picorv32.\dbg_rs1val' using process `\picorv32.$proc$../picorv32/picorv32.v:1402$509'.
+  created $dff cell `$procdff$3441' with positive edge clock.
+Creating register for signal `\picorv32.\dbg_rs2val' using process `\picorv32.$proc$../picorv32/picorv32.v:1402$509'.
+  created $dff cell `$procdff$3442' with positive edge clock.
+Creating register for signal `\picorv32.\dbg_rs1val_valid' using process `\picorv32.$proc$../picorv32/picorv32.v:1402$509'.
+  created $dff cell `$procdff$3443' with positive edge clock.
+Creating register for signal `\picorv32.\dbg_rs2val_valid' using process `\picorv32.$proc$../picorv32/picorv32.v:1402$509'.
+  created $dff cell `$procdff$3444' with positive edge clock.
+Creating register for signal `\picorv32.\cpu_state' using process `\picorv32.$proc$../picorv32/picorv32.v:1402$509'.
+  created $dff cell `$procdff$3445' with positive edge clock.
+Creating register for signal `\picorv32.\irq_state' using process `\picorv32.$proc$../picorv32/picorv32.v:1402$509'.
+  created $dff cell `$procdff$3446' with positive edge clock.
+Creating register for signal `\picorv32.\set_mem_do_rinst' using process `\picorv32.$proc$../picorv32/picorv32.v:1402$509'.
+  created $dff cell `$procdff$3447' with positive edge clock.
+Creating register for signal `\picorv32.\set_mem_do_rdata' using process `\picorv32.$proc$../picorv32/picorv32.v:1402$509'.
+  created $dff cell `$procdff$3448' with positive edge clock.
+Creating register for signal `\picorv32.\set_mem_do_wdata' using process `\picorv32.$proc$../picorv32/picorv32.v:1402$509'.
+  created $dff cell `$procdff$3449' with positive edge clock.
+Creating register for signal `\picorv32.\latched_store' using process `\picorv32.$proc$../picorv32/picorv32.v:1402$509'.
+  created $dff cell `$procdff$3450' with positive edge clock.
+Creating register for signal `\picorv32.\latched_stalu' using process `\picorv32.$proc$../picorv32/picorv32.v:1402$509'.
+  created $dff cell `$procdff$3451' with positive edge clock.
+Creating register for signal `\picorv32.\latched_branch' using process `\picorv32.$proc$../picorv32/picorv32.v:1402$509'.
+  created $dff cell `$procdff$3452' with positive edge clock.
+Creating register for signal `\picorv32.\latched_compr' using process `\picorv32.$proc$../picorv32/picorv32.v:1402$509'.
+  created $dff cell `$procdff$3453' with positive edge clock.
+Creating register for signal `\picorv32.\latched_trace' using process `\picorv32.$proc$../picorv32/picorv32.v:1402$509'.
+  created $dff cell `$procdff$3454' with positive edge clock.
+Creating register for signal `\picorv32.\latched_is_lu' using process `\picorv32.$proc$../picorv32/picorv32.v:1402$509'.
+  created $dff cell `$procdff$3455' with positive edge clock.
+Creating register for signal `\picorv32.\latched_is_lh' using process `\picorv32.$proc$../picorv32/picorv32.v:1402$509'.
+  created $dff cell `$procdff$3456' with positive edge clock.
+Creating register for signal `\picorv32.\latched_is_lb' using process `\picorv32.$proc$../picorv32/picorv32.v:1402$509'.
+  created $dff cell `$procdff$3457' with positive edge clock.
+Creating register for signal `\picorv32.\latched_rd' using process `\picorv32.$proc$../picorv32/picorv32.v:1402$509'.
+  created $dff cell `$procdff$3458' with positive edge clock.
+Creating register for signal `\picorv32.\current_pc' using process `\picorv32.$proc$../picorv32/picorv32.v:1402$509'.
+  created $dff cell `$procdff$3459' with positive edge clock.
+Creating register for signal `\picorv32.\pcpi_timeout' using process `\picorv32.$proc$../picorv32/picorv32.v:1402$509'.
+  created $dff cell `$procdff$3460' with positive edge clock.
+Creating register for signal `\picorv32.\next_irq_pending' using process `\picorv32.$proc$../picorv32/picorv32.v:1402$509'.
+  created $dff cell `$procdff$3461' with positive edge clock.
+Creating register for signal `\picorv32.\do_waitirq' using process `\picorv32.$proc$../picorv32/picorv32.v:1402$509'.
+  created $dff cell `$procdff$3462' with positive edge clock.
+Creating register for signal `\picorv32.\alu_out_q' using process `\picorv32.$proc$../picorv32/picorv32.v:1402$509'.
+  created $dff cell `$procdff$3463' with positive edge clock.
+Creating register for signal `\picorv32.\alu_out_0_q' using process `\picorv32.$proc$../picorv32/picorv32.v:1402$509'.
+  created $dff cell `$procdff$3464' with positive edge clock.
+Creating register for signal `\picorv32.\alu_wait' using process `\picorv32.$proc$../picorv32/picorv32.v:1402$509'.
+  created $dff cell `$procdff$3465' with positive edge clock.
+Creating register for signal `\picorv32.\alu_wait_2' using process `\picorv32.$proc$../picorv32/picorv32.v:1402$509'.
+  created $dff cell `$procdff$3466' with positive edge clock.
+Creating register for signal `\picorv32.$memwr$\cpuregs$../picorv32/picorv32.v:1344$17_ADDR' using process `\picorv32.$proc$../picorv32/picorv32.v:1337$484'.
+  created $dff cell `$procdff$3467' with positive edge clock.
+Creating register for signal `\picorv32.$memwr$\cpuregs$../picorv32/picorv32.v:1344$17_DATA' using process `\picorv32.$proc$../picorv32/picorv32.v:1337$484'.
+  created $dff cell `$procdff$3468' with positive edge clock.
+Creating register for signal `\picorv32.$memwr$\cpuregs$../picorv32/picorv32.v:1344$17_EN' using process `\picorv32.$proc$../picorv32/picorv32.v:1337$484'.
+  created $dff cell `$procdff$3469' with positive edge clock.
+Creating register for signal `\picorv32.\clear_prefetched_high_word_q' using process `\picorv32.$proc$../picorv32/picorv32.v:1293$466'.
+  created $dff cell `$procdff$3470' with positive edge clock.
+Creating register for signal `\picorv32.\pcpi_insn' using process `\picorv32.$proc$../picorv32/picorv32.v:858$169'.
+  created $dff cell `$procdff$3471' with positive edge clock.
+Creating register for signal `\picorv32.\instr_lui' using process `\picorv32.$proc$../picorv32/picorv32.v:858$169'.
+  created $dff cell `$procdff$3472' with positive edge clock.
+Creating register for signal `\picorv32.\instr_auipc' using process `\picorv32.$proc$../picorv32/picorv32.v:858$169'.
+  created $dff cell `$procdff$3473' with positive edge clock.
+Creating register for signal `\picorv32.\instr_jal' using process `\picorv32.$proc$../picorv32/picorv32.v:858$169'.
+  created $dff cell `$procdff$3474' with positive edge clock.
+Creating register for signal `\picorv32.\instr_jalr' using process `\picorv32.$proc$../picorv32/picorv32.v:858$169'.
+  created $dff cell `$procdff$3475' with positive edge clock.
+Creating register for signal `\picorv32.\instr_beq' using process `\picorv32.$proc$../picorv32/picorv32.v:858$169'.
+  created $dff cell `$procdff$3476' with positive edge clock.
+Creating register for signal `\picorv32.\instr_bne' using process `\picorv32.$proc$../picorv32/picorv32.v:858$169'.
+  created $dff cell `$procdff$3477' with positive edge clock.
+Creating register for signal `\picorv32.\instr_blt' using process `\picorv32.$proc$../picorv32/picorv32.v:858$169'.
+  created $dff cell `$procdff$3478' with positive edge clock.
+Creating register for signal `\picorv32.\instr_bge' using process `\picorv32.$proc$../picorv32/picorv32.v:858$169'.
+  created $dff cell `$procdff$3479' with positive edge clock.
+Creating register for signal `\picorv32.\instr_bltu' using process `\picorv32.$proc$../picorv32/picorv32.v:858$169'.
+  created $dff cell `$procdff$3480' with positive edge clock.
+Creating register for signal `\picorv32.\instr_bgeu' using process `\picorv32.$proc$../picorv32/picorv32.v:858$169'.
+  created $dff cell `$procdff$3481' with positive edge clock.
+Creating register for signal `\picorv32.\instr_lb' using process `\picorv32.$proc$../picorv32/picorv32.v:858$169'.
+  created $dff cell `$procdff$3482' with positive edge clock.
+Creating register for signal `\picorv32.\instr_lh' using process `\picorv32.$proc$../picorv32/picorv32.v:858$169'.
+  created $dff cell `$procdff$3483' with positive edge clock.
+Creating register for signal `\picorv32.\instr_lw' using process `\picorv32.$proc$../picorv32/picorv32.v:858$169'.
+  created $dff cell `$procdff$3484' with positive edge clock.
+Creating register for signal `\picorv32.\instr_lbu' using process `\picorv32.$proc$../picorv32/picorv32.v:858$169'.
+  created $dff cell `$procdff$3485' with positive edge clock.
+Creating register for signal `\picorv32.\instr_lhu' using process `\picorv32.$proc$../picorv32/picorv32.v:858$169'.
+  created $dff cell `$procdff$3486' with positive edge clock.
+Creating register for signal `\picorv32.\instr_sb' using process `\picorv32.$proc$../picorv32/picorv32.v:858$169'.
+  created $dff cell `$procdff$3487' with positive edge clock.
+Creating register for signal `\picorv32.\instr_sh' using process `\picorv32.$proc$../picorv32/picorv32.v:858$169'.
+  created $dff cell `$procdff$3488' with positive edge clock.
+Creating register for signal `\picorv32.\instr_sw' using process `\picorv32.$proc$../picorv32/picorv32.v:858$169'.
+  created $dff cell `$procdff$3489' with positive edge clock.
+Creating register for signal `\picorv32.\instr_addi' using process `\picorv32.$proc$../picorv32/picorv32.v:858$169'.
+  created $dff cell `$procdff$3490' with positive edge clock.
+Creating register for signal `\picorv32.\instr_slti' using process `\picorv32.$proc$../picorv32/picorv32.v:858$169'.
+  created $dff cell `$procdff$3491' with positive edge clock.
+Creating register for signal `\picorv32.\instr_sltiu' using process `\picorv32.$proc$../picorv32/picorv32.v:858$169'.
+  created $dff cell `$procdff$3492' with positive edge clock.
+Creating register for signal `\picorv32.\instr_xori' using process `\picorv32.$proc$../picorv32/picorv32.v:858$169'.
+  created $dff cell `$procdff$3493' with positive edge clock.
+Creating register for signal `\picorv32.\instr_ori' using process `\picorv32.$proc$../picorv32/picorv32.v:858$169'.
+  created $dff cell `$procdff$3494' with positive edge clock.
+Creating register for signal `\picorv32.\instr_andi' using process `\picorv32.$proc$../picorv32/picorv32.v:858$169'.
+  created $dff cell `$procdff$3495' with positive edge clock.
+Creating register for signal `\picorv32.\instr_slli' using process `\picorv32.$proc$../picorv32/picorv32.v:858$169'.
+  created $dff cell `$procdff$3496' with positive edge clock.
+Creating register for signal `\picorv32.\instr_srli' using process `\picorv32.$proc$../picorv32/picorv32.v:858$169'.
+  created $dff cell `$procdff$3497' with positive edge clock.
+Creating register for signal `\picorv32.\instr_srai' using process `\picorv32.$proc$../picorv32/picorv32.v:858$169'.
+  created $dff cell `$procdff$3498' with positive edge clock.
+Creating register for signal `\picorv32.\instr_add' using process `\picorv32.$proc$../picorv32/picorv32.v:858$169'.
+  created $dff cell `$procdff$3499' with positive edge clock.
+Creating register for signal `\picorv32.\instr_sub' using process `\picorv32.$proc$../picorv32/picorv32.v:858$169'.
+  created $dff cell `$procdff$3500' with positive edge clock.
+Creating register for signal `\picorv32.\instr_sll' using process `\picorv32.$proc$../picorv32/picorv32.v:858$169'.
+  created $dff cell `$procdff$3501' with positive edge clock.
+Creating register for signal `\picorv32.\instr_slt' using process `\picorv32.$proc$../picorv32/picorv32.v:858$169'.
+  created $dff cell `$procdff$3502' with positive edge clock.
+Creating register for signal `\picorv32.\instr_sltu' using process `\picorv32.$proc$../picorv32/picorv32.v:858$169'.
+  created $dff cell `$procdff$3503' with positive edge clock.
+Creating register for signal `\picorv32.\instr_xor' using process `\picorv32.$proc$../picorv32/picorv32.v:858$169'.
+  created $dff cell `$procdff$3504' with positive edge clock.
+Creating register for signal `\picorv32.\instr_srl' using process `\picorv32.$proc$../picorv32/picorv32.v:858$169'.
+  created $dff cell `$procdff$3505' with positive edge clock.
+Creating register for signal `\picorv32.\instr_sra' using process `\picorv32.$proc$../picorv32/picorv32.v:858$169'.
+  created $dff cell `$procdff$3506' with positive edge clock.
+Creating register for signal `\picorv32.\instr_or' using process `\picorv32.$proc$../picorv32/picorv32.v:858$169'.
+  created $dff cell `$procdff$3507' with positive edge clock.
+Creating register for signal `\picorv32.\instr_and' using process `\picorv32.$proc$../picorv32/picorv32.v:858$169'.
+  created $dff cell `$procdff$3508' with positive edge clock.
+Creating register for signal `\picorv32.\instr_rdcycle' using process `\picorv32.$proc$../picorv32/picorv32.v:858$169'.
+  created $dff cell `$procdff$3509' with positive edge clock.
+Creating register for signal `\picorv32.\instr_rdcycleh' using process `\picorv32.$proc$../picorv32/picorv32.v:858$169'.
+  created $dff cell `$procdff$3510' with positive edge clock.
+Creating register for signal `\picorv32.\instr_rdinstr' using process `\picorv32.$proc$../picorv32/picorv32.v:858$169'.
+  created $dff cell `$procdff$3511' with positive edge clock.
+Creating register for signal `\picorv32.\instr_rdinstrh' using process `\picorv32.$proc$../picorv32/picorv32.v:858$169'.
+  created $dff cell `$procdff$3512' with positive edge clock.
+Creating register for signal `\picorv32.\instr_ecall_ebreak' using process `\picorv32.$proc$../picorv32/picorv32.v:858$169'.
+  created $dff cell `$procdff$3513' with positive edge clock.
+Creating register for signal `\picorv32.\instr_fence' using process `\picorv32.$proc$../picorv32/picorv32.v:858$169'.
+  created $dff cell `$procdff$3514' with positive edge clock.
+Creating register for signal `\picorv32.\instr_getq' using process `\picorv32.$proc$../picorv32/picorv32.v:858$169'.
+  created $dff cell `$procdff$3515' with positive edge clock.
+Creating register for signal `\picorv32.\instr_setq' using process `\picorv32.$proc$../picorv32/picorv32.v:858$169'.
+  created $dff cell `$procdff$3516' with positive edge clock.
+Creating register for signal `\picorv32.\instr_retirq' using process `\picorv32.$proc$../picorv32/picorv32.v:858$169'.
+  created $dff cell `$procdff$3517' with positive edge clock.
+Creating register for signal `\picorv32.\instr_maskirq' using process `\picorv32.$proc$../picorv32/picorv32.v:858$169'.
+  created $dff cell `$procdff$3518' with positive edge clock.
+Creating register for signal `\picorv32.\instr_waitirq' using process `\picorv32.$proc$../picorv32/picorv32.v:858$169'.
+  created $dff cell `$procdff$3519' with positive edge clock.
+Creating register for signal `\picorv32.\instr_timer' using process `\picorv32.$proc$../picorv32/picorv32.v:858$169'.
+  created $dff cell `$procdff$3520' with positive edge clock.
+Creating register for signal `\picorv32.\decoded_rd' using process `\picorv32.$proc$../picorv32/picorv32.v:858$169'.
+  created $dff cell `$procdff$3521' with positive edge clock.
+Creating register for signal `\picorv32.\decoded_rs1' using process `\picorv32.$proc$../picorv32/picorv32.v:858$169'.
+  created $dff cell `$procdff$3522' with positive edge clock.
+Creating register for signal `\picorv32.\decoded_rs2' using process `\picorv32.$proc$../picorv32/picorv32.v:858$169'.
+  created $dff cell `$procdff$3523' with positive edge clock.
+Creating register for signal `\picorv32.\decoded_imm' using process `\picorv32.$proc$../picorv32/picorv32.v:858$169'.
+  created $dff cell `$procdff$3524' with positive edge clock.
+Creating register for signal `\picorv32.\decoded_imm_j' using process `\picorv32.$proc$../picorv32/picorv32.v:858$169'.
+  created $dff cell `$procdff$3525' with positive edge clock.
+Creating register for signal `\picorv32.\compressed_instr' using process `\picorv32.$proc$../picorv32/picorv32.v:858$169'.
+  created $dff cell `$procdff$3526' with positive edge clock.
+Creating register for signal `\picorv32.\is_lui_auipc_jal' using process `\picorv32.$proc$../picorv32/picorv32.v:858$169'.
+  created $dff cell `$procdff$3527' with positive edge clock.
+Creating register for signal `\picorv32.\is_lb_lh_lw_lbu_lhu' using process `\picorv32.$proc$../picorv32/picorv32.v:858$169'.
+  created $dff cell `$procdff$3528' with positive edge clock.
+Creating register for signal `\picorv32.\is_slli_srli_srai' using process `\picorv32.$proc$../picorv32/picorv32.v:858$169'.
+  created $dff cell `$procdff$3529' with positive edge clock.
+Creating register for signal `\picorv32.\is_jalr_addi_slti_sltiu_xori_ori_andi' using process `\picorv32.$proc$../picorv32/picorv32.v:858$169'.
+  created $dff cell `$procdff$3530' with positive edge clock.
+Creating register for signal `\picorv32.\is_sb_sh_sw' using process `\picorv32.$proc$../picorv32/picorv32.v:858$169'.
+  created $dff cell `$procdff$3531' with positive edge clock.
+Creating register for signal `\picorv32.\is_sll_srl_sra' using process `\picorv32.$proc$../picorv32/picorv32.v:858$169'.
+  created $dff cell `$procdff$3532' with positive edge clock.
+Creating register for signal `\picorv32.\is_lui_auipc_jal_jalr_addi_add_sub' using process `\picorv32.$proc$../picorv32/picorv32.v:858$169'.
+  created $dff cell `$procdff$3533' with positive edge clock.
+Creating register for signal `\picorv32.\is_slti_blt_slt' using process `\picorv32.$proc$../picorv32/picorv32.v:858$169'.
+  created $dff cell `$procdff$3534' with positive edge clock.
+Creating register for signal `\picorv32.\is_sltiu_bltu_sltu' using process `\picorv32.$proc$../picorv32/picorv32.v:858$169'.
+  created $dff cell `$procdff$3535' with positive edge clock.
+Creating register for signal `\picorv32.\is_beq_bne_blt_bge_bltu_bgeu' using process `\picorv32.$proc$../picorv32/picorv32.v:858$169'.
+  created $dff cell `$procdff$3536' with positive edge clock.
+Creating register for signal `\picorv32.\is_lbu_lhu_lw' using process `\picorv32.$proc$../picorv32/picorv32.v:858$169'.
+  created $dff cell `$procdff$3537' with positive edge clock.
+Creating register for signal `\picorv32.\is_alu_reg_imm' using process `\picorv32.$proc$../picorv32/picorv32.v:858$169'.
+  created $dff cell `$procdff$3538' with positive edge clock.
+Creating register for signal `\picorv32.\is_alu_reg_reg' using process `\picorv32.$proc$../picorv32/picorv32.v:858$169'.
+  created $dff cell `$procdff$3539' with positive edge clock.
+Creating register for signal `\picorv32.\is_compare' using process `\picorv32.$proc$../picorv32/picorv32.v:858$169'.
+  created $dff cell `$procdff$3540' with positive edge clock.
+Creating register for signal `\picorv32.\dbg_insn_addr' using process `\picorv32.$proc$../picorv32/picorv32.v:778$163'.
+  created $dff cell `$procdff$3541' with positive edge clock.
+Creating register for signal `\picorv32.\q_ascii_instr' using process `\picorv32.$proc$../picorv32/picorv32.v:778$163'.
+  created $dff cell `$procdff$3542' with positive edge clock.
+Creating register for signal `\picorv32.\q_insn_imm' using process `\picorv32.$proc$../picorv32/picorv32.v:778$163'.
+  created $dff cell `$procdff$3543' with positive edge clock.
+Creating register for signal `\picorv32.\q_insn_opcode' using process `\picorv32.$proc$../picorv32/picorv32.v:778$163'.
+  created $dff cell `$procdff$3544' with positive edge clock.
+Creating register for signal `\picorv32.\q_insn_rs1' using process `\picorv32.$proc$../picorv32/picorv32.v:778$163'.
+  created $dff cell `$procdff$3545' with positive edge clock.
+Creating register for signal `\picorv32.\q_insn_rs2' using process `\picorv32.$proc$../picorv32/picorv32.v:778$163'.
+  created $dff cell `$procdff$3546' with positive edge clock.
+Creating register for signal `\picorv32.\q_insn_rd' using process `\picorv32.$proc$../picorv32/picorv32.v:778$163'.
+  created $dff cell `$procdff$3547' with positive edge clock.
+Creating register for signal `\picorv32.\dbg_next' using process `\picorv32.$proc$../picorv32/picorv32.v:778$163'.
+  created $dff cell `$procdff$3548' with positive edge clock.
+Creating register for signal `\picorv32.\dbg_valid_insn' using process `\picorv32.$proc$../picorv32/picorv32.v:778$163'.
+  created $dff cell `$procdff$3549' with positive edge clock.
+Creating register for signal `\picorv32.\cached_ascii_instr' using process `\picorv32.$proc$../picorv32/picorv32.v:778$163'.
+  created $dff cell `$procdff$3550' with positive edge clock.
+Creating register for signal `\picorv32.\cached_insn_imm' using process `\picorv32.$proc$../picorv32/picorv32.v:778$163'.
+  created $dff cell `$procdff$3551' with positive edge clock.
+Creating register for signal `\picorv32.\cached_insn_opcode' using process `\picorv32.$proc$../picorv32/picorv32.v:778$163'.
+  created $dff cell `$procdff$3552' with positive edge clock.
+Creating register for signal `\picorv32.\cached_insn_rs1' using process `\picorv32.$proc$../picorv32/picorv32.v:778$163'.
+  created $dff cell `$procdff$3553' with positive edge clock.
+Creating register for signal `\picorv32.\cached_insn_rs2' using process `\picorv32.$proc$../picorv32/picorv32.v:778$163'.
+  created $dff cell `$procdff$3554' with positive edge clock.
+Creating register for signal `\picorv32.\cached_insn_rd' using process `\picorv32.$proc$../picorv32/picorv32.v:778$163'.
+  created $dff cell `$procdff$3555' with positive edge clock.
+Creating register for signal `\picorv32.\mem_valid' using process `\picorv32.$proc$../picorv32/picorv32.v:565$138'.
+  created $dff cell `$procdff$3556' with positive edge clock.
+Creating register for signal `\picorv32.\mem_instr' using process `\picorv32.$proc$../picorv32/picorv32.v:565$138'.
+  created $dff cell `$procdff$3557' with positive edge clock.
+Creating register for signal `\picorv32.\mem_addr' using process `\picorv32.$proc$../picorv32/picorv32.v:565$138'.
+  created $dff cell `$procdff$3558' with positive edge clock.
+Creating register for signal `\picorv32.\mem_wdata' using process `\picorv32.$proc$../picorv32/picorv32.v:565$138'.
+  created $dff cell `$procdff$3559' with positive edge clock.
+Creating register for signal `\picorv32.\mem_wstrb' using process `\picorv32.$proc$../picorv32/picorv32.v:565$138'.
+  created $dff cell `$procdff$3560' with positive edge clock.
+Creating register for signal `\picorv32.\mem_state' using process `\picorv32.$proc$../picorv32/picorv32.v:565$138'.
+  created $dff cell `$procdff$3561' with positive edge clock.
+Creating register for signal `\picorv32.\mem_la_secondword' using process `\picorv32.$proc$../picorv32/picorv32.v:565$138'.
+  created $dff cell `$procdff$3562' with positive edge clock.
+Creating register for signal `\picorv32.\prefetched_high_word' using process `\picorv32.$proc$../picorv32/picorv32.v:565$138'.
+  created $dff cell `$procdff$3563' with positive edge clock.
+Creating register for signal `\picorv32.\mem_16bit_buffer' using process `\picorv32.$proc$../picorv32/picorv32.v:565$138'.
+  created $dff cell `$procdff$3564' with positive edge clock.
+Creating register for signal `\picorv32.\next_insn_opcode' using process `\picorv32.$proc$../picorv32/picorv32.v:430$100'.
+  created $dff cell `$procdff$3565' with positive edge clock.
+Creating register for signal `\picorv32.\mem_rdata_q' using process `\picorv32.$proc$../picorv32/picorv32.v:430$100'.
+  created $dff cell `$procdff$3566' with positive edge clock.
+Creating register for signal `\picorv32.\mem_la_firstword_reg' using process `\picorv32.$proc$../picorv32/picorv32.v:390$92'.
+  created $dff cell `$procdff$3567' with positive edge clock.
+Creating register for signal `\picorv32.\last_mem_valid' using process `\picorv32.$proc$../picorv32/picorv32.v:390$92'.
+  created $dff cell `$procdff$3568' with positive edge clock.
+
+5.10. Executing PROC_MEMWR pass (convert process memory writes to cells).
+
+5.11. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Found and cleaned up 53 empty switches in `\picorv32.$proc$../picorv32/picorv32.v:1402$509'.
+Removing empty process `picorv32.$proc$../picorv32/picorv32.v:1402$509'.
+Removing empty process `picorv32.$proc$../picorv32/picorv32.v:1348$493'.
+Found and cleaned up 1 empty switch in `\picorv32.$proc$../picorv32/picorv32.v:1337$484'.
+Removing empty process `picorv32.$proc$../picorv32/picorv32.v:1337$484'.
+Found and cleaned up 2 empty switches in `\picorv32.$proc$../picorv32/picorv32.v:1309$472'.
+Removing empty process `picorv32.$proc$../picorv32/picorv32.v:1309$472'.
+Found and cleaned up 2 empty switches in `\picorv32.$proc$../picorv32/picorv32.v:1295$467'.
+Removing empty process `picorv32.$proc$../picorv32/picorv32.v:1295$467'.
+Removing empty process `picorv32.$proc$../picorv32/picorv32.v:1293$466'.
+Found and cleaned up 2 empty switches in `\picorv32.$proc$../picorv32/picorv32.v:1249$444'.
+Removing empty process `picorv32.$proc$../picorv32/picorv32.v:1249$444'.
+Found and cleaned up 8 empty switches in `\picorv32.$proc$../picorv32/picorv32.v:1186$432'.
+Removing empty process `picorv32.$proc$../picorv32/picorv32.v:1186$432'.
+Found and cleaned up 22 empty switches in `\picorv32.$proc$../picorv32/picorv32.v:858$169'.
+Removing empty process `picorv32.$proc$../picorv32/picorv32.v:858$169'.
+Found and cleaned up 3 empty switches in `\picorv32.$proc$../picorv32/picorv32.v:809$167'.
+Removing empty process `picorv32.$proc$../picorv32/picorv32.v:809$167'.
+Found and cleaned up 5 empty switches in `\picorv32.$proc$../picorv32/picorv32.v:778$163'.
+Removing empty process `picorv32.$proc$../picorv32/picorv32.v:778$163'.
+Found and cleaned up 48 empty switches in `\picorv32.$proc$../picorv32/picorv32.v:701$162'.
+Removing empty process `picorv32.$proc$../picorv32/picorv32.v:701$162'.
+Found and cleaned up 16 empty switches in `\picorv32.$proc$../picorv32/picorv32.v:565$138'.
+Removing empty process `picorv32.$proc$../picorv32/picorv32.v:565$138'.
+Removing empty process `picorv32.$proc$../picorv32/picorv32.v:1239$677'.
+Found and cleaned up 19 empty switches in `\picorv32.$proc$../picorv32/picorv32.v:430$100'.
+Removing empty process `picorv32.$proc$../picorv32/picorv32.v:430$100'.
+Found and cleaned up 3 empty switches in `\picorv32.$proc$../picorv32/picorv32.v:401$97'.
+Removing empty process `picorv32.$proc$../picorv32/picorv32.v:401$97'.
+Found and cleaned up 2 empty switches in `\picorv32.$proc$../picorv32/picorv32.v:390$92'.
+Removing empty process `picorv32.$proc$../picorv32/picorv32.v:390$92'.
+Found and cleaned up 1 empty switch in `\picorv32.$proc$../picorv32/picorv32.v:325$18'.
+Removing empty process `picorv32.$proc$../picorv32/picorv32.v:325$18'.
+Cleaned up 187 empty switches.
+
+5.12. Executing OPT_EXPR pass (perform const folding).
+Optimizing module picorv32.
+<suppressed ~827 debug messages>
+
+6. Executing FLATTEN pass (flatten design).
+
+7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \picorv32..
+Removed 719 unused cells and 2224 unused wires.
+<suppressed ~800 debug messages>

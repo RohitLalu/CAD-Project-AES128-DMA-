@@ -1,0 +1,1 @@
+openroad -exit -no_splash -metrics /Users/hello.welcometothisdevice/CAD-Project-AES128-DMA-/our_tests/runs/RUN_2026-02-02_15-29-11/23-openroad-globalplacementskipio/or_metrics_out.json /nix/store/ghgrqjvc2jh1adq2g1rchdkwk247l4ax-python3-3.11.9-env/lib/python3.11/site-packages/librelane/scripts/openroad/gpl.tcl

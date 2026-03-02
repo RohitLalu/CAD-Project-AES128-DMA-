@@ -1,0 +1,126 @@
+Reading timing models for corner nom_tt_025C_1v80…
+Reading timing library for the 'nom_tt_025C_1v80' corner at '/Users/hello.welcometothisdevice/.ciel/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib'…
+Reading timing models for corner nom_ff_n40C_1v95…
+Reading timing library for the 'nom_ff_n40C_1v95' corner at '/Users/hello.welcometothisdevice/.ciel/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib'…
+Reading timing models for corner nom_ss_100C_1v60…
+Reading timing library for the 'nom_ss_100C_1v60' corner at '/Users/hello.welcometothisdevice/.ciel/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib'…
+Reading OpenROAD database at '/Users/hello.welcometothisdevice/CAD-Project-AES128-DMA-/our_tests/runs/RUN_2026-02-02_15-51-15/27-openroad-globalplacement/picorv32.odb'…
+Reading design constraints file at 'constraints.sdc'…
+[WARNING STA-0441] set_input_delay relative to a clock defined on the same port/pin not allowed.
+[INFO] No information on clock propagation in input SDC file-- propagating all clocks.
+[INFO] Setting RC values…
+[INFO RSZ-0027] Inserted 34 input buffers.
+[INFO RSZ-0028] Inserted 201 output buffers.
+[INFO RSZ-0058] Using max wire length 5786um.
+Iteration | Resized | Buffers | Nets repaired | Remaining
+---------------------------------------------------------
+        0 |       0 |       0 |             0 |      7146
+      100 |      95 |       0 |             0 |      7046
+      200 |     146 |       0 |             0 |      6946
+      300 |     209 |       0 |             0 |      6846
+      400 |     263 |       0 |             0 |      6746
+      500 |     312 |       0 |             0 |      6646
+      600 |     362 |       0 |             0 |      6546
+      700 |     425 |       0 |             0 |      6446
+      800 |     486 |       0 |             0 |      6346
+      900 |     537 |       0 |             0 |      6246
+     1000 |     587 |       0 |             0 |      6146
+     1100 |     637 |       0 |             0 |      6046
+     1200 |     689 |       0 |             0 |      5946
+     1300 |     726 |       0 |             0 |      5846
+     1400 |     781 |       0 |             0 |      5746
+     1500 |     829 |       0 |             0 |      5646
+     1600 |     890 |       0 |             0 |      5546
+     1700 |     932 |       0 |             0 |      5446
+     1800 |     962 |       2 |             1 |      5346
+     1900 |     967 |       2 |             1 |      5246
+     2000 |    1010 |       2 |             1 |      5146
+     2100 |    1025 |       2 |             1 |      5046
+     2200 |    1104 |       9 |             6 |      4946
+     2300 |    1171 |       9 |             6 |      4846
+     2400 |    1272 |      18 |            15 |      4746
+     2500 |    1337 |      18 |            15 |      4646
+     2600 |    1432 |      18 |            15 |      4546
+     2700 |    1530 |      18 |            15 |      4446
+     2800 |    1626 |      18 |            15 |      4346
+     2900 |    1720 |      18 |            15 |      4246
+     3000 |    1819 |      18 |            15 |      4146
+     3100 |    1913 |      18 |            15 |      4046
+     3200 |    1983 |      18 |            15 |      3946
+     3300 |    2078 |      18 |            15 |      3846
+     3400 |    2156 |      18 |            15 |      3746
+     3500 |    2224 |      18 |            15 |      3646
+     3600 |    2297 |      18 |            15 |      3546
+     3700 |    2378 |      18 |            15 |      3446
+     3800 |    2455 |      19 |            16 |      3346
+     3900 |    2509 |      19 |            16 |      3246
+     4000 |    2602 |      20 |            17 |      3146
+     4100 |    2696 |      20 |            17 |      3046
+     4200 |    2794 |      20 |            17 |      2946
+     4300 |    2894 |      20 |            17 |      2846
+     4400 |    2986 |      20 |            17 |      2746
+     4500 |    3086 |      20 |            17 |      2646
+     4600 |    3186 |      20 |            17 |      2546
+     4700 |    3267 |      20 |            17 |      2446
+     4800 |    3334 |      20 |            17 |      2346
+     4900 |    3434 |      20 |            17 |      2246
+     5000 |    3524 |      21 |            18 |      2146
+     5100 |    3598 |      22 |            22 |      2046
+     5200 |    3698 |      22 |            22 |      1946
+     5300 |    3798 |      22 |            22 |      1846
+     5400 |    3898 |      22 |            22 |      1746
+     5500 |    3998 |      22 |            22 |      1646
+     5600 |    4097 |      22 |            22 |      1546
+     5700 |    4191 |      33 |            25 |      1446
+     5800 |    4268 |      33 |            25 |      1346
+     5900 |    4356 |      33 |            25 |      1246
+     6000 |    4437 |      33 |            25 |      1146
+     6100 |    4537 |      33 |            25 |      1046
+     6200 |    4627 |      33 |            25 |       946
+     6300 |    4727 |      33 |            25 |       846
+     6400 |    4827 |      33 |            25 |       746
+     6500 |    4927 |      33 |            25 |       646
+     6600 |    5027 |      33 |            25 |       546
+     6700 |    5127 |      33 |            25 |       446
+     6800 |    5227 |      45 |            30 |       346
+     6900 |    5249 |      45 |            30 |       246
+     7000 |    5249 |      45 |            30 |       146
+     7100 |    5249 |      45 |            30 |        46
+    final |    5249 |      45 |            30 |         0
+---------------------------------------------------------
+[INFO RSZ-0034] Found 30 slew violations.
+[INFO RSZ-0036] Found 26 capacitance violations.
+[INFO RSZ-0038] Inserted 45 buffers in 30 nets.
+[INFO RSZ-0039] Resized 5249 instances.
+[INFO RSZ-0042] Inserted 106 tie sky130_fd_sc_hd__conb_1 instances.
+Placement Analysis
+---------------------------------
+total displacement      19707.0 u
+average displacement        2.0 u
+max displacement           19.0 u
+original HPWL          182556.4 u
+legalized HPWL         202765.8 u
+delta HPWL                   11 %
+
+[INFO DPL-0020] Mirrored 2447 instances
+[INFO DPL-0021] HPWL before          202765.8 u
+[INFO DPL-0022] HPWL after           196612.7 u
+[INFO DPL-0023] HPWL delta               -3.0 %
+[INFO] Setting RC values…
+Setting global connections for newly added cells…
+[INFO] Setting global connections...
+Updating metrics…
+Cell type report:                       Count       Area
+  Fill cell                               308    1156.11
+  Tap cell                               2496    3123.00
+  Buffer                                   40     150.14
+  Timing Repair Buffer                    280    2054.47
+  Inverter                                 70     437.92
+  Sequential cell                        1597   32363.54
+  Multi-Input combinational cell         4996   53008.34
+  Total                                  9787   92293.52
+Writing OpenROAD database to '/Users/hello.welcometothisdevice/CAD-Project-AES128-DMA-/our_tests/runs/RUN_2026-02-02_15-51-15/31-openroad-repairdesignpostgpl/picorv32.odb'…
+Writing netlist to '/Users/hello.welcometothisdevice/CAD-Project-AES128-DMA-/our_tests/runs/RUN_2026-02-02_15-51-15/31-openroad-repairdesignpostgpl/picorv32.nl.v'…
+Writing powered netlist to '/Users/hello.welcometothisdevice/CAD-Project-AES128-DMA-/our_tests/runs/RUN_2026-02-02_15-51-15/31-openroad-repairdesignpostgpl/picorv32.pnl.v'…
+Writing layout to '/Users/hello.welcometothisdevice/CAD-Project-AES128-DMA-/our_tests/runs/RUN_2026-02-02_15-51-15/31-openroad-repairdesignpostgpl/picorv32.def'…
+Writing timing constraints to '/Users/hello.welcometothisdevice/CAD-Project-AES128-DMA-/our_tests/runs/RUN_2026-02-02_15-51-15/31-openroad-repairdesignpostgpl/picorv32.sdc'…

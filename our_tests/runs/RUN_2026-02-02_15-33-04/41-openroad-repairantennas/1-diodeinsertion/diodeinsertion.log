@@ -1,0 +1,154 @@
+Reading OpenROAD database at '/Users/hello.welcometothisdevice/CAD-Project-AES128-DMA-/our_tests/runs/RUN_2026-02-02_15-33-04/38-openroad-globalrouting/picorv32.odb'…
+Reading library file at '/Users/hello.welcometothisdevice/.ciel/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib'…
+Reading design constraints file at 'constraints.sdc'…
+[INFO] No information on clock propagation in input SDC file-- propagating all clocks.
+[INFO] Setting signal min routing layer to: met1 and clock min routing layer to met1. 
+[INFO] Setting signal max routing layer to: met4 and clock max routing layer to met4. 
+-congestion_iterations 50 -verbose
+[INFO GRT-0020] Min routing layer: met1
+[INFO GRT-0021] Max routing layer: met4
+[INFO GRT-0022] Global adjustment: 30%
+[INFO GRT-0023] Grid origin: (0, 0)
+[INFO GRT-0043] No OR_DEFAULT vias defined.
+[INFO GRT-0088] Layer li1     Track-Pitch = 0.4600  line-2-Via Pitch: 0.3400
+[INFO GRT-0088] Layer met1    Track-Pitch = 0.3400  line-2-Via Pitch: 0.3400
+[INFO GRT-0088] Layer met2    Track-Pitch = 0.4600  line-2-Via Pitch: 0.3500
+[INFO GRT-0088] Layer met3    Track-Pitch = 0.6800  line-2-Via Pitch: 0.6150
+[INFO GRT-0088] Layer met4    Track-Pitch = 0.9200  line-2-Via Pitch: 0.6150
+[INFO GRT-0019] Found 0 clock nets.
+[INFO GRT-0001] Minimum degree: 2
+[INFO GRT-0002] Maximum degree: 222
+[INFO GRT-0003] Macros: 0
+[INFO GRT-0043] No OR_DEFAULT vias defined.
+[INFO GRT-0004] Blockages: 34337
+
+[INFO GRT-0053] Routing resources analysis:
+          Routing      Original      Derated      Resource
+Layer     Direction    Resources     Resources    Reduction (%)
+---------------------------------------------------------------
+li1        Vertical            0             0          0.00%
+met1       Horizontal      79506         37423          52.93%
+met2       Vertical        60126         39362          34.53%
+met3       Horizontal      39722         27246          31.41%
+met4       Vertical        28110         15510          44.82%
+---------------------------------------------------------------
+
+[INFO GRT-0101] Running extra iterations to remove overflow.
+[INFO GRT-0197] Via related to pin nodes: 46268
+[INFO GRT-0198] Via related Steiner nodes: 1273
+[INFO GRT-0199] Via filling finished.
+[INFO GRT-0111] Final number of vias: 58747
+[INFO GRT-0112] Final usage 3D: 217463
+
+[INFO GRT-0096] Final congestion report:
+Layer         Resource        Demand        Usage (%)    Max H / Max V / Total Overflow
+---------------------------------------------------------------------------------------
+li1                  0             0            0.00%             0 /  0 /  0
+met1             37423         17676           47.23%             0 /  0 /  0
+met2             39362         18360           46.64%             0 /  0 /  0
+met3             27246          2841           10.43%             0 /  0 /  0
+met4             15510          2345           15.12%             0 /  0 /  0
+---------------------------------------------------------------------------------------
+Total           119541         41222           34.48%             0 /  0 /  0
+
+[INFO GRT-0018] Total wirelength: 425612 um
+[INFO GRT-0014] Routed nets: 7027
+[INFO GRT-0006] Repairing antennas, iteration 1.
+[INFO GRT-0043] No OR_DEFAULT vias defined.
+[INFO GRT-0012] Found 31 antenna violations.
+[INFO GRT-0015] Inserted 37 diodes.
+[INFO GRT-0009] rerouting 2071 nets.
+[INFO GRT-0001] Minimum degree: 2
+[INFO GRT-0002] Maximum degree: 222
+[INFO GRT-0006] Repairing antennas, iteration 2.
+[INFO GRT-0043] No OR_DEFAULT vias defined.
+[INFO GRT-0012] Found 6 antenna violations.
+[INFO GRT-0015] Inserted 6 diodes.
+[INFO GRT-0009] rerouting 21 nets.
+[INFO GRT-0001] Minimum degree: 2
+[INFO GRT-0002] Maximum degree: 34
+[INFO GRT-0006] Repairing antennas, iteration 3.
+[INFO GRT-0043] No OR_DEFAULT vias defined.
+[INFO GRT-0012] Found 1 antenna violations.
+[INFO GRT-0015] Inserted 1 diodes.
+[INFO GRT-0009] rerouting 1 nets.
+[INFO GRT-0001] Minimum degree: 15
+[INFO GRT-0002] Maximum degree: 15
+Placement Analysis
+---------------------------------
+total displacement          0.0 u
+average displacement        0.0 u
+max displacement            0.0 u
+original HPWL          205311.1 u
+legalized HPWL         205311.1 u
+delta HPWL                    0 %
+
+[INFO DPL-0020] Mirrored 2545 instances
+[INFO DPL-0021] HPWL before          205311.1 u
+[INFO DPL-0022] HPWL after           199266.7 u
+[INFO DPL-0023] HPWL delta               -2.9 %
+-congestion_iterations 50 -verbose
+[INFO GRT-0020] Min routing layer: met1
+[INFO GRT-0021] Max routing layer: met4
+[INFO GRT-0022] Global adjustment: 30%
+[INFO GRT-0023] Grid origin: (0, 0)
+[INFO GRT-0043] No OR_DEFAULT vias defined.
+[INFO GRT-0088] Layer li1     Track-Pitch = 0.4600  line-2-Via Pitch: 0.3400
+[INFO GRT-0088] Layer met1    Track-Pitch = 0.3400  line-2-Via Pitch: 0.3400
+[INFO GRT-0088] Layer met2    Track-Pitch = 0.4600  line-2-Via Pitch: 0.3500
+[INFO GRT-0088] Layer met3    Track-Pitch = 0.6800  line-2-Via Pitch: 0.6150
+[INFO GRT-0088] Layer met4    Track-Pitch = 0.9200  line-2-Via Pitch: 0.6150
+[INFO GRT-0019] Found 0 clock nets.
+[INFO GRT-0001] Minimum degree: 2
+[INFO GRT-0002] Maximum degree: 222
+[INFO GRT-0003] Macros: 0
+[INFO GRT-0043] No OR_DEFAULT vias defined.
+[INFO GRT-0004] Blockages: 34337
+
+[INFO GRT-0053] Routing resources analysis:
+          Routing      Original      Derated      Resource
+Layer     Direction    Resources     Resources    Reduction (%)
+---------------------------------------------------------------
+li1        Vertical            0             0          0.00%
+met1       Horizontal      79506         37420          52.93%
+met2       Vertical        60126         39362          34.53%
+met3       Horizontal      39722         27246          31.41%
+met4       Vertical        28110         15510          44.82%
+---------------------------------------------------------------
+
+[INFO GRT-0101] Running extra iterations to remove overflow.
+[INFO GRT-0197] Via related to pin nodes: 46326
+[INFO GRT-0198] Via related Steiner nodes: 1278
+[INFO GRT-0199] Via filling finished.
+[INFO GRT-0111] Final number of vias: 58801
+[INFO GRT-0112] Final usage 3D: 217645
+
+[INFO GRT-0096] Final congestion report:
+Layer         Resource        Demand        Usage (%)    Max H / Max V / Total Overflow
+---------------------------------------------------------------------------------------
+li1                  0             0            0.00%             0 /  0 /  0
+met1             37420         17712           47.33%             0 /  0 /  0
+met2             39362         18467           46.92%             0 /  0 /  0
+met3             27246          2776           10.19%             0 /  0 /  0
+met4             15510          2287           14.75%             0 /  0 /  0
+---------------------------------------------------------------------------------------
+Total           119538         41242           34.50%             0 /  0 /  0
+
+[INFO GRT-0018] Total wirelength: 425930 um
+[INFO GRT-0014] Routed nets: 7027
+[INFO] Setting RC values…
+Setting global connections for newly added cells…
+[INFO] Setting global connections...
+Updating metrics…
+Cell type report:                       Count       Area
+  Fill cell                               308    1156.11
+  Tap cell                               2496    3123.00
+  Antenna cell                             44     110.11
+  Buffer                                   40     150.14
+  Timing Repair Buffer                    289    2006.92
+  Inverter                                 70     437.92
+  Sequential cell                        1597   32372.30
+  Multi-Input combinational cell         4996   52890.73
+  Total                                  9840   92247.22
+Writing OpenROAD database to '/Users/hello.welcometothisdevice/CAD-Project-AES128-DMA-/our_tests/runs/RUN_2026-02-02_15-33-04/41-openroad-repairantennas/1-diodeinsertion/picorv32.odb'…
+Writing layout to '/Users/hello.welcometothisdevice/CAD-Project-AES128-DMA-/our_tests/runs/RUN_2026-02-02_15-33-04/41-openroad-repairantennas/1-diodeinsertion/picorv32.def'…
