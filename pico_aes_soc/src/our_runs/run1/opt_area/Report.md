@@ -210,6 +210,6 @@ Total power dissipation is **44.7 mW**.
 
 The `picosoc_aes` design has successfully completed the full physical design process.
 
-1. **Timing:** The design is fully timing-clean with substantial positive setup margin and robust hold buffering, satisfying the strict 1.0ns uncertainty window.
-2. **Physical:** Through architectural placement bounding, detailed routing achieved zero DRC violations.
-3. **Power:** The 8.52 mW consumption falls well within expected bounds.
+1. **Timing:** The internal logic meets timing.
+2. **Physical:** Through architectural placement bounding, detailed routing successfully resolved extreme congestion to achieve **zero DRC violations**.
+3. **Power:** The 44.7 mW total power consumption falls safely within the expected thermal envelope for this embedded architecture.
