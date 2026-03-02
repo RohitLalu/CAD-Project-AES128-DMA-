@@ -1,7 +1,9 @@
 # Physical Design Implementation - Optimized for Area
 
 **Design Top Module:** `picosoc_aes` (PicoSoC with AES-128)
+
 **Technology Node:** SkyWater 130nm (`sky130_fd_sc_hd`)
+
 **Target Frequency:** 40 MHz (25.00 ns period)
 
 ## Overview
