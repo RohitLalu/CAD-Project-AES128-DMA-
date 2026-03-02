@@ -1,1 +1,3 @@
-our_tests/runs/*
+our_tests/runs
+pico_aes_soc/src/our_runs/run1/*.odb
+pico_aes_soc/src/our_runs/run2/*.odb
