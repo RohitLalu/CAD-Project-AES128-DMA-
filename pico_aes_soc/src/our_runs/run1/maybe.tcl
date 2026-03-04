@@ -152,12 +152,7 @@ puts "\n✓ Routing complete!"
 # ========================================================================
 
 puts "\n--- Filler cells ---"
-filler_placement -cells {
-    sky130_fd_sc_hd__fill_8
-    sky130_fd_sc_hd__fill_4
-    sky130_fd_sc_hd__fill_2
-    sky130_fd_sc_hd__fill_1
-}
+filler_placement sky130_fd_sc_hd__fill_*
 puts "✓ Fillers inserted"
 
 # ========================================================================
