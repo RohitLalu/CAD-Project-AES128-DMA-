@@ -1,5 +1,0 @@
-`verilator_config
-lint_off -rule DECLFILENAME
-lint_off -rule EOFNEWLINE
-lint_off -rule UNDRIVEN -file "/Users/hello.welcometothisdevice/CAD-Project-AES128-DMA-/our_tests/runs/RUN_2026-02-02_15-33-04/tmp/d934184a95834ff397307df1bad652cd.bb.v"
-lint_off -rule UNUSEDSIGNAL -file "/Users/hello.welcometothisdevice/CAD-Project-AES128-DMA-/our_tests/runs/RUN_2026-02-02_15-33-04/tmp/d934184a95834ff397307df1bad652cd.bb.v"

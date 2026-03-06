@@ -1,4 +1,11 @@
 
+read_db aes_6_routed.odb
+
+set PDK_ROOT "/Users/hello.welcometothisdevice/.ciel/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af"
+read_lef  ${PDK_ROOT}/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__nom.tlef
+read_lef  ${PDK_ROOT}/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef
+read_liberty ${PDK_ROOT}/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+
 set_wire_rc -clock -layer met3
 set_wire_rc -signal -layer met2
 
@@ -6,20 +13,24 @@ set_dont_use sky130_fd_sc_hd__probe_p_8
 set_dont_use sky130_fd_sc_hd__probec_p_8
 set_dont_use sky130_fd_sc_hd__lpflow_*
 
-
 estimate_parasitics -global_routing
 
-repair_design -max_wire_length 3200 
+repair_design -max_wire_length 3250
 repair_timing -setup -setup_margin 0.1
-repair_timing -hold -hold_margin 0.02
+repair_timing -hold  -hold_margin 0.02
 
-detailed_placement
+#Re-route any cells inserted by repair_design/repair_timing
+global_route -allow_congestion
+detailed_route -output_drc aes_route_opt_drc.rpt \
+    -bottom_routing_layer met1 -top_routing_layer met5 -verbose 1
+
 write_db aes_7_route_opt.odb
 
 # Stage 12: Filler Cells
 
 puts "\n--- Filler cells ---"
 filler_placement sky130_fd_sc_hd__fill_*
+detailed_placement
 
 puts "✓ Fillers inserted"
 write_db aes_8_final.odb
