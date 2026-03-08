@@ -1,0 +1,24 @@
+--- Antenna Check ---
+[INFO ANT-0002] Found 216 net violations.
+[INFO ANT-0001] Found 308 pin violations.
+
+--- Power Analysis ---
+Design area 598525 u^2 31% utilization.
+
+--- Writing output files ---
+✓ DEF written
+
+TIMING-OPTIMIZED DESIGN COMPLETE!
+
+  📄 picosoc_aes_timing_fixed.def
+  📊 timing_final.txt
+  📊 wns_final.txt (WNS)
+  📊 tns_final.txt (TNS)
+  📊 antenna_final.txt
+  📊 power_final.txt
+
+Checkpoints saved at each stage (.odb files)
+
+Final Timing Summary:
+worst slack -544.54
+tns -2341430.75
