@@ -19,3 +19,5 @@
 
 ./pico_aes_soc/src/our_runs/run2/9_final.odb
 
+*.odb
+*.gds
