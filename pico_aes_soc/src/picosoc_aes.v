@@ -17,25 +17,6 @@
  *
  */
 
-/*
- *  PicoSoC - A simple example SoC using PicoRV32
- *
- *  Copyright (C) 2017  Claire Xenia Wolf <claire@yosyshq.com>
- *
- *  Permission to use, copy, modify, and/or distribute this software for any
- *  purpose with or without fee is hereby granted, provided that the above
- *  copyright notice and this permission notice appear in all copies.
- *
- *  THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
- *  WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
- *  MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
- *  ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
- *  WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
- *  ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
- *  OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
- *
- */
-
 `ifndef PICORV32_REGS
 `ifdef PICORV32_V
 `error "picosoc.v must be read before picorv32.v!"
@@ -330,22 +311,39 @@ module picosoc_regs (
 endmodule
 
 module picosoc_mem #(
-	parameter integer WORDS = 256
+    parameter integer WORDS = 256   // Must be 256 — fixed by macro geometry
 ) (
-	input clk,
-	input [3:0] wen,
-	input [21:0] addr,
-	input [31:0] wdata,
-	output reg [31:0] rdata
+    input              clk,
+    input  [3:0]       wen,
+    input  [21:0]      addr,
+    input  [31:0]      wdata,
+    output [31:0]      rdata
 );
-	reg [31:0] mem [0:WORDS-1];
 
-	always @(posedge clk) begin
-		rdata <= mem[addr];
-		if (wen[0]) mem[addr][ 7: 0] <= wdata[ 7: 0];
-		if (wen[1]) mem[addr][15: 8] <= wdata[15: 8];
-		if (wen[2]) mem[addr][23:16] <= wdata[23:16];
-		if (wen[3]) mem[addr][31:24] <= wdata[31:24];
-	end
+    wire        csb0   = 1'b0;
+    wire        web0   = ~(|wen);
+    wire [3:0]  wmask0 = wen;
+    wire [7:0]  addr0  = addr[7:0];
+    wire        csb1   = 1'b1;
+    wire [7:0]  addr1  = 8'b0;
+
+    sky130_sram_1kbyte_1rw1r_32x256_8 sram_macro (
+        // Port 0 — RW, used by PicoRV32
+        .clk0   (clk),
+        .csb0   (csb0),
+        .web0   (web0),
+        .wmask0 (wmask0),
+        .addr0  (addr0),
+        .din0   (wdata),
+        .dout0  (rdata),
+
+        // Port 1 — R-only, permanently deselected
+        .clk1   (clk),
+        .csb1   (csb1),
+        .addr1  (addr1),
+        .dout1  ()          // output left unconnected
+    );
+
 endmodule
+
 

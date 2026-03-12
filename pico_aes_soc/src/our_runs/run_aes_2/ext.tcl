@@ -16,8 +16,10 @@ set_dont_use sky130_fd_sc_hd__probec_p_8
 set_dont_use sky130_fd_sc_hd__lpflow_*
 
 estimate_parasitics -global_routing
+write_timing_model aes_macro.lib
 
 #repair_design -max_wire_length 3500
+repair_antennas sky130_fd_sc_hd__diode_2
 repair_timing -setup -setup_margin 0.15 -max_passes 5
 repair_timing -hold -hold_margin 0.02 -max_buffer_percent 50
 
