@@ -1,0 +1,54 @@
+OpenROAD edf00dff99f6c40d67a30c0e22a8191c5d2ed9d6 
+Features included (+) or not (-): +Charts +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+PicoSoC + AES + SRAM  —  OpenROAD Floorplan
+
+--- Reading LEFs ---
+[INFO ODB-0227] LEF file: /Users/hello.welcometothisdevice/.ciel/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__nom.tlef, created 14 layers, 25 vias
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file /Users/hello.welcometothisdevice/.ciel/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef at line 2.
+
+[INFO ODB-0227] LEF file: /Users/hello.welcometothisdevice/.ciel/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef, created 437 library cells
+[INFO ODB-0227] LEF file: /Users/hello.welcometothisdevice/CAD-Project-AES128-DMA-/pico_aes_soc/src/our_runs/run_com/sky130_sram_1kbyte_1rw1r_32x256_8.lef, created 1 library cells
+[WARNING ODB-0220] WARNING (LEFPARS-2007): NAMESCASESENSITIVE statement is obsolete in version 5.6 and later.
+The LEF parser will ignore this statement.
+To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file /Users/hello.welcometothisdevice/CAD-Project-AES128-DMA-/pico_aes_soc/src/our_runs/run_com/aes_macro_1.lef at line 2.
+
+[INFO ODB-0227] LEF file: /Users/hello.welcometothisdevice/CAD-Project-AES128-DMA-/pico_aes_soc/src/our_runs/run_com/aes_macro_1.lef, created 437 library cells
+
+--- Reading Liberty ---
+
+--- Reading netlist ---
+[WARNING ORD-2012] Liberty cell aes has no LEF master.
+[WARNING ORD-2013] instance aes_inst LEF master aes not found.
+✓ Design linked
+
+--- Reading SDC ---
+[WARNING STA-0366] port 'reset_n' not found.
+[WARNING STA-0366] port 'cs' not found.
+[WARNING STA-0366] port 'we' not found.
+[WARNING STA-0366] port 'address[*]' not found.
+[WARNING STA-0366] port 'write_data[*]' not found.
+[WARNING STA-0366] port 'reset_n' not found.
+[WARNING STA-0366] port 'cs' not found.
+[WARNING STA-0366] port 'we' not found.
+[WARNING STA-0366] port 'address[*]' not found.
+[WARNING STA-0366] port 'write_data[*]' not found.
+[WARNING STA-0366] port 'read_data[*]' not found.
+[WARNING STA-0366] port 'reset_n' not found.
+[WARNING STA-0471] no valid objects specified for -from.
+[WARNING STA-0366] port 'cs' not found.
+[WARNING STA-0471] no valid objects specified for -from.
+[WARNING STA-0366] port 'we' not found.
+[WARNING STA-0471] no valid objects specified for -from.
+
+--- Floorplan ---
+[WARNING IFP-0028] Core area lower left (100.000, 100.000) snapped to (100.280, 100.640).
+[INFO IFP-0001] Added 514 rows of 3042 site unithd.
+Design area 313450 u^2 16% utilization.
+✓ Floorplan: 1600×1600 µm die, 1400×1400 µm core
+
+--- Placing macros ---
+[ERROR STA-0562] place_cell -location is not a known keyword or flag.
+Error: fp.tcl, 76 STA-0562

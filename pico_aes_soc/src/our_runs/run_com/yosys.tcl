@@ -1,72 +1,78 @@
 #!/usr/bin/env yosys
 
-# Read AES modules first
-# read_verilog -sv "/Users/hello.welcometothisdevice/CAD-Project-AES128-DMA-/pico_aes_soc/src/aes_sbox.v"
-# read_verilog -sv "/Users/hello.welcometothisdevice/CAD-Project-AES128-DMA-/pico_aes_soc/src/aes_inv_sbox.v"
-# read_verilog -sv "/Users/hello.welcometothisdevice/CAD-Project-AES128-DMA-/pico_aes_soc/src/aes_key_mem.v"
-# read_verilog -sv "/Users/hello.welcometothisdevice/CAD-Project-AES128-DMA-/pico_aes_soc/src/aes_encipher_block.v"
-# read_verilog -sv "/Users/hello.welcometothisdevice/CAD-Project-AES128-DMA-/pico_aes_soc/src/aes_decipher_block.v"
-# read_verilog -sv "/Users/hello.welcometothisdevice/CAD-Project-AES128-DMA-/pico_aes_soc/src/aes_core.v"
-# read_verilog -sv "/Users/hello.welcometothisdevice/CAD-Project-AES128-DMA-/pico_aes_soc/src/aes.v"
+# yosys.tcl  —  PicoSoC + AES + SRAM synthesis for sky130
 
-
-#aes macro synth file
+# AES — pre-synthesised gate-level netlist, treat as blackbox
 read_verilog -lib "/Users/hello.welcometothisdevice/CAD-Project-AES128-DMA-/pico_aes_soc/src/our_runs/run_com/aes_synth.v"
 
-
-# Read peripheral modules
+# SoC peripherals
 read_verilog -sv "/Users/hello.welcometothisdevice/CAD-Project-AES128-DMA-/pico_aes_soc/src/simpleuart.v"
 read_verilog -sv "/Users/hello.welcometothisdevice/CAD-Project-AES128-DMA-/pico_aes_soc/src/spimemio.v"
 
-# Read SoC wrapper (MUST be before picorv32.v due to macro definitions!)
+# SoC top — picosoc_aes_synth.v has the behavioural picosoc_mem REMOVED.
+# It contains only: module picosoc (top) + module picosoc_regs (regs → FFs)
 read_verilog -sv "/Users/hello.welcometothisdevice/CAD-Project-AES128-DMA-/pico_aes_soc/src/picosoc_aes.v"
 
-# Read CPU core LAST
+# CPU — must come AFTER picosoc_aes_synth.v sets the `define macros
 read_verilog -sv "/Users/hello.welcometothisdevice/CAD-Project-AES128-DMA-/pico_aes_soc/src/picorv32.v"
 
-
-# Read SRAM macro behavioral model
+# SRAM macro — blackbox, port declarations only
 read_verilog -lib "/Users/hello.welcometothisdevice/CAD-Project-AES128-DMA-/pico_aes_soc/src/our_runs/run_com/sky130_sram_1kbyte_1rw1r_32x256_8.v"
 
+# =============================================================================
+# Stage 2: Elaborate
+# =============================================================================
 log ""
+log "=== Loaded modules ==="
 ls
 
 hierarchy -check -top picosoc
 
+# =============================================================================
+# Stage 3: High-level synthesis
+# =============================================================================
 proc
 flatten
 opt
 
-# picosoc_regs stays synthesized to flip-flops (it's small)
+# CRITICAL: memory_map must run BEFORE techmap.
+# picosoc_regs contains a reg array that Yosys infers as a $mem cell after
+# flatten. memory_map converts it to mux+FF logic so that techmap and
+# write_verilog never emit a behavioural reg array — which OpenROAD rejects.
+memory_map
+
 opt -full
 
-# Technology-Independent Mapping
-
+# =============================================================================
+# Stage 4: Technology mapping
+# =============================================================================
 techmap
 opt -fast
 
-# Map flip-flops
 dfflibmap -liberty "/Users/hello.welcometothisdevice/.ciel/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib"
+abc       -liberty "/Users/hello.welcometothisdevice/.ciel/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib"
 
-# Map combinational logic
-abc -liberty "/Users/hello.welcometothisdevice/.ciel/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib"
-
-# Cleanup
 clean
 opt_clean -purge
 
+# =============================================================================
+# Stage 5: Verify blackboxes survived
+# =============================================================================
 log ""
+log "=== Blackbox instances (should show aes and sky130_sram) ==="
+select -list t:aes
+select -list t:sky130_sram_1kbyte_1rw1r_32x256_8
 
-# Write Verilog netlist
-write_verilog -noattr -noexpr -nohex -nodec picosoc_syn.v
+# =============================================================================
+# Stage 6: Outputs
+# =============================================================================
+write_verilog -noattr -noexpr -nohex -nodec "/Users/hello.welcometothisdevice/CAD-Project-AES128-DMA-/pico_aes_soc/src/our_runs/run_com/picosoc_syn.v"
 
-# Statistics
 stat -liberty "/Users/hello.welcometothisdevice/.ciel/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib"
 
-# Save stats to file
 tee -o picosoc_syn_stats.txt stat -liberty "/Users/hello.welcometothisdevice/.ciel/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib"
 
 log ""
-log "========================================"
-log "Synthesis Complete!"
-log "========================================"
+log "================================================"
+log "  Synthesis complete → picosoc_syn.v"
+log "================================================"

@@ -1,61 +1,80 @@
 #!/usr/bin/env openroad
-
-# --- Macro Paths ---
-set SRAM_LEF "/Users/hello.welcometothisdevice/CAD-Project-AES128-DMA-/pico_aes_soc/src/our_runs/run_com/sky130_sram_1kbyte_1rw1r_32x256_8.lef"
-set SRAM_LIB "/Users/hello.welcometothisdevice/CAD-Project-AES128-DMA-/pico_aes_soc/src/our_runs/run_com/sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C.lib"
-set AES_LEF  "/Users/hello.welcometothisdevice/CAD-Project-AES128-DMA-/pico_aes_soc/src/our_runs/run_com/aes_macro_1.lef"
-set AES_LIB  "/Users/hello.welcometothisdevice/CAD-Project-AES128-DMA-/pico_aes_soc/src/our_runs/run_com/aes_macro.lib" 
+set_thread_count 7
 
 set PDK_ROOT "/Users/hello.welcometothisdevice/.ciel/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af"
-set PDK "sky130A"
-set LIB "sky130_fd_sc_hd"
+set RUNDIR   "/Users/hello.welcometothisdevice/CAD-Project-AES128-DMA-/pico_aes_soc/src/our_runs/run_com"
 
-set TECH_LEF "/Users/hello.welcometothisdevice/.ciel/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__nom.tlef"
-set SC_LEF "/Users/hello.welcometothisdevice/.ciel/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef"
-set LIB_FILE "/Users/hello.welcometothisdevice/.ciel/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib"
+set TECH_LEF "$PDK_ROOT/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__nom.tlef"
+set SC_LEF   "$PDK_ROOT/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef"
+set LIB_FILE "$PDK_ROOT/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib"
 
-puts "PicoSoC + AES macro + SRAM macro Flow"
+set SRAM_LEF "$RUNDIR/sky130_sram_1kbyte_1rw1r_32x256_8.lef"
+set SRAM_LIB "$RUNDIR/sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C.lib"
+set AES_LEF  "$RUNDIR/aes_abstract.lef"
+set AES_LIB  "$RUNDIR/aes_macro.lib"
 
-puts "\n--- Reading design ---"
+puts "PicoSoC + AES + SRAM  —  OpenROAD Floorplan"
 
-puts "\n--- Reading design ---"
+# 1. Read LEFs (tech first, then standard cells, then macros)
+
+puts "\n--- Reading LEFs ---"
 read_lef $TECH_LEF
 read_lef $SC_LEF
 read_lef $SRAM_LEF
 read_lef $AES_LEF
 
+# 2. Read Liberty timing files
+
+puts "\n--- Reading Liberty ---"
 read_liberty $LIB_FILE
 read_liberty $SRAM_LIB
 read_liberty $AES_LIB
 
-read_verilog picosoc_syn.v
+
+# 3. Read gate-level netlist and link
+
+puts "\n--- Reading netlist ---"
+read_verilog $RUNDIR/picosoc_syn.v
 link_design picosoc
-puts "✓ Design loaded with Macros"
+puts "✓ Design linked"
 
-read_lef $TECH_LEF
-read_lef $SC_LEF
-read_liberty $LIB_FILE
-read_verilog picosoc_aes_sram.v
-link_design picosoc
-puts "✓ Design loaded"
+# 4. Timing constraints
 
-puts "\n--- Setting timing constraints ---"
-read_sdc picosoc_aes.sdc
+puts "\n--- Reading SDC ---"
+read_sdc $RUNDIR/aes_sdc.sdc
 
+# 
+# 5. Floorplan
+# Die: 1600×1600 µm,  core: 50 µm margin on all sides
 puts "\n--- Floorplan ---"
 initialize_floorplan \
-    -die_area {0 0 1600 1600} \
-    -core_area {100 100 1500 1500} \
+    -die_area  {0 0 1600 1600} \
+    -core_area {50 50 1550 1550} \
     -site unithd
-report_design_area
-puts "✓ Floorplan: 1600×1600 die"
 
-#macro placement and spacing
-place_cell -inst mem.sram_macro -location {100 600} -orient N
-place_cell -inst aes -location {600 600} -orient N
+report_design_area
+puts "✓ Floorplan: 1600×1600 µm die, 1550×1550 µm core"
+
+
+# 6. Macro placement
+#aes: 840x840 
+# placement for aes - > 1550-840=  710 ->650
+
+puts "\n--- Placing macros ---"
 set_macro_extension 10
 
-write_db 2_floorplan.odb
+# SRAM macro (~270×200 µm typical for this cell)
+place_macro -macro_name {memory.sram_macro} -location {110 110} -orient R0 -exact
+
+# AES macro (pre-synthesised block — placed as a region)
+place_macro -macro_name aes_inst -location {650 650} -orient R0 -exact
+
+puts "✓ Macros placed"
+
+# 7. Save checkpoint
+
+write_db $RUNDIR/2_floorplan.odb
+puts "\n✓ Checkpoint written: 2_floorplan.odb"
 
 puts "\n--- Pin placement ---"
 set west_pins {clk resetn iomem_ready ser_rx ser_tx irq_5 irq_6 irq_7}
@@ -136,31 +155,31 @@ puts "✓ CTS complete"
 write_db 6_cts.odb
 
 
-# puts "FIXING TIMING & ANTENNA VIOLATIONS"
-# puts "\n--- Estimating parasitics ---"
-# estimate_parasitics -placement
+puts "FIXING TIMING & ANTENNA VIOLATIONS"
+puts "\n--- Estimating parasitics ---"
+estimate_parasitics -placement
 
-# puts "\n--- Repairing design rules (slew/cap) ---"
-# repair_design -max_wire_length 3500
+puts "\n--- Repairing design rules (slew/cap) ---"
+repair_design -max_wire_length 3500
 
-# puts "\n--- Repairing SETUP timing (WNS/TNS) ---"
-# repair_timing -setup -setup_margin 0.1 -max_passes 5
+puts "\n--- Repairing SETUP timing (WNS/TNS) ---"
+repair_timing -setup -setup_margin 0.1 -max_passes 5
 
-#puts "\n--- Repairing HOLD timing ---"
+puts "\n--- Repairing HOLD timing ---"
 
-# set_opt_config -disable_buffer_pruning
+set_opt_config -disable_buffer_pruning
 
-#repair_timing -hold -hold_margin 0.01 -max_buffer_percent 50
+repair_timing -hold -hold_margin 0.01 -max_buffer_percent 50
 
-# Legalize all new cells
-# set_placement_padding -global -left 1 -right 1
-# detailed_placement
+Legalize all new cells
+set_placement_padding -global -left 1 -right 1
+detailed_placement
 
-# puts "\n--- Optimization complete ---"
-# puts "Checking timing..."
-# report_worst_slack -max
-# report_tns
-# write_db 6_timing_antenna_optimized.odb
+puts "\n--- Optimization complete ---"
+puts "Checking timing..."
+report_worst_slack -max
+report_tns
+write_db 6_timing_antenna_optimized.odb
 
 
 puts "\n--- Global routing ---"
