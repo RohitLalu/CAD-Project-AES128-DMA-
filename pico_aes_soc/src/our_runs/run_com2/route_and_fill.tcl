@@ -4,7 +4,7 @@
  
 set_thread_count 8
  
-set RUNDIR "/Users/hello.welcometothisdevice/CAD-Project-AES128-DMA-/pico_aes_soc/src/our_runs/run_com"
+set RUNDIR "/Users/hello.welcometothisdevice/CAD-Project-AES128-DMA-/pico_aes_soc/src/our_runs/run_com2"
  
 # ─────────────────────────────────────────────────────────────────────────────
 # STEP 1: Remove probe cells (DRT-0085 fix)
@@ -42,11 +42,8 @@ set_global_routing_layer_adjustment met1 0.4
 set_global_routing_layer_adjustment met2 0.2
 set_global_routing_layer_adjustment met3 0.3
 set_routing_layers -signal met1-met5
-global_route \
-    -allow_congestion \
-    -congestion_iterations 120 \
-    -congestion_report_file congestion.rpt \
-    -verbose
+
+global_route -allow_congestion -congestion_iterations 180 -congestion_report_file congestion.rpt -verbose
 puts "✓ Global routing complete"
 write_db 7_global_route.odb
  
@@ -57,14 +54,14 @@ write_db 7_global_route.odb
 puts "\n--- Detailed routing ---"
 detailed_route \
     -output_drc           route_drc.rpt \
-    -bottom_routing_layer li1 \
+    -bottom_routing_layer met1 \
     -top_routing_layer    met5 \
     -verbose 1
 puts "✓ Detailed routing complete"
 write_db 7_routed.odb
  
 puts "\n--- Antenna repair ---"
-estimate_parasitics -placement
+estimate_parasitics -global_routing
 repair_antennas sky130_fd_sc_hd__diode_2 -ratio_margin 10
 set block [ord::get_db_block]
 foreach inst [$block getInsts] {

@@ -1,0 +1,88 @@
+violation type: Horizontal congestion
+	srcs: net:net1043 
+	congestion information: capacity:0 usage:1 overflow:1
+	bbox = ( 303.6, 641.7 ) - ( 310.5, 648.6) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_10632_ 
+	congestion information: capacity:0 usage:1 overflow:1
+	bbox = ( 303.6, 648.6 ) - ( 310.5, 655.5) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net3924 
+	congestion information: capacity:0 usage:1 overflow:1
+	bbox = ( 338.1, 641.7 ) - ( 345, 648.6) on Layer -
+violation type: Horizontal congestion
+	srcs: net:memory.rdata[22] 
+	congestion information: capacity:0 usage:1 overflow:1
+	bbox = ( 338.1, 655.5 ) - ( 345, 662.4) on Layer -
+violation type: Horizontal congestion
+	srcs: net:memory.rdata[18] 
+	congestion information: capacity:0 usage:1 overflow:1
+	bbox = ( 345, 641.7 ) - ( 351.9, 648.6) on Layer -
+violation type: Horizontal congestion
+	srcs: net:memory.rdata[14] 
+	congestion information: capacity:0 usage:1 overflow:1
+	bbox = ( 345, 648.6 ) - ( 351.9, 655.5) on Layer -
+violation type: Horizontal congestion
+	srcs: net:memory.rdata[9] 
+	congestion information: capacity:0 usage:1 overflow:1
+	bbox = ( 345, 662.4 ) - ( 351.9, 669.3) on Layer -
+violation type: Horizontal congestion
+	srcs: net:memory.rdata[9] 
+	congestion information: capacity:0 usage:1 overflow:1
+	bbox = ( 345, 676.2 ) - ( 351.9, 683.1) on Layer -
+violation type: Horizontal congestion
+	srcs: net:memory.rdata[8] 
+	congestion information: capacity:0 usage:1 overflow:1
+	bbox = ( 351.9, 662.4 ) - ( 358.8, 669.3) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net3844 
+	congestion information: capacity:0 usage:1 overflow:1
+	bbox = ( 351.9, 683.1 ) - ( 358.8, 690) on Layer -
+violation type: Horizontal congestion
+	srcs: net:memory.rdata[20] 
+	congestion information: capacity:0 usage:1 overflow:1
+	bbox = ( 358.8, 641.7 ) - ( 365.7, 648.6) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net1024 
+	congestion information: capacity:0 usage:1 overflow:1
+	bbox = ( 358.8, 655.5 ) - ( 365.7, 662.4) on Layer -
+violation type: Horizontal congestion
+	srcs: net:memory.rdata[1] 
+	congestion information: capacity:0 usage:1 overflow:1
+	bbox = ( 358.8, 662.4 ) - ( 365.7, 669.3) on Layer -
+violation type: Horizontal congestion
+	srcs: net:memory.rdata[19] 
+	congestion information: capacity:0 usage:1 overflow:1
+	bbox = ( 386.4, 213.9 ) - ( 393.3, 220.8) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net1650 
+	congestion information: capacity:0 usage:1 overflow:1
+	bbox = ( 1331.7, 75.9 ) - ( 1338.6, 82.8) on Layer -
+violation type: Horizontal congestion
+	srcs: net:clknet_1_0__leaf_clk 
+	congestion information: capacity:0 usage:1 overflow:1
+	bbox = ( 1338.6, 103.5 ) - ( 1345.5, 110.4) on Layer -
+violation type: Horizontal congestion
+	srcs: net:clknet_1_0__leaf_clk 
+	congestion information: capacity:0 usage:1 overflow:1
+	bbox = ( 1345.5, 103.5 ) - ( 1352.4, 110.4) on Layer -
+violation type: Vertical congestion
+	srcs: net:memory.rdata[23] net:net1022 net:net1062 net:net1069 
+	congestion information: capacity:3 usage:4 overflow:1
+	bbox = ( 345, 662.4 ) - ( 351.9, 669.3) on Layer -
+violation type: Vertical congestion
+	srcs: net:memory.rdata[0] net:memory.rdata[10] net:memory.rdata[12] net:net1059 net:net1073 net:net1077 net:net1079 net:net3844 net:net3988 
+	congestion information: capacity:8 usage:9 overflow:1
+	bbox = ( 358.8, 669.3 ) - ( 365.7, 676.2) on Layer -
+violation type: Vertical congestion
+	srcs: net:memory.rdata[0] net:memory.rdata[10] net:memory.rdata[12] net:net1059 net:net1073 net:net1077 net:net1079 net:net3844 net:net3988 
+	congestion information: capacity:8 usage:9 overflow:1
+	bbox = ( 358.8, 676.2 ) - ( 365.7, 683.1) on Layer -
+violation type: Vertical congestion
+	srcs: net:clknet_1_0__leaf_clk 
+	congestion information: capacity:0 usage:1 overflow:1
+	bbox = ( 1338.6, 96.6 ) - ( 1345.5, 103.5) on Layer -
+violation type: Vertical congestion
+	srcs: net:clknet_1_0__leaf_clk 
+	congestion information: capacity:0 usage:1 overflow:1
+	bbox = ( 1352.4, 96.6 ) - ( 1359.3, 103.5) on Layer -

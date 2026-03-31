@@ -2,10 +2,10 @@
 set_thread_count 7
 
 # # --- Macro Paths ---
-# set SRAM_LEF "/Users/hello.welcometothisdevice/CAD-Project-AES128-DMA-/pico_aes_soc/src/our_runs/run_com/sky130_sram_1kbyte_1rw1r_32x256_8.lef"
-# set SRAM_LIB "/Users/hello.welcometothisdevice/CAD-Project-AES128-DMA-/pico_aes_soc/src/our_runs/run_com/sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C.lib"
-# set AES_LEF  "/Users/hello.welcometothisdevice/CAD-Project-AES128-DMA-/pico_aes_soc/src/our_runs/run_com/aes_abstract.lef"
-# set AES_LIB  "/Users/hello.welcometothisdevice/CAD-Project-AES128-DMA-/pico_aes_soc/src/our_runs/run_com/aes_macro.lib" 
+# set SRAM_LEF "/Users/hello.welcometothisdevice/CAD-Project-AES128-DMA-/pico_aes_soc/src/our_runs/run_com2/sky130_sram_1kbyte_1rw1r_32x256_8.lef"
+# set SRAM_LIB "/Users/hello.welcometothisdevice/CAD-Project-AES128-DMA-/pico_aes_soc/src/our_runs/run_com2/sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C.lib"
+# set AES_LEF  "/Users/hello.welcometothisdevice/CAD-Project-AES128-DMA-/pico_aes_soc/src/our_runs/run_com2/aes_abstract.lef"
+# set AES_LIB  "/Users/hello.welcometothisdevice/CAD-Project-AES128-DMA-/pico_aes_soc/src/our_runs/run_com2/aes_macro.lib" 
 
 # set PDK_ROOT "/Users/hello.welcometothisdevice/.ciel/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af"
 # set PDK "sky130A"
@@ -54,7 +54,7 @@ insert_tiecells sky130_fd_sc_hd__conb_1/LO
 set_wire_rc -clock -layer met3
 set_wire_rc -signal -layer met2
 
-global_placement -density 0.15 -routability_driven
+global_placement -density 0.35 -routability_driven
 set_placement_padding -global -left 0 -right 0
 detailed_placement
 check_placement -verbose -report_file_name placement_report_before_cts.rpt

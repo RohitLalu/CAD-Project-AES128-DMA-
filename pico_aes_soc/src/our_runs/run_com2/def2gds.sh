@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 PDK_ROOT="/Users/hello.welcometothisdevice/.ciel/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af"
-RUNDIR="/Users/hello.welcometothisdevice/CAD-Project-AES128-DMA-/pico_aes_soc/src/our_runs/run_com"
+RUNDIR="/Users/hello.welcometothisdevice/CAD-Project-AES128-DMA-/pico_aes_soc/src/our_runs/run_com2"
 SRAM_GDS="$RUNDIR/sky130_sram_1kbyte_1rw1r_32x256_8.gds"
 AES_GDS="$RUNDIR/aes_m.gds"
 SC_GDS="$PDK_ROOT/sky130A/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds"

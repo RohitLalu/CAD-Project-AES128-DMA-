@@ -9,12 +9,8 @@ set_wire_rc -signal -layer met2
 set_wire_rc -clock  -layer met3
 
 puts "\n--- Estimating parasitics from placement ---"
-estimate_parasitics -placement
+estimate_parasitics -global_routing
 puts "✓ Parasitic estimation complete"
-
-puts "\n--- Writing SPEF ---"
-write_spef $RUNDIR/picosoc_aes_combined.spef
-puts "✓ SPEF written"
 
 puts "\n--- Timing summary ---"
 report_worst_slack -max
@@ -41,14 +37,4 @@ puts "\n--- Writing DEF ---"
 write_def $RUNDIR/picosoc_aes_combined.def
 puts "✓ DEF written"
 
-write_lib picosoc -output $RUNDIR/picosoc_aes_combined.lib
-puts "✓ LIB written"
-
-# Abstract LEF
-write_abstract_lef -bloat_occupied_layers picosoc_aes_combined_abstract.lef
-puts "✓ Abstract LEF written"
-
-puts "\n=== Done with reports and def, lef and lib ==="
-
-# GDS stream out (if KLayout is available via OpenROAD)
-write_gds -merge $RUNDIR/sky130A.gds picosoc_aes_combined.gds
+puts "\nDone"

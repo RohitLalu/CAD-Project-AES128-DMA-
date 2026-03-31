@@ -93,7 +93,7 @@
 #    Adjust period to match your target frequency.
 #    PicoRV32 with sky130 HD typically closes at 50-80 MHz.
 # =============================================================================
-create_clock -name clk -period 30.0 [get_ports clk]
+create_clock -name clk -period 25.0 [get_ports clk]
 
 # =============================================================================
 # 2. Clock uncertainty (jitter + skew budget)

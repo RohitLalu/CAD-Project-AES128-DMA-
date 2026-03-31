@@ -3,7 +3,7 @@
 set_thread_count 7
 
 set PDK_ROOT "/Users/hello.welcometothisdevice/.ciel/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af"
-set RUNDIR   "/Users/hello.welcometothisdevice/CAD-Project-AES128-DMA-/pico_aes_soc/src/our_runs/run_com"
+set RUNDIR   "/Users/hello.welcometothisdevice/CAD-Project-AES128-DMA-/pico_aes_soc/src/our_runs/run_com2"
 
 set TECH_LEF "$PDK_ROOT/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__nom.tlef"
 set SC_LEF   "$PDK_ROOT/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef"
@@ -49,51 +49,43 @@ puts "✓ SDC loaded"
 
 puts "\n--- 5. Floorplan ---"
 initialize_floorplan \
-    -die_area  {0 0 2450 1400} \
-    -core_area {50 50 2400 1350} \
+    -die_area  {0 0 1900 1200} \
+    -core_area {25 25 1875 1175} \
     -site unithd
 
 report_design_area
-puts "✓ Floorplan: 2450×1400 µm die, 2350×1300 µm core"
+puts "✓ Floorplan: 1900×1200 µm die, 1850×1150 µm core"
 
 puts "\n--- 6. Macro placement ---"
 set_macro_extension 10
 
 place_macro \
     -macro_name {memory.sram_macro} \
-    -location   {320 460} \
-    -orient     R0
+    -location   {150 250} \
+    -orient     R180
     #-location {320 400}
 puts "✓ SRAM placed "
 
 place_macro -macro_name aes_inst \
-    -location {1395 250} \
+    -location {900 100} \
     -orient R0
 puts "✓ AES  placed"
 
 set block [ord::get_db_block]
 
 set sram_blk [odb::dbBlockage_create $block \
-    [ord::microns_to_dbu 275]  \
-    [ord::microns_to_dbu 350]  \
-    [ord::microns_to_dbu 900]  \
-    [ord::microns_to_dbu 970]]
+    [ord::microns_to_dbu 75]  \
+    [ord::microns_to_dbu 125]  \
+    [ord::microns_to_dbu 740]  \
+    [ord::microns_to_dbu 800]]
 $sram_blk setSoft
-
-# # SRAM:
-# set sram_blk [odb::dbBlockage_create $block \
-#     [ord::microns_to_dbu 275]  \
-#     [ord::microns_to_dbu 350]  \
-#     [ord::microns_to_dbu 900]  \
-#     [ord::microns_to_dbu 970]]
-# $sram_blk setSoft
 
 # AES:
 set aes_blk [odb::dbBlockage_create $block \
-    [ord::microns_to_dbu 1290] \
-    [ord::microns_to_dbu 180]  \
-    [ord::microns_to_dbu 2230] \
-    [ord::microns_to_dbu 1150]]
+    [ord::microns_to_dbu 750] \
+    [ord::microns_to_dbu 20]  \
+    [ord::microns_to_dbu 1820] \
+    [ord::microns_to_dbu 1020]]
 $aes_blk setSoft
 
 # --- 8. Tap cells (AFTER blockages, so halo_width respects blockage edges) ---
@@ -129,10 +121,10 @@ lappend south_pins flash_io0_oe flash_io1_oe flash_io2_oe flash_io3_oe
 lappend south_pins flash_io0_do flash_io1_do flash_io2_do flash_io3_do
 lappend south_pins clk resetn
 
-set_io_pin_constraint -pin_names $east_pins  -region right:50-1350
-set_io_pin_constraint -pin_names $west_pins  -region left:50-1350
-set_io_pin_constraint -pin_names $north_pins -region top:50-2050
-set_io_pin_constraint -pin_names $south_pins -region bottom:50-2050
+set_io_pin_constraint -pin_names $east_pins  -region right:50-1150
+set_io_pin_constraint -pin_names $west_pins  -region left:50-1150
+set_io_pin_constraint -pin_names $north_pins -region top:50-1750
+set_io_pin_constraint -pin_names $south_pins -region bottom:50-1750
 
 place_pins -hor_layers met5 -ver_layers met4
 puts "✓ Pins placed (123 total)"
