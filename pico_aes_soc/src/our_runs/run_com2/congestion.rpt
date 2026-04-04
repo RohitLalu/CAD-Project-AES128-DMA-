@@ -1,17 +1,29 @@
 violation type: Horizontal congestion
-	srcs: net:net1043 
+	srcs: net:memory.rdata[28] 
 	congestion information: capacity:0 usage:1 overflow:1
 	bbox = ( 303.6, 641.7 ) - ( 310.5, 648.6) on Layer -
 violation type: Horizontal congestion
 	srcs: net:_10632_ 
 	congestion information: capacity:0 usage:1 overflow:1
-	bbox = ( 303.6, 648.6 ) - ( 310.5, 655.5) on Layer -
+	bbox = ( 303.6, 683.1 ) - ( 310.5, 690) on Layer -
 violation type: Horizontal congestion
-	srcs: net:net3924 
+	srcs: net:net449 
 	congestion information: capacity:0 usage:1 overflow:1
-	bbox = ( 338.1, 641.7 ) - ( 345, 648.6) on Layer -
+	bbox = ( 331.2, 627.9 ) - ( 338.1, 634.8) on Layer -
 violation type: Horizontal congestion
-	srcs: net:memory.rdata[22] 
+	srcs: net:memory.rdata[14] 
+	congestion information: capacity:0 usage:1 overflow:1
+	bbox = ( 331.2, 655.5 ) - ( 338.1, 662.4) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net449 
+	congestion information: capacity:0 usage:1 overflow:1
+	bbox = ( 338.1, 627.9 ) - ( 345, 634.8) on Layer -
+violation type: Horizontal congestion
+	srcs: net:memory.rdata[23] net:net2961 
+	congestion information: capacity:0 usage:2 overflow:2
+	bbox = ( 338.1, 648.6 ) - ( 345, 655.5) on Layer -
+violation type: Horizontal congestion
+	srcs: net:memory.rdata[14] 
 	congestion information: capacity:0 usage:1 overflow:1
 	bbox = ( 338.1, 655.5 ) - ( 345, 662.4) on Layer -
 violation type: Horizontal congestion
@@ -19,70 +31,66 @@ violation type: Horizontal congestion
 	congestion information: capacity:0 usage:1 overflow:1
 	bbox = ( 345, 641.7 ) - ( 351.9, 648.6) on Layer -
 violation type: Horizontal congestion
-	srcs: net:memory.rdata[14] 
-	congestion information: capacity:0 usage:1 overflow:1
-	bbox = ( 345, 648.6 ) - ( 351.9, 655.5) on Layer -
-violation type: Horizontal congestion
-	srcs: net:memory.rdata[9] 
+	srcs: net:memory.rdata[22] 
 	congestion information: capacity:0 usage:1 overflow:1
 	bbox = ( 345, 662.4 ) - ( 351.9, 669.3) on Layer -
 violation type: Horizontal congestion
-	srcs: net:memory.rdata[9] 
+	srcs: net:memory.rdata[0] 
 	congestion information: capacity:0 usage:1 overflow:1
-	bbox = ( 345, 676.2 ) - ( 351.9, 683.1) on Layer -
+	bbox = ( 345, 669.3 ) - ( 351.9, 676.2) on Layer -
 violation type: Horizontal congestion
-	srcs: net:memory.rdata[8] 
+	srcs: net:net2884 
+	congestion information: capacity:0 usage:1 overflow:1
+	bbox = ( 351.9, 655.5 ) - ( 358.8, 662.4) on Layer -
+violation type: Horizontal congestion
+	srcs: net:memory.rdata[12] 
 	congestion information: capacity:0 usage:1 overflow:1
 	bbox = ( 351.9, 662.4 ) - ( 358.8, 669.3) on Layer -
 violation type: Horizontal congestion
-	srcs: net:net3844 
+	srcs: net:memory.rdata[0] 
 	congestion information: capacity:0 usage:1 overflow:1
-	bbox = ( 351.9, 683.1 ) - ( 358.8, 690) on Layer -
+	bbox = ( 351.9, 669.3 ) - ( 358.8, 676.2) on Layer -
 violation type: Horizontal congestion
-	srcs: net:memory.rdata[20] 
-	congestion information: capacity:0 usage:1 overflow:1
-	bbox = ( 358.8, 641.7 ) - ( 365.7, 648.6) on Layer -
-violation type: Horizontal congestion
-	srcs: net:net1024 
+	srcs: net:net453 
 	congestion information: capacity:0 usage:1 overflow:1
 	bbox = ( 358.8, 655.5 ) - ( 365.7, 662.4) on Layer -
 violation type: Horizontal congestion
-	srcs: net:memory.rdata[1] 
+	srcs: net:net404 
 	congestion information: capacity:0 usage:1 overflow:1
 	bbox = ( 358.8, 662.4 ) - ( 365.7, 669.3) on Layer -
 violation type: Horizontal congestion
-	srcs: net:memory.rdata[19] 
+	srcs: net:net440 
 	congestion information: capacity:0 usage:1 overflow:1
-	bbox = ( 386.4, 213.9 ) - ( 393.3, 220.8) on Layer -
-violation type: Horizontal congestion
-	srcs: net:net1650 
-	congestion information: capacity:0 usage:1 overflow:1
-	bbox = ( 1331.7, 75.9 ) - ( 1338.6, 82.8) on Layer -
+	bbox = ( 379.5, 248.4 ) - ( 386.4, 255.3) on Layer -
 violation type: Horizontal congestion
 	srcs: net:clknet_1_0__leaf_clk 
 	congestion information: capacity:0 usage:1 overflow:1
-	bbox = ( 1338.6, 103.5 ) - ( 1345.5, 110.4) on Layer -
+	bbox = ( 1338.6, 62.1 ) - ( 1345.5, 69) on Layer -
 violation type: Horizontal congestion
-	srcs: net:clknet_1_0__leaf_clk 
-	congestion information: capacity:0 usage:1 overflow:1
-	bbox = ( 1345.5, 103.5 ) - ( 1352.4, 110.4) on Layer -
-violation type: Vertical congestion
-	srcs: net:memory.rdata[23] net:net1022 net:net1062 net:net1069 
-	congestion information: capacity:3 usage:4 overflow:1
-	bbox = ( 345, 662.4 ) - ( 351.9, 669.3) on Layer -
-violation type: Vertical congestion
-	srcs: net:memory.rdata[0] net:memory.rdata[10] net:memory.rdata[12] net:net1059 net:net1073 net:net1077 net:net1079 net:net3844 net:net3988 
-	congestion information: capacity:8 usage:9 overflow:1
-	bbox = ( 358.8, 669.3 ) - ( 365.7, 676.2) on Layer -
-violation type: Vertical congestion
-	srcs: net:memory.rdata[0] net:memory.rdata[10] net:memory.rdata[12] net:net1059 net:net1073 net:net1077 net:net1079 net:net3844 net:net3988 
-	congestion information: capacity:8 usage:9 overflow:1
-	bbox = ( 358.8, 676.2 ) - ( 365.7, 683.1) on Layer -
-violation type: Vertical congestion
-	srcs: net:clknet_1_0__leaf_clk 
+	srcs: net:net481 
 	congestion information: capacity:0 usage:1 overflow:1
 	bbox = ( 1338.6, 96.6 ) - ( 1345.5, 103.5) on Layer -
 violation type: Vertical congestion
-	srcs: net:clknet_1_0__leaf_clk 
+	srcs: net:net449 
 	congestion information: capacity:0 usage:1 overflow:1
-	bbox = ( 1352.4, 96.6 ) - ( 1359.3, 103.5) on Layer -
+	bbox = ( 331.2, 627.9 ) - ( 338.1, 634.8) on Layer -
+violation type: Vertical congestion
+	srcs: net:net449 
+	congestion information: capacity:0 usage:1 overflow:1
+	bbox = ( 331.2, 634.8 ) - ( 338.1, 641.7) on Layer -
+violation type: Vertical congestion
+	srcs: net:net449 
+	congestion information: capacity:0 usage:1 overflow:1
+	bbox = ( 345, 627.9 ) - ( 351.9, 634.8) on Layer -
+violation type: Vertical congestion
+	srcs: net:net449 
+	congestion information: capacity:0 usage:1 overflow:1
+	bbox = ( 345, 634.8 ) - ( 351.9, 641.7) on Layer -
+violation type: Vertical congestion
+	srcs: net:clk net:resetn net:zero_ net:clknet_1_0__leaf_clk net:net468 net:net471 net:net476 net:net478 net:net693 
+	congestion information: capacity:8 usage:9 overflow:1
+	bbox = ( 1338.6, 62.1 ) - ( 1345.5, 69) on Layer -
+violation type: Vertical congestion
+	srcs: net:clk net:resetn net:zero_ net:clknet_1_0__leaf_clk net:net468 net:net471 net:net476 net:net478 net:net693 
+	congestion information: capacity:8 usage:9 overflow:1
+	bbox = ( 1338.6, 69 ) - ( 1345.5, 75.9) on Layer -

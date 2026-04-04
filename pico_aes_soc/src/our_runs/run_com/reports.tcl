@@ -31,23 +31,8 @@ puts "\n--- Area ---"
 report_design_area > $RUNDIR/area_final.txt
 puts "✓ Area → area_final.txt"
 
-puts "\n--- Gate-level Verilog netlist ---"
-write_verilog $RUNDIR/picosoc_aes_combined_gl.v
-puts "✓ Verilog → picosoc_aes_combined_gl.v"
-
-puts "\n--- SDF timing annotation ---"
-write_sdf $RUNDIR/picosoc_aes_combined.sdf
-puts "✓ SDF → picosoc_aes_combined.sdf"
-
 puts "\n--- DEF ---"
 write_def $RUNDIR/picosoc_aes_combined.def
 puts "✓ DEF → picosoc_aes_combined.def"
 
-puts "\n=== Complete. Deliverables: ==="
-puts "  8_final.odb                  — final routed database"
-puts "  picosoc_aes_combined.def     — layout DEF"
-puts "  picosoc_aes_combined_gl.v    — gate-level netlist"
-puts "  picosoc_aes_combined.sdf     — timing delays for simulation"
-puts "  timing_setup_final.txt       — setup/hold timing report"
-puts "  power_final.txt              — power breakdown"
-puts "  area_final.txt               — area and utilization"
+puts "Done!"

@@ -74,7 +74,9 @@ foreach inst [$block getInsts] {
         }
     }
 }
+
 detailed_placement
+
 detailed_route \
     -output_drc           route_drc_post_antenna.rpt \
     -bottom_routing_layer met1 \

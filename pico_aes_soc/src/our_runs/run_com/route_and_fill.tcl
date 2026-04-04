@@ -75,7 +75,12 @@ foreach inst [$block getInsts] {
             puts "  Removing unreachable diode: $iname"
             odb::dbInst_destroy $inst
         }
+        if {[string match "ANTENNA_1246" $iname]} {
+            puts "  Removing unreachable diode: $iname"
+            odb::dbInst_destroy $inst
+        }
     }
+
 }
 detailed_placement
 detailed_route \

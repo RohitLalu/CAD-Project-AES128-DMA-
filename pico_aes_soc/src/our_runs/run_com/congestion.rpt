@@ -1,8 +1,4 @@
 violation type: Vertical congestion
 	srcs: net:_10560_ 
 	congestion information: capacity:0 usage:1 overflow:1
-	bbox = ( 262.2, 462.3 ) - ( 269.1, 469.2) on Layer -
-violation type: Vertical congestion
-	srcs: net:iomem_wstrb[2] 
-	congestion information: capacity:0 usage:1 overflow:1
-	bbox = ( 289.8, 469.2 ) - ( 296.7, 476.1) on Layer -
+	bbox = ( 262.2, 455.4 ) - ( 269.1, 462.3) on Layer -
