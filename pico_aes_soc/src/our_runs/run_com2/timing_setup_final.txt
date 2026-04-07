@@ -7,70 +7,69 @@ Path Type: max
 ---------------------------------------------------------
   12.50   12.50   clock clk (fall edge)
    0.00   12.50   clock source latency
-   0.18   12.68 v clk (in)
-   0.20   12.88 v clkbuf_regs_0_clk/X (sky130_fd_sc_hd__clkbuf_8)
-   0.12   13.00 v delaybuf_0_clk/X (sky130_fd_sc_hd__clkbuf_8)
-   0.12   13.12 v delaybuf_1_clk/X (sky130_fd_sc_hd__clkbuf_8)
-   0.12   13.23 v delaybuf_2_clk/X (sky130_fd_sc_hd__clkbuf_8)
-   0.12   13.35 v delaybuf_3_clk/X (sky130_fd_sc_hd__clkbuf_8)
-   0.12   13.47 v delaybuf_4_clk/X (sky130_fd_sc_hd__clkbuf_8)
-   0.17   13.64 v clkbuf_0_clk_regs/X (sky130_fd_sc_hd__clkbuf_8)
-   0.18   13.82 v clkbuf_2_0_0_clk_regs/X (sky130_fd_sc_hd__clkbuf_8)
-   0.20   14.02 v clkbuf_3_0_0_clk_regs/X (sky130_fd_sc_hd__clkbuf_8)
-   0.17   14.20 v clkbuf_6_6_0_clk_regs/X (sky130_fd_sc_hd__clkbuf_8)
-   0.18   14.37 v clkbuf_8_27__f_clk_regs/X (sky130_fd_sc_hd__clkbuf_8)
-   0.01   14.38 v memory.sram_macro/clk0 (sky130_sram_1kbyte_1rw1r_32x256_8)
-   0.39   14.78 ^ memory.sram_macro/dout0[16] (sky130_sram_1kbyte_1rw1r_32x256_8)
-   0.20   14.98 ^ wire445/X (sky130_fd_sc_hd__clkbuf_2)
-   0.19   15.17 ^ wire444/X (sky130_fd_sc_hd__buf_4)
-   0.08   15.25 v _13179_/Y (sky130_fd_sc_hd__nor2_1)
-   0.26   15.51 ^ _13180_/Y (sky130_fd_sc_hd__o21ai_4)
-   0.18   15.69 v _13181_/Y (sky130_fd_sc_hd__o211ai_4)
-   0.16   15.85 ^ _13183_/Y (sky130_fd_sc_hd__nand3_4)
-   0.23   16.08 ^ _13184_/X (sky130_fd_sc_hd__o21a_2)
-   0.13   16.20 v _13185_/Y (sky130_fd_sc_hd__a21boi_0)
-   0.10   16.30 ^ _13186_/Y (sky130_fd_sc_hd__nand2_1)
-   0.12   16.43 v _13197_/Y (sky130_fd_sc_hd__o211ai_2)
-   0.19   16.61 ^ _13199_/Y (sky130_fd_sc_hd__nand2_4)
-   0.11   16.72 v _13226_/Y (sky130_fd_sc_hd__nand2_4)
-   0.21   16.92 v fanout44/X (sky130_fd_sc_hd__clkbuf_8)
-   0.33   17.26 ^ _17908_/Y (sky130_fd_sc_hd__o32ai_1)
-   0.17   17.43 v _17912_/Y (sky130_fd_sc_hd__nand3_1)
-   0.48   17.91 ^ _17917_/Y (sky130_fd_sc_hd__a211oi_4)
-   0.31   18.22 ^ fanout22/X (sky130_fd_sc_hd__buf_4)
-   0.34   18.56 v _17928_/X (sky130_fd_sc_hd__mux2_1)
-   0.55   19.11 v hold2551/X (sky130_fd_sc_hd__dlygate4sd3_1)
-   0.00   19.11 v _25177_/D (sky130_fd_sc_hd__dfxtp_1)
-          19.11   data arrival time
+   0.17   12.67 v clk (in)
+   0.20   12.87 v clkbuf_regs_0_clk/X (sky130_fd_sc_hd__clkbuf_8)
+   0.12   12.98 v delaybuf_0_clk/X (sky130_fd_sc_hd__clkbuf_8)
+   0.12   13.10 v delaybuf_1_clk/X (sky130_fd_sc_hd__clkbuf_8)
+   0.12   13.22 v delaybuf_2_clk/X (sky130_fd_sc_hd__clkbuf_8)
+   0.12   13.34 v delaybuf_3_clk/X (sky130_fd_sc_hd__clkbuf_8)
+   0.12   13.45 v delaybuf_4_clk/X (sky130_fd_sc_hd__clkbuf_8)
+   0.17   13.62 v clkbuf_0_clk_regs/X (sky130_fd_sc_hd__clkbuf_8)
+   0.20   13.81 v clkbuf_1_0_0_clk_regs/X (sky130_fd_sc_hd__clkbuf_8)
+   0.19   14.00 v clkbuf_3_0_0_clk_regs/X (sky130_fd_sc_hd__clkbuf_8)
+   0.19   14.19 v clkbuf_5_3_0_clk_regs/X (sky130_fd_sc_hd__clkbuf_8)
+   0.19   14.38 v clkbuf_8_30__f_clk_regs/X (sky130_fd_sc_hd__clkbuf_8)
+   0.01   14.39 v memory.sram_macro/clk0 (sky130_sram_1kbyte_1rw1r_32x256_8)
+   0.55   14.94 ^ memory.sram_macro/dout0[16] (sky130_sram_1kbyte_1rw1r_32x256_8)
+   0.13   15.07 ^ wire446/X (sky130_fd_sc_hd__clkbuf_2)
+   0.08   15.15 v _13179_/Y (sky130_fd_sc_hd__nor2_1)
+   0.36   15.51 ^ _13180_/Y (sky130_fd_sc_hd__o21ai_4)
+   0.21   15.72 v _13181_/Y (sky130_fd_sc_hd__o211ai_2)
+   0.15   15.87 ^ _13183_/Y (sky130_fd_sc_hd__nand3_4)
+   0.26   16.13 ^ _13184_/X (sky130_fd_sc_hd__o21a_1)
+   0.14   16.27 v _13185_/Y (sky130_fd_sc_hd__a21boi_0)
+   0.10   16.37 ^ _13186_/Y (sky130_fd_sc_hd__nand2_1)
+   0.13   16.50 v _13197_/Y (sky130_fd_sc_hd__o211ai_2)
+   0.21   16.71 ^ _13199_/Y (sky130_fd_sc_hd__nand2_2)
+   0.15   16.86 v _13226_/Y (sky130_fd_sc_hd__nand2_2)
+   0.24   17.10 v fanout45/X (sky130_fd_sc_hd__buf_4)
+   0.33   17.43 ^ _17908_/Y (sky130_fd_sc_hd__o32ai_1)
+   0.17   17.60 v _17912_/Y (sky130_fd_sc_hd__nand3_1)
+   0.48   18.08 ^ _17917_/Y (sky130_fd_sc_hd__a211oi_4)
+   0.31   18.39 ^ fanout23/X (sky130_fd_sc_hd__buf_4)
+   0.33   18.73 v _17928_/X (sky130_fd_sc_hd__mux2_1)
+   0.55   19.27 v hold698/X (sky130_fd_sc_hd__dlygate4sd3_1)
+   0.00   19.27 v _25177_/D (sky130_fd_sc_hd__dfxtp_1)
+          19.27   data arrival time
 
   25.00   25.00   clock clk (rise edge)
    0.00   25.00   clock source latency
-   0.33   25.33 ^ clk (in)
-   0.22   25.55 ^ clkbuf_regs_0_clk/X (sky130_fd_sc_hd__clkbuf_8)
-   0.11   25.66 ^ delaybuf_0_clk/X (sky130_fd_sc_hd__clkbuf_8)
-   0.10   25.77 ^ delaybuf_1_clk/X (sky130_fd_sc_hd__clkbuf_8)
-   0.10   25.87 ^ delaybuf_2_clk/X (sky130_fd_sc_hd__clkbuf_8)
-   0.10   25.97 ^ delaybuf_3_clk/X (sky130_fd_sc_hd__clkbuf_8)
-   0.10   26.08 ^ delaybuf_4_clk/X (sky130_fd_sc_hd__clkbuf_8)
-   0.18   26.26 ^ clkbuf_0_clk_regs/X (sky130_fd_sc_hd__clkbuf_8)
-   0.19   26.45 ^ clkbuf_2_1_0_clk_regs/X (sky130_fd_sc_hd__clkbuf_8)
-   0.22   26.67 ^ clkbuf_3_3_0_clk_regs/X (sky130_fd_sc_hd__clkbuf_8)
-   0.18   26.85 ^ clkbuf_6_26_0_clk_regs/X (sky130_fd_sc_hd__clkbuf_8)
-   0.16   27.01 ^ clkbuf_8_106__f_clk_regs/X (sky130_fd_sc_hd__clkbuf_8)
-   0.00   27.01 ^ _25177_/CLK (sky130_fd_sc_hd__dfxtp_1)
-  -0.50   26.51   clock uncertainty
-   0.00   26.51   clock reconvergence pessimism
-  -0.11   26.40   library setup time
-          26.40   data required time
+   0.32   25.32 ^ clk (in)
+   0.21   25.53 ^ clkbuf_regs_0_clk/X (sky130_fd_sc_hd__clkbuf_8)
+   0.11   25.64 ^ delaybuf_0_clk/X (sky130_fd_sc_hd__clkbuf_8)
+   0.10   25.74 ^ delaybuf_1_clk/X (sky130_fd_sc_hd__clkbuf_8)
+   0.10   25.84 ^ delaybuf_2_clk/X (sky130_fd_sc_hd__clkbuf_8)
+   0.10   25.95 ^ delaybuf_3_clk/X (sky130_fd_sc_hd__clkbuf_8)
+   0.10   26.05 ^ delaybuf_4_clk/X (sky130_fd_sc_hd__clkbuf_8)
+   0.17   26.22 ^ clkbuf_0_clk_regs/X (sky130_fd_sc_hd__clkbuf_8)
+   0.21   26.43 ^ clkbuf_1_0_0_clk_regs/X (sky130_fd_sc_hd__clkbuf_8)
+   0.20   26.63 ^ clkbuf_3_1_0_clk_regs/X (sky130_fd_sc_hd__clkbuf_8)
+   0.21   26.84 ^ clkbuf_5_7_0_clk_regs/X (sky130_fd_sc_hd__clkbuf_8)
+   0.20   27.04 ^ clkbuf_8_58__f_clk_regs/X (sky130_fd_sc_hd__clkbuf_8)
+   0.00   27.04 ^ _25177_/CLK (sky130_fd_sc_hd__dfxtp_1)
+  -0.50   26.54   clock uncertainty
+   0.00   26.54   clock reconvergence pessimism
+  -0.10   26.44   library setup time
+          26.44   data required time
 ---------------------------------------------------------
-          26.40   data required time
-         -19.11   data arrival time
+          26.44   data required time
+         -19.27   data arrival time
 ---------------------------------------------------------
-           7.30   slack (MET)
+           7.16   slack (MET)
 
 
-Startpoint: _24848_ (rising edge-triggered flip-flop clocked by clk)
-Endpoint: _24848_ (rising edge-triggered flip-flop clocked by clk)
+Startpoint: _25221_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _26913_ (rising edge-triggered flip-flop clocked by clk)
 Path Group: clk
 Path Type: min
 
@@ -78,89 +77,101 @@ Path Type: min
 ---------------------------------------------------------
    0.00    0.00   clock clk (rise edge)
    0.00    0.00   clock source latency
-   0.33    0.33 ^ clk (in)
-   0.22    0.55 ^ clkbuf_regs_0_clk/X (sky130_fd_sc_hd__clkbuf_8)
-   0.11    0.66 ^ delaybuf_0_clk/X (sky130_fd_sc_hd__clkbuf_8)
-   0.10    0.77 ^ delaybuf_1_clk/X (sky130_fd_sc_hd__clkbuf_8)
-   0.10    0.87 ^ delaybuf_2_clk/X (sky130_fd_sc_hd__clkbuf_8)
-   0.10    0.97 ^ delaybuf_3_clk/X (sky130_fd_sc_hd__clkbuf_8)
-   0.10    1.08 ^ delaybuf_4_clk/X (sky130_fd_sc_hd__clkbuf_8)
-   0.18    1.26 ^ clkbuf_0_clk_regs/X (sky130_fd_sc_hd__clkbuf_8)
-   0.19    1.44 ^ clkbuf_2_0_0_clk_regs/X (sky130_fd_sc_hd__clkbuf_8)
-   0.22    1.66 ^ clkbuf_3_1_0_clk_regs/X (sky130_fd_sc_hd__clkbuf_8)
-   0.18    1.84 ^ clkbuf_6_9_0_clk_regs/X (sky130_fd_sc_hd__clkbuf_8)
-   0.15    2.00 ^ clkbuf_8_39__f_clk_regs/X (sky130_fd_sc_hd__clkbuf_8)
-   0.00    2.00 ^ _24848_/CLK (sky130_fd_sc_hd__dfxtp_1)
-   0.41    2.41 ^ _24848_/Q (sky130_fd_sc_hd__dfxtp_1)
-   0.16    2.57 ^ _14221_/X (sky130_fd_sc_hd__a22o_1)
-   0.00    2.57 ^ _24848_/D (sky130_fd_sc_hd__dfxtp_1)
-           2.57   data arrival time
+   0.32    0.32 ^ clk (in)
+   0.21    0.53 ^ clkbuf_regs_0_clk/X (sky130_fd_sc_hd__clkbuf_8)
+   0.11    0.64 ^ delaybuf_0_clk/X (sky130_fd_sc_hd__clkbuf_8)
+   0.10    0.74 ^ delaybuf_1_clk/X (sky130_fd_sc_hd__clkbuf_8)
+   0.10    0.84 ^ delaybuf_2_clk/X (sky130_fd_sc_hd__clkbuf_8)
+   0.10    0.95 ^ delaybuf_3_clk/X (sky130_fd_sc_hd__clkbuf_8)
+   0.10    1.05 ^ delaybuf_4_clk/X (sky130_fd_sc_hd__clkbuf_8)
+   0.17    1.22 ^ clkbuf_0_clk_regs/X (sky130_fd_sc_hd__clkbuf_8)
+   0.21    1.43 ^ clkbuf_1_0_0_clk_regs/X (sky130_fd_sc_hd__clkbuf_8)
+   0.20    1.63 ^ clkbuf_3_3_0_clk_regs/X (sky130_fd_sc_hd__clkbuf_8)
+   0.21    1.84 ^ clkbuf_5_12_0_clk_regs/X (sky130_fd_sc_hd__clkbuf_8)
+   0.18    2.01 ^ clkbuf_8_103__f_clk_regs/X (sky130_fd_sc_hd__clkbuf_8)
+   0.00    2.01 ^ _25221_/CLK (sky130_fd_sc_hd__dfxtp_2)
+   0.39    2.40 ^ _25221_/Q (sky130_fd_sc_hd__dfxtp_2)
+   0.10    2.50 v _22804_/Y (sky130_fd_sc_hd__a211oi_1)
+   0.10    2.60 ^ _22806_/Y (sky130_fd_sc_hd__nor2_1)
+   0.00    2.60 ^ _26913_/D (sky130_fd_sc_hd__dfxtp_4)
+           2.60   data arrival time
 
    0.00    0.00   clock clk (rise edge)
    0.00    0.00   clock source latency
-   0.33    0.33 ^ clk (in)
-   0.22    0.55 ^ clkbuf_regs_0_clk/X (sky130_fd_sc_hd__clkbuf_8)
-   0.11    0.66 ^ delaybuf_0_clk/X (sky130_fd_sc_hd__clkbuf_8)
-   0.10    0.77 ^ delaybuf_1_clk/X (sky130_fd_sc_hd__clkbuf_8)
-   0.10    0.87 ^ delaybuf_2_clk/X (sky130_fd_sc_hd__clkbuf_8)
-   0.10    0.97 ^ delaybuf_3_clk/X (sky130_fd_sc_hd__clkbuf_8)
-   0.10    1.08 ^ delaybuf_4_clk/X (sky130_fd_sc_hd__clkbuf_8)
-   0.18    1.26 ^ clkbuf_0_clk_regs/X (sky130_fd_sc_hd__clkbuf_8)
-   0.19    1.44 ^ clkbuf_2_0_0_clk_regs/X (sky130_fd_sc_hd__clkbuf_8)
-   0.22    1.66 ^ clkbuf_3_1_0_clk_regs/X (sky130_fd_sc_hd__clkbuf_8)
-   0.18    1.84 ^ clkbuf_6_9_0_clk_regs/X (sky130_fd_sc_hd__clkbuf_8)
-   0.15    2.00 ^ clkbuf_8_39__f_clk_regs/X (sky130_fd_sc_hd__clkbuf_8)
-   0.00    2.00 ^ _24848_/CLK (sky130_fd_sc_hd__dfxtp_1)
-   0.50    2.50   clock uncertainty
-   0.00    2.50   clock reconvergence pessimism
-  -0.03    2.47   library hold time
-           2.47   data required time
+   0.32    0.32 ^ clk (in)
+   0.21    0.53 ^ clkbuf_regs_0_clk/X (sky130_fd_sc_hd__clkbuf_8)
+   0.11    0.64 ^ delaybuf_0_clk/X (sky130_fd_sc_hd__clkbuf_8)
+   0.10    0.74 ^ delaybuf_1_clk/X (sky130_fd_sc_hd__clkbuf_8)
+   0.10    0.84 ^ delaybuf_2_clk/X (sky130_fd_sc_hd__clkbuf_8)
+   0.10    0.95 ^ delaybuf_3_clk/X (sky130_fd_sc_hd__clkbuf_8)
+   0.10    1.05 ^ delaybuf_4_clk/X (sky130_fd_sc_hd__clkbuf_8)
+   0.17    1.22 ^ clkbuf_0_clk_regs/X (sky130_fd_sc_hd__clkbuf_8)
+   0.21    1.43 ^ clkbuf_1_0_0_clk_regs/X (sky130_fd_sc_hd__clkbuf_8)
+   0.20    1.63 ^ clkbuf_3_1_0_clk_regs/X (sky130_fd_sc_hd__clkbuf_8)
+   0.21    1.84 ^ clkbuf_5_7_0_clk_regs/X (sky130_fd_sc_hd__clkbuf_8)
+   0.20    2.03 ^ clkbuf_8_61__f_clk_regs/X (sky130_fd_sc_hd__clkbuf_8)
+   0.00    2.03 ^ _26913_/CLK (sky130_fd_sc_hd__dfxtp_4)
+   0.50    2.53   clock uncertainty
+   0.00    2.53   clock reconvergence pessimism
+  -0.03    2.50   library hold time
+           2.50   data required time
 ---------------------------------------------------------
-           2.47   data required time
-          -2.57   data arrival time
+           2.50   data required time
+          -2.60   data arrival time
 ---------------------------------------------------------
-           0.10   slack (MET)
+           0.09   slack (MET)
 
 
 max slew
 
 Pin                                    Limit    Slew   Slack
 ------------------------------------------------------------
+memory.sram_macro/addr0[3]              0.04    0.15   -0.11 (VIOLATED)
 memory.sram_macro/addr0[2]              0.04    0.14   -0.10 (VIOLATED)
 memory.sram_macro/addr0[4]              0.04    0.14   -0.10 (VIOLATED)
 memory.sram_macro/addr0[5]              0.04    0.14   -0.10 (VIOLATED)
 memory.sram_macro/addr0[1]              0.04    0.14   -0.10 (VIOLATED)
-memory.sram_macro/addr0[3]              0.04    0.14   -0.10 (VIOLATED)
 memory.sram_macro/addr0[0]              0.04    0.14   -0.10 (VIOLATED)
-memory.sram_macro/addr0[6]              0.04    0.06   -0.02 (VIOLATED)
-memory.sram_macro/addr0[7]              0.04    0.06   -0.02 (VIOLATED)
 memory.sram_macro/wmask0[2]             0.04    0.06   -0.02 (VIOLATED)
-memory.sram_macro/wmask0[3]             0.04    0.06   -0.02 (VIOLATED)
-memory.sram_macro/wmask0[1]             0.04    0.06   -0.02 (VIOLATED)
+memory.sram_macro/addr0[7]              0.04    0.06   -0.02 (VIOLATED)
+memory.sram_macro/addr0[6]              0.04    0.06   -0.02 (VIOLATED)
+memory.sram_macro/wmask0[1]             0.04    0.05   -0.01 (VIOLATED)
 memory.sram_macro/wmask0[0]             0.04    0.05   -0.01 (VIOLATED)
+memory.sram_macro/wmask0[3]             0.04    0.05   -0.01 (VIOLATED)
 
 max fanout
 
 Pin                                   Limit Fanout  Slack
 ---------------------------------------------------------
-fanout392/X                              20     27     -7 (VIOLATED)
-clkbuf_8_113__f_clk_regs/X               20     21        (VIOLATED)
-clkbuf_8_115__f_clk_regs/X               20     21        (VIOLATED)
-clkbuf_8_250__f_clk_regs/X               20     21        (VIOLATED)
-fanout120/X                              20     21        (VIOLATED)
-fanout142/X                              20     21        (VIOLATED)
-fanout505/X                              20     21        (VIOLATED)
-fanout571/X                              20     21        (VIOLATED)
-fanout679/X                              20     21        (VIOLATED)
-fanout71/X                               20     21        (VIOLATED)
+clkbuf_8_65__f_clk_regs/X                20     25     -5 (VIOLATED)
+clkbuf_8_69__f_clk_regs/X                20     25     -5 (VIOLATED)
+clkbuf_8_68__f_clk_regs/X                20     24     -4 (VIOLATED)
+aes_inst/read_data[6]                    20     23     -3 (VIOLATED)
+clkbuf_8_255__f_clk_regs/X               20     22     -2 (VIOLATED)
+clkbuf_8_67__f_clk_regs/X                20     22     -2 (VIOLATED)
+clkbuf_8_71__f_clk_regs/X                20     22     -2 (VIOLATED)
+fanout46/X                               20     22     -2 (VIOLATED)
+_25234_/Q                                20     21        (VIOLATED)
+clkbuf_8_93__f_clk_regs/X                20     21        (VIOLATED)
+fanout247/X                              20     21        (VIOLATED)
+fanout293/X                              20     21        (VIOLATED)
+fanout35/X                               20     21        (VIOLATED)
+fanout374/X                              20     21        (VIOLATED)
+fanout403/X                              20     21        (VIOLATED)
+fanout60/X                               20     21        (VIOLATED)
+fanout73/X                               20     21        (VIOLATED)
+memory.sram_macro/dout0[17]               4      5        (VIOLATED)
 
 max capacitance
 
 Pin                                    Limit     Cap   Slack
 ------------------------------------------------------------
-memory.sram_macro/dout0[17]             0.03    0.04   -0.02 (VIOLATED)
-memory.sram_macro/dout0[21]             0.03    0.04   -0.01 (VIOLATED)
-memory.sram_macro/dout0[19]             0.03    0.04   -0.01 (VIOLATED)
+memory.sram_macro/dout0[17]             0.03    0.04   -0.01 (VIOLATED)
+memory.sram_macro/dout0[28]             0.03    0.04   -0.01 (VIOLATED)
 memory.sram_macro/dout0[20]             0.03    0.04   -0.01 (VIOLATED)
-memory.sram_macro/dout0[31]             0.03    0.03   -0.01 (VIOLATED)
+memory.sram_macro/dout0[16]             0.03    0.04   -0.01 (VIOLATED)
+memory.sram_macro/dout0[21]             0.03    0.04   -0.01 (VIOLATED)
+memory.sram_macro/dout0[23]             0.03    0.04   -0.01 (VIOLATED)
+memory.sram_macro/dout0[19]             0.03    0.04   -0.01 (VIOLATED)
+memory.sram_macro/dout0[18]             0.03    0.04   -0.01 (VIOLATED)
 

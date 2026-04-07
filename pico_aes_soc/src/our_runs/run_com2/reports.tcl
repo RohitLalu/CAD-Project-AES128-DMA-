@@ -35,4 +35,13 @@ puts "\n--- DEF ---"
 write_def $RUNDIR/picosoc_aes_combined.def
 puts "✓ DEF → picosoc_aes_combined.def"
 
+# IR drop analysis on final routed database
+set_pdnsim_net_voltage -net VPWR -voltage 1.8
+set_pdnsim_net_voltage -net VGND -voltage 0.0
+
+check_power_grid -net VPWR
+check_power_grid -net VGND
+
+analyze_power_grid -net VPWR -vsrc vsrc_vpwr.txt -voltage_file ir_vpwr.txt
+analyze_power_grid -net VGND -vsrc vsrc_vgnd.txt -voltage_file ir_vgnd.txt
 puts "\n=== Complete ==="
