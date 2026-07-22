@@ -1,27 +1,16 @@
 # CAD Project: AES128-DMA Integration
 
-Integrating AES128 encryption block with PicoRV32 core and DMA block to accelerate the encryption process.
+Integrating AES128 encryption block with PicoRV32 core to accelerate the encryption process.
 
 ## Project Overview
 
 This project implements a hardware-accelerated AES128 encryption system by integrating:
 - **AES128 Encryption Block**: Custom hardware implementation for AES128 encryption
 - **PicoRV32 Core**: A lightweight RISC-V processor for system control
-- **DMA Block**: Direct Memory Access controller to optimize data transfer and acceleration
 
+  
 The goal is to create a high-performance cryptographic system suitable for embedded and edge computing applications.
 
-## Technology Stack
-
-| Language | Percentage |
-|----------|-----------|
-| VHDL | 45.1% |
-| Verilog | 41.6% |
-| SystemVerilog | 9.0% |
-| Python | 2.3% |
-| Tcl | 0.5% |
-| C | 0.4% |
-| Other | 1.1% |
 
 ## Key Components
 
@@ -63,13 +52,9 @@ CAD-Project-AES128-DMA-/
 
 Instructions for building and simulating the design will be provided in detailed documentation.
 
-## License
-
-[Add License Information]
-
 ## Author
 
-RohitLalu
+Rohit Rishadd Kanishk
 
 ## References
 
